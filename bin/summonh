@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/summon")
+require "summon/cli"
+
+raise "usage summonh <http query string>" unless ARGV.size == 1
+
+params = ARGV[0].split("&").inject({}) do |hash, term|
+  k,v = term.split("=")
+  hash[CGI.unescape(k)] = CGI.unescape(v)
+  hash
+end
+
+@config = Summon::CLI::Config.load
+@summon = Summon::Service.new(@config.options)
+@summon.send(:connect, "/search", params) do |result|
+  puts JSON.pretty_generate(result)
+end

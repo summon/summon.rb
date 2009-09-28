@@ -1,0 +1,2327 @@
+{
+  "pageCount": 100456,
+  "queryTime": 57,
+  "fullTextCount": 0,
+  "didYouMeanSuggestions": [
+	{
+      "originalQuery": "louis rmstrong",
+      "newSearchCommand": "s.cmd=setTextQuery%28louis+armstrong%29",
+      "suggestedQuery": "louis armstrong"
+    }
+  ],
+  "totalRequestTime": 80,
+  "documents": [
+    {
+      "Publisher_xml": [
+        {
+          "name": "Spirulina Records"
+        },
+        {
+          "name": "Swingsistersound"
+        }
+      ],
+      "SubjectTerms": [
+        "Women's music",
+        "Popular music",
+        "Rock music"
+      ],
+      "TableOfContents": [
+        "The very thing -- Dark night -- 2 truths & uh lie -- Reckless -- Spin -- Free -- Real of you -- Fire -- Purple hair -- Ghost -- Nuthin' -- Faith."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "Compact disc."
+      ],
+      "PublicationDateYear": [
+        "2000"
+      ],
+      "hasFullText": false,
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Hunter, Lisa"
+      ],
+      "PublicationDate": [
+        "c2000."
+      ],
+      "Title": [
+        "Lisa Hunter -- alive"
+      ],
+      "ID": [
+        "gvsu_catalog_b16644323"
+      ],
+      "LCCallNum": [
+        "M1630.18 .H95 2000"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "2000"
+      ],
+      "PublicationDateDecade": [
+        "2000"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323",
+      "Author_xml": [
+        {
+          "fullname": "Hunter, Lisa",
+          "surname": "Hunter",
+          "givenname": "Lisa"
+        }
+      ],
+      "Library": [
+        "Women's Center Library"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c2000.",
+          "day": "01",
+          "year": "2000"
+        }
+      ],
+      "PublicationPlace": [
+        "S.l.",
+        "Ann Arbor, Mich"
+      ],
+      "TemporalSubjectTerms": [
+        "1991-2000"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "S.l."
+        },
+        {
+          "name": "Ann Arbor, Mich"
+        }
+      ],
+      "DocumentTitleAlternate": [
+        "Alive"
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b16644323",
+      "ContentType": [
+        "Audio Recording"
+      ],
+      "Publisher": [
+        "Spirulina Records",
+        "Swingsistersound"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Lewis Publishers"
+        }
+      ],
+      "SubjectTerms": [
+        "Environmental risk assessment"
+      ],
+      "TableOfContents": [
+        "Introduction and overview of difficulties encountered in developing comparative rankings of environmental problems \/ C. Richard Cothern -- Current concerns regarding the implementation of risk-based management: how real are they? \/ William V. Garetz -- Application of ecological knowledge to environmental problems: ecological risk assessment \/ David Policansky -- Threat of greenhouse warming \/ Rob Coppock -- Revising the risk assessment paradigm: limits on the quantitative ranking of environmental problems \/ Ellen K. Silbergeld -- It is possible to do quantitative assessment of relative risk \/ James D. Wilson -- Noncancer health endpoints: approaches to quantitative risk assessment \/ William Farland and Michael Dourson -- Gaps in knowledge in assessing the risk of cancer \/ Art Gregory -- Estimating viral disease risk from drinking water \/ Charles P. Gerba and Joan B. Rose -- Atmospheric nitrogen oxides: a bridesmaid revisited \/ John Bachmann -- Temporal variations in exposure data \/ Nancy K. Kim.",
+        "cont) Integrated approach to risk characterization of multiple pathway chemical exposures \/ Christopher T. DeRosa ... [et al.] -- Method for obtaining guidance for the combination of qualitative rankings by cancer and noncancer risks into a single, qualitative health risk ranking \/ Paul F. Deisler, Jr. -- Use of statistical insignificance in the formulation of risk-based standards for carcinogens \/ Roy E. Albert and Rakesh Shukla -- Possible carcinogenic hazards from natural and synthetic chemicals: setting priorities \/ Lois Swirsky ... [et al.] -- Impact of data gaps in EPA's regional comparative risk projects \/ Rosalie R. Day -- Use of economic data and analysis in comparative risk projects: questions of policy and reliability \/ Palma Risler -- Role of evidential reason and epistemic discourse in establishing the risk of environmental carcinogens \/ Douglas Crawford-Brown and Jeffery Arnold -- How to move quickly to risk-based environmental management: a specific proposal \/ William V. Garetz."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "363.7"
+      ],
+      "Notes": [
+        "Based on a symposium held on Aug. 28, 1991 in New York City.",
+        "Includes bibliographical references and index."
+      ],
+      "PublicationDateYear": [
+        "1993"
+      ],
+      "hasFullText": false,
+      "ISBN": [
+        "0873716051 (acid-free paper)"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Cothern, C. Richard"
+      ],
+      "PageCount": [
+        "317 p."
+      ],
+      "PublicationDate": [
+        "c1993."
+      ],
+      "Title": [
+        "Comparative environmental risk assessment"
+      ],
+      "Genre": [
+        "Congresses"
+      ],
+      "ID": [
+        "gvsu_catalog_b14315361"
+      ],
+      "LCCN": [
+        "92002389"
+      ],
+      "LCCallNum": [
+        "TD193.5 .C66 1993"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1990"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Comparative+environmental+risk+assessment&rft.au=Cothern%2C+C.+Richard&rft.date=c199-3.&rft.pub=Lewis+Publishers&rft.isbn=0873716051+%28acid-free+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b14315361",
+      "Author_xml": [
+        {
+          "fullname": "Cothern, C. Richard",
+          "surname": "Cothern",
+          "givenname": "C. Richard"
+        }
+      ],
+      "Library": [
+        "AWRI"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c1993.",
+          "day": "01",
+          "year": "1993"
+        }
+      ],
+      "PublicationPlace": [
+        "Boca Raton"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Boca Raton"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b14315361",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Lewis Publishers"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "CRC Press"
+        }
+      ],
+      "SubjectTerms": [
+        "Herbicides",
+        "Herbicides",
+        "Environmental aspects",
+        "Soils",
+        "Herbicide content",
+        "Environmental chemistry",
+        "Environmental Exposure",
+        "Soil",
+        "analysis"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "574.5\/222"
+      ],
+      "Notes": [
+        "Includes bibliographical references and index."
+      ],
+      "PublicationDateYear": [
+        "1988"
+      ],
+      "hasFullText": false,
+      "ISBN": [
+        "0849343763 (v. 1)",
+        "0849343771 (v. 2)"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Grover, R"
+      ],
+      "PageCount": [
+        "v. <1-2"
+      ],
+      "PublicationDate": [
+        "c1988"
+      ],
+      "Title": [
+        "Environmental chemistry of herbicides"
+      ],
+      "ID": [
+        "gvsu_catalog_b13988840"
+      ],
+      "LCCN": [
+        "87028975"
+      ],
+      "LCCallNum": [
+        "SB951.4 .E58 1988"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1980"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Environmental+chemistry+of+herbicides&rft.au=Grover%2C+R&rft.date=c198&rft.pub=CRC+Press&rft.isbn=0849343763+%28v.+1%29&rft.externalDBID=n%2Fa&rft.externalDocID=b13988840",
+      "Author_xml": [
+        {
+          "fullname": "Grover, R",
+          "surname": "Grover",
+          "givenname": "R"
+        }
+      ],
+      "Library": [
+        "AWRI"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c1988-",
+          "day": "01",
+          "year": "1988"
+        }
+      ],
+      "PublicationPlace": [
+        "Boca Raton, Fla"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Boca Raton, Fla"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b13988840",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "CRC Press"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Harrington Park Press"
+        }
+      ],
+      "SubjectTerms": [
+        "Male homosexuality",
+        "History",
+        "Male friendship"
+      ],
+      "TableOfContents": [
+        "The freedom of the frontier -- Warme Bru\u0308der, mouches, and mollies -- Rom, sodomy, and the lash -- Gone for a soldier -- Sodomites in America's libraries -- Racism and homosexual desire in the antebellum period -- The nation's capital under Jefferson : four case studies -- On the streets of Philadelphia, Annapolis, and Boston -- Spirituality and sublimation -- Gender anarchy as a revolutionary threat -- Male intimacy at the fringes.."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "Includes bibliographical references (p. 271-311) and index."
+      ],
+      "PublicationDateYear": [
+        "2006"
+      ],
+      "URI": [
+        "http:\/\/www.loc.gov\/catdir\/toc\/ecip0513\/2005014632.html",
+        "http:\/\/firstsearch.oclc.org\/WebZ\/DCARead?standardNoType=1&standardNo=1560233443:srcdbname=worldcat:fromExternal=true&sessionid=0",
+        "http:\/\/firstsearch.oclc.org\/WebZ\/DECRead?standardNoType=1&standardNo=1560233443&sessionid=0&srcdbname=worldcat&key=b79f9d2692ada1adb2ba6858597bd58178c63705a76d4cc7cb24baed020b6cbd&ectype=TOC"
+      ],
+      "hasFullText": false,
+      "GeographicLocations_xml": [
+        {
+          "name": "United States"
+        }
+      ],
+      "ISBN": [
+        "1560233443 (hard : alk. paper)",
+        "9781560233459",
+        "9781560233442",
+        "1560233451 (soft : alk. paper)"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Benemann, William"
+      ],
+      "PageCount": [
+        "xx, 322 p."
+      ],
+      "PublicationDate": [
+        "c2006."
+      ],
+      "Subtitle": [
+        "beyond romantic friendships"
+      ],
+      "Title": [
+        "Male-male intimacy in early America"
+      ],
+      "ID": [
+        "gvsu_catalog_b19786062"
+      ],
+      "LCCN": [
+        "2005014632"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "2000"
+      ],
+      "PublicationDateDecade": [
+        "2000"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Male-male+intimacy+in+early+America&rft.au=Benemann%2C+William&rft.date=c200-6.&rft.pub=Harrington+Park+Press&rft.isbn=1560233443+%28hard+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b19786062",
+      "Author_xml": [
+        {
+          "fullname": "Benemann, William",
+          "surname": "Benemann",
+          "givenname": "William"
+        }
+      ],
+      "GeographicLocations": [
+        "United States"
+      ],
+      "Library": [
+        "LGBT Resource Center"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c2006.",
+          "day": "01",
+          "year": "2006"
+        }
+      ],
+      "PublicationPlace": [
+        "New York"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "New York"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b19786062",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Harrington Park Press"
+      ]
+    },
+    {
+      "SubjectTerms": [
+        "Job hunting",
+        "Occupations",
+        "Professions",
+        "Vocational guidance"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      ],
+      "hasFullText": false,
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Title": [
+        "Career resources"
+      ],
+      "ID": [
+        "gvsu_catalog_b12245379"
+      ],
+      "LCCallNum": [
+        "Filed by Organization (C...)"
+      ],
+      "Language": [
+        "Unknown"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12245379",
+      "CorporateAuthor": [
+        "Citizens Insurance"
+      ],
+      "Library": [
+        "Career Services"
+      ],
+      "PublicationPlace": [
+        "Howell, MI"
+      ],
+      "CorporateAuthor_xml": [
+        {
+          "name": "Citizens Insurance"
+        }
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Howell, MI"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b12245379",
+      "ContentType": [
+        "Book"
+      ]
+    },
+    {
+      "SubjectTerms": [
+        "Job hunting",
+        "Occupations",
+        "Professions",
+        "Vocational guidance"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      ],
+      "hasFullText": false,
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Title": [
+        "Career resources"
+      ],
+      "ID": [
+        "gvsu_catalog_b12239240"
+      ],
+      "LCCallNum": [
+        "Filed by Organization (A...)"
+      ],
+      "Language": [
+        "Unknown"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12239240",
+      "CorporateAuthor": [
+        "Amoco Corporation"
+      ],
+      "Library": [
+        "Career Services"
+      ],
+      "PublicationPlace": [
+        "Chicago, IL"
+      ],
+      "CorporateAuthor_xml": [
+        {
+          "name": "Amoco Corporation"
+        }
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Chicago, IL"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b12239240",
+      "ContentType": [
+        "Book"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "CRC Press"
+        }
+      ],
+      "SubjectTerms": [
+        "Polychlorinated biphenyls",
+        "Environmental aspects",
+        "Biphe\u0301nyles polychlore\u0301s",
+        "Aspect de l'environnement"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "363.1\/79"
+      ],
+      "Notes": [
+        "Includes bibliographical references and indexes."
+      ],
+      "PublicationDateYear": [
+        "1986"
+      ],
+      "hasFullText": false,
+      "ISBN": [
+        "0849359295 (set)"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Waid, John S"
+      ],
+      "PageCount": [
+        "3 v."
+      ],
+      "PublicationDate": [
+        "c1986-c1987."
+      ],
+      "Title": [
+        "PCBs and the environment"
+      ],
+      "ID": [
+        "gvsu_catalog_b1396950x"
+      ],
+      "LCCN": [
+        "86017549"
+      ],
+      "LCCallNum": [
+        "QH545.P6 P236 1986"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1980"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=PCBs+and+the+environment&rft.au=Waid%2C+John+S&rft.date=c198-6--c1&rft.pub=CRC+Press&rft.isbn=0849359295+%28set%29&rft.externalDBID=n%2Fa&rft.externalDocID=b1396950x",
+      "Author_xml": [
+        {
+          "fullname": "Waid, John S",
+          "surname": "Waid",
+          "givenname": "John S"
+        }
+      ],
+      "Library": [
+        "AWRI"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c1986-c1987.",
+          "day": "01",
+          "year": "1986"
+        }
+      ],
+      "PublicationPlace": [
+        "Boca Raton, Fla"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Boca Raton, Fla"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b1396950x",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "CRC Press"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Swallow Press\/Ohio University Press"
+        }
+      ],
+      "SubjectTerms": [
+        "Anorexia",
+        "Patients"
+      ],
+      "TableOfContents": [
+        "Body story -- Girl body -- Virgin body -- Starving body -- Wedding body -- Giving birth -- Blind spot."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "B",
+        "362.196\/85262\/0092"
+      ],
+      "Notes": [
+        "Includes bibliographical references (p. 143-148)."
+      ],
+      "PublicationDateYear": [
+        "2004"
+      ],
+      "hasFullText": false,
+      "GeographicLocations_xml": [
+        {
+          "name": "United States"
+        }
+      ],
+      "ISBN": [
+        "0804010641 (pbk. : alk. paper)",
+        "0804010633 (cloth : alk. paper)"
+      ],
+      "RelatedPersons_xml": [
+        {
+          "fullname": "De Pree, Julia Knowlton",
+          "surname": "De Pree",
+          "givenname": "Julia Knowlton"
+        }
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "De Pree, Julia Knowlton"
+      ],
+      "PageCount": [
+        "ix, 148 p."
+      ],
+      "PublicationDate": [
+        "c2004."
+      ],
+      "Title": [
+        "Body story"
+      ],
+      "Genre": [
+        "Biography"
+      ],
+      "ID": [
+        "gvsu_catalog_b14147609"
+      ],
+      "LCCN": [
+        "2003027357"
+      ],
+      "LCCallNum": [
+        "RC552.A5 D43 2004"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "2000"
+      ],
+      "PublicationDateDecade": [
+        "2000"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Body+story&rft.au=De+Pree%2C+Julia+Knowlton&rft.date=c200-4.&rft.pub=Swallow+Press%2FOhio+University+Press&rft.isbn=0804010641+%28pbk.+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b14147609",
+      "Author_xml": [
+        {
+          "fullname": "De Pree, Julia Knowlton",
+          "surname": "De Pree",
+          "givenname": "Julia Knowlton"
+        }
+      ],
+      "GeographicLocations": [
+        "United States"
+      ],
+      "Library": [
+        "Women's Center Library"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c2004.",
+          "day": "01",
+          "year": "2004"
+        }
+      ],
+      "PublicationPlace": [
+        "Athens, Ohio"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Athens, Ohio"
+        }
+      ],
+      "RelatedPersons": [
+        "De Pree, Julia Knowlton"
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b14147609",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Swallow Press\/Ohio University Press"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Alyson Publications"
+        }
+      ],
+      "SubjectTerms": [
+        "Motion picture actors and actresses",
+        "Gay motion picture actors and actresses",
+        "Gay erotic films"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "Filmography: p. 205-209."
+      ],
+      "PublicationDateYear": [
+        "1996"
+      ],
+      "hasFullText": false,
+      "GeographicLocations_xml": [
+        {
+          "name": "United States"
+        }
+      ],
+      "ISBN": [
+        "1555833837 (pb : acid-free paper)",
+        "9781555833831 (pb : acid-free paper)"
+      ],
+      "RelatedPersons_xml": [
+        {
+          "fullname": "Stefano, Joey",
+          "surname": "Stefano",
+          "givenname": "Joey"
+        }
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Isherwood, Charles"
+      ],
+      "PageCount": [
+        "208 p."
+      ],
+      "PublicationDate": [
+        "1996."
+      ],
+      "Subtitle": [
+        "the life and death of Joey Stefano"
+      ],
+      "Title": [
+        "Wonder bread and ecstasy"
+      ],
+      "Genre": [
+        "Biography"
+      ],
+      "ID": [
+        "gvsu_catalog_b22630090"
+      ],
+      "LCCN": [
+        "96026524"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1990"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Wonder+bread+and+ecstasy&rft.au=Isherwood%2C+Charles&rft.date=1996&rft.pub=Alyson+Publications&rft.isbn=1555833837+%28pb+%3A+acid-free+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b22630090",
+      "Author_xml": [
+        {
+          "fullname": "Isherwood, Charles",
+          "surname": "Isherwood",
+          "givenname": "Charles"
+        }
+      ],
+      "GeographicLocations": [
+        "United States"
+      ],
+      "Library": [
+        "LGBT Resource Center"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "1996.",
+          "day": "01",
+          "year": "1996"
+        }
+      ],
+      "PublicationPlace": [
+        "Los Angeles"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Los Angeles"
+        }
+      ],
+      "RelatedPersons": [
+        "Stefano, Joey"
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b22630090",
+      "ContentType": [
+        "Book"
+      ],
+      "Edition": [
+        "1st ed."
+      ],
+      "Publisher": [
+        "Alyson Publications"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Pilgrim Press"
+        }
+      ],
+      "SubjectTerms": [
+        "Virtues",
+        "Biblical teaching",
+        "Blacks in the Bible",
+        "Women in the Bible",
+        "African American women",
+        "Conduct of life",
+        "Religious life"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "277.3\/0082"
+      ],
+      "Notes": [
+        "Includes bibliographical references (p. 131-134) and index."
+      ],
+      "PublicationDateYear": [
+        "2000"
+      ],
+      "hasFullText": false,
+      "ISBN": [
+        "082981373X (paper : alk. paper)"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Gill, LaVerne McCain"
+      ],
+      "PageCount": [
+        "xxviii, 140 p."
+      ],
+      "PublicationDate": [
+        "2000."
+      ],
+      "Subtitle": [
+        "African women in the Bible and the virtues of black womanhood"
+      ],
+      "Title": [
+        "Daughters of dignity"
+      ],
+      "ID": [
+        "gvsu_catalog_b13923080"
+      ],
+      "LCCN": [
+        "99057376"
+      ],
+      "LCCallNum": [
+        "BS680.V56 G55 2000"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "2000"
+      ],
+      "PublicationDateDecade": [
+        "2000"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Daughters+of+dignity&rft.au=Gill%2C+LaVerne+McCain&rft.date=2000&rft.pub=Pilgrim+Press&rft.isbn=082981373X+%28paper+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b13923080",
+      "Author_xml": [
+        {
+          "fullname": "Gill, LaVerne McCain",
+          "surname": "Gill",
+          "givenname": "LaVerne McCain"
+        }
+      ],
+      "Library": [
+        "Women's Center Library"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "2000.",
+          "day": "01",
+          "year": "2000"
+        }
+      ],
+      "PublicationPlace": [
+        "Cleveland, Ohio"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Cleveland, Ohio"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b13923080",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Pilgrim Press"
+      ]
+    },
+    {
+      "SubjectTerms": [
+        "Job hunting",
+        "Occupations",
+        "Professions",
+        "Vocational guidance"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      ],
+      "hasFullText": false,
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Title": [
+        "Career resources"
+      ],
+      "ID": [
+        "gvsu_catalog_b12302168"
+      ],
+      "LCCallNum": [
+        "Filed by Organization (L...)"
+      ],
+      "Language": [
+        "Unknown"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12302168",
+      "CorporateAuthor": [
+        "Lakeland Regional Health System"
+      ],
+      "Library": [
+        "Career Services"
+      ],
+      "PublicationPlace": [
+        "Benton Harbor, MI"
+      ],
+      "CorporateAuthor_xml": [
+        {
+          "name": "Lakeland Regional Health System"
+        }
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Benton Harbor, MI"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b12302168",
+      "ContentType": [
+        "Book"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "VGM Career Horizons"
+        }
+      ],
+      "SubjectTerms": [
+        "Job hunting",
+        "Computer network resources",
+        "Internet",
+        "World Wide Web"
+      ],
+      "TableOfContents": [
+        "Pounding the virtual pavement: Using the Internet in your job search -- Internet job application -- Great job lead banks -- Jobs in business, marketing, and commercial services -- Jobs in the social sciences and the world of nonprofits -- Jobs in the humanities, recreation, hospitality and personal services -- Jobs in natural sciences, health, and medicine -- Jobs in engineering, mathematics, technology and transportation -- Opportunities in government, public policy, and public service -- Entry-level and summer employment, internships, and co-ops -- State and local resources for the United States -- International opportunities -- Resources for diverse audiences -- Lifelong career planning. ch. 1. ch. 2. ch. 3. ch. 4. ch. 5. ch. 6. ch. 7. ch. 8. ch. 9. ch. 10. ch. 11. ch. 12. ch. 13. ch. 14."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "Includes index."
+      ],
+      "PublicationDateYear": [
+        "2000"
+      ],
+      "hasFullText": false,
+      "ISBN": [
+        "0658002252"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Dikel, Margaret F",
+        "Roehm, Frances E"
+      ],
+      "PageCount": [
+        "viii, 344 p."
+      ],
+      "PublicationDate": [
+        "c2000."
+      ],
+      "Title": [
+        "The guide to Internet job searching"
+      ],
+      "ID": [
+        "gvsu_catalog_b13555431"
+      ],
+      "LCCallNum": [
+        "HF5382.7 .D55 2000"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "2000"
+      ],
+      "PublicationDateDecade": [
+        "2000"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=The+guide+to+Internet+job+searching&rft.au=Dikel%2C+Margaret+F&rft.au=Roehm%2C+Frances+E&rft.date=c200-0.&rft.pub=VGM+Career+Horizons&rft.isbn=0658002252&rft.externalDBID=n%2Fa&rft.externalDocID=b13555431",
+      "Author_xml": [
+        {
+          "fullname": "Dikel, Margaret F",
+          "surname": "Dikel",
+          "givenname": "Margaret F"
+        },
+        {
+          "fullname": "Roehm, Frances E",
+          "surname": "Roehm",
+          "givenname": "Frances E"
+        }
+      ],
+      "Library": [
+        "Career Services"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "c2000.",
+          "day": "01",
+          "year": "2000"
+        }
+      ],
+      "PublicationPlace": [
+        "Lincolnwood, Ill"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Lincolnwood, Ill"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b13555431",
+      "ContentType": [
+        "Book"
+      ],
+      "Edition": [
+        "2000-01 ed."
+      ],
+      "Publisher": [
+        "VGM Career Horizons"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Bantam Books"
+        }
+      ],
+      "SubjectTerms": [
+        "Lesbianism"
+      ],
+      "TableOfContents": [
+        "Lesbian: myth & reality -- Self image -- Sexuality and sex roles -- Life styles -- Lesbians are mothers too -- Growing up gay -- Lesbian paranoia: real & imagined fears -- Lesbians united -- Lesbian\/woman -- Not toleration: lesbian liberation."
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "PublicationDateYear": [
+        "1972"
+      ],
+      "hasFullText": false,
+      "GeographicLocations_xml": [
+        {
+          "name": "United States"
+        }
+      ],
+      "ISBN": [
+        "0553117025"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "PublicationSeriesTitle": [
+        "A Bantam book"
+      ],
+      "Author": [
+        "Martin, Del",
+        "Lyon, Phyllis"
+      ],
+      "PageCount": [
+        "310 p."
+      ],
+      "PublicationDate": [
+        "1972"
+      ],
+      "Title": [
+        "Lesbian\/woman"
+      ],
+      "ID": [
+        "gvsu_catalog_b10512640"
+      ],
+      "LCCallNum": [
+        "HQ76.3 .U5 M37 1972"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1970"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Lesbian%2Fwoman&rft.au=Martin%2C+Del&rft.au=Lyon%2C+Phyllis&rft.series=A+Bantam+book&rft.date=1972&rft.pub=Bantam+Books&rft.isbn=0553117025&rft.externalDBID=n%2Fa&rft.externalDocID=b10512640",
+      "Author_xml": [
+        {
+          "fullname": "Martin, Del",
+          "surname": "Martin",
+          "givenname": "Del"
+        },
+        {
+          "fullname": "Lyon, Phyllis",
+          "surname": "Lyon",
+          "givenname": "Phyllis"
+        }
+      ],
+      "GeographicLocations": [
+        "United States"
+      ],
+      "Library": [
+        "LGBT Resource Center",
+        "Zumberge Library"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "[1972]",
+          "day": "01",
+          "year": "1972"
+        }
+      ],
+      "PublicationPlace": [
+        "New York"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "New York"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b10512640",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Bantam Books"
+      ]
+    },
+    {
+      "Publisher_xml": [
+        {
+          "name": "Viking"
+        }
+      ],
+      "SubjectTerms": [
+        "Feminism",
+        "History",
+        "Women",
+        "Social conditions",
+        "Social conditions"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "DEWEY": [
+        "305.4\/2"
+      ],
+      "Notes": [
+        "Includes bibliographical references (p. 265-266)."
+      ],
+      "PublicationDateYear": [
+        "1989"
+      ],
+      "hasFullText": false,
+      "GeographicLocations_xml": [
+        {
+          "name": "United States"
+        }
+      ],
+      "ISBN": [
+        "0670819107 :"
+      ],
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Author": [
+        "Shreve, Anita"
+      ],
+      "PageCount": [
+        "ix, 275 p."
+      ],
+      "PublicationDate": [
+        "1989."
+      ],
+      "Subtitle": [
+        "the legacy of the consciousness-raising movement"
+      ],
+      "Title": [
+        "Women together, women alone"
+      ],
+      "ID": [
+        "gvsu_catalog_b1356402x"
+      ],
+      "LCCN": [
+        "88040478"
+      ],
+      "LCCallNum": [
+        "HQ1421 .S57 1989"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationDateCentury": [
+        "1900"
+      ],
+      "PublicationDateDecade": [
+        "1980"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Women+together%2C+women+alone&rft.au=Shreve%2C+Anita&rft.date=1989&rft.pub=Viking&rft.isbn=0670819107+%3A&rft.externalDBID=n%2Fa&rft.externalDocID=b1356402x",
+      "Author_xml": [
+        {
+          "fullname": "Shreve, Anita",
+          "surname": "Shreve",
+          "givenname": "Anita"
+        }
+      ],
+      "GeographicLocations": [
+        "United States"
+      ],
+      "Library": [
+        "Women's Center Library"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "01",
+          "text": "1989.",
+          "day": "01",
+          "year": "1989"
+        }
+      ],
+      "PublicationPlace": [
+        "New York"
+      ],
+      "TemporalSubjectTerms": [
+        "20th century",
+        "1980"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "New York"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b1356402x",
+      "ContentType": [
+        "Book"
+      ],
+      "Publisher": [
+        "Viking"
+      ]
+    },
+    {
+      "SubjectTerms": [
+        "Job hunting",
+        "Occupations",
+        "Professions",
+        "Vocational guidance"
+      ],
+      "XQueryRevision": [
+        "Rev: 6229"
+      ],
+      "inHoldings": false,
+      "DBID": [
+        "GXQ"
+      ],
+      "Notes": [
+        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      ],
+      "hasFullText": false,
+      "timestamp": [
+        "Thu Jul 09 19:44:12 EDT 2009"
+      ],
+      "Title": [
+        "Career resources"
+      ],
+      "ID": [
+        "gvsu_catalog_b12308006"
+      ],
+      "LCCallNum": [
+        "Filed by Organization (M...)"
+      ],
+      "Language": [
+        "Unknown"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12308006",
+      "CorporateAuthor": [
+        "Manpower Temporary Services"
+      ],
+      "Library": [
+        "Career Services"
+      ],
+      "PublicationPlace": [
+        "Grand Rapids, MI"
+      ],
+      "CorporateAuthor_xml": [
+        {
+          "name": "Manpower Temporary Services"
+        }
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Grand Rapids, MI"
+        }
+      ],
+      "score": [
+        "1.0"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "availabilityToken": "b12308006",
+      "ContentType": [
+        "Book"
+      ]
+    }
+  ],
+  "elapsedQueryTime": 62,
+  "facetFields": [
+    {
+      "pageSize": 200,
+      "displayName": "sys_source_id",
+      "combineMode": "and",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28sys_source_id%2Cand%29",
+      "hasAppliedValue": false,
+      "fieldName": "sys_source_id",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28sys_source_id%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "ieee",
+          "count": 46112,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cieee%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cieee%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "crossref",
+          "count": 136300,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ccrossref%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ccrossref%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "gvsu",
+          "count": 60534,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cgvsu%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cgvsu%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "ucalgary",
+          "count": 105651,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cucalgary%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cucalgary%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "ulrichs",
+          "count": 243315,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Culrichs%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Culrichs%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "emerald",
+          "count": 66119,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cemerald%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cemerald%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "liverpool",
+          "count": 595375,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cliverpool%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cliverpool%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "usyd",
+          "count": 100010,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cusyd%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cusyd%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "wmich",
+          "count": 128009,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cwmich%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cwmich%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "econlit",
+          "count": 25400,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ceconlit%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ceconlit%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 200,
+      "displayName": "sys_package_id",
+      "combineMode": "and",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28sys_package_id%2Cand%29",
+      "hasAppliedValue": false,
+      "fieldName": "sys_package_id",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28sys_package_id%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "luna",
+          "count": 16,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cluna%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cluna%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "escholarship",
+          "count": 100,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cescholarship%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cescholarship%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "catalog",
+          "count": 982562,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Ccatalog%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Ccatalog%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "primary",
+          "count": 517246,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cprimary%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cprimary%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "findingaids",
+          "count": 1,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cfindingaids%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cfindingaids%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "ourroots",
+          "count": 6900,
+          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Courroots%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Courroots%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "ContentType",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28ContentType_sfacet%2Cor%29",
+      "hasAppliedValue": false,
+      "fieldName": "ContentType_sfacet",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28ContentType_sfacet%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Book",
+          "count": 799602,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CBook%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CBook%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Trade Publication",
+          "count": 14613,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CTrade+Publication%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CTrade+Publication%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Archival Material",
+          "count": 6917,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CArchival+Material%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CArchival+Material%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "eBook",
+          "count": 118483,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CeBook%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CeBook%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Journal",
+          "count": 198759,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Magazine",
+          "count": 41709,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CMagazine%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CMagazine%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Government Document",
+          "count": 23035,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CGovernment+Document%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CGovernment+Document%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Conference Proceeding",
+          "count": 45340,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CConference+Proceeding%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CConference+Proceeding%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "JournalArticle",
+          "count": 49765,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournalArticle%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournalArticle%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Journal Article",
+          "count": 179002,
+          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal+Article%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal+Article%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "IsScholarly",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28IsScholarly_b%2Cor%29",
+      "hasAppliedValue": false,
+      "fieldName": "IsScholarly_b",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28IsScholarly_b%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "true",
+          "count": 30710,
+          "applyCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Ctrue%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Ctrue%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "false",
+          "count": 351573,
+          "applyCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Cfalse%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Cfalse%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "Language",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28Language_mfacet%2Cor%29",
+      "hasAppliedValue": false,
+      "fieldName": "Language_mfacet",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28Language_mfacet%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Spanish",
+          "count": 33471,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CSpanish%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CSpanish%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Portuguese",
+          "count": 6827,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CPortuguese%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CPortuguese%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Latin",
+          "count": 3344,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CLatin%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CLatin%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Russian",
+          "count": 4802,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CRussian%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CRussian%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "French",
+          "count": 41252,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CFrench%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CFrench%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Unknown",
+          "count": 68904,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CUnknown%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CUnknown%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Italian",
+          "count": 10589,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CItalian%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CItalian%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "German",
+          "count": 33440,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CGerman%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CGerman%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Dutch",
+          "count": 2721,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CDutch%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CDutch%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "English",
+          "count": 1012517,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CEnglish%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CEnglish%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "Library",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28Library_mfacet%2Cor%29",
+      "hasAppliedValue": false,
+      "fieldName": "Library_mfacet",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28Library_mfacet%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Storage",
+          "count": 38874,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "MacKimmie Library",
+          "count": 83054,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CMacKimmie+Library%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CMacKimmie+Library%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Fisher Research",
+          "count": 57724,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CFisher+Research%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CFisher+Research%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Electronic Resource",
+          "count": 95548,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CElectronic+Resource%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CElectronic+Resource%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Steelcase Library",
+          "count": 16581,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSteelcase+Library%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSteelcase+Library%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Harold Cohen Library",
+          "count": 68515,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CHarold+Cohen+Library%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CHarold+Cohen+Library%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Store Request",
+          "count": 68353,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStore+Request%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStore+Request%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Sydney Jones Library",
+          "count": 313203,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSydney+Jones+Library%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSydney+Jones+Library%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Storage (Sydney)",
+          "count": 17410,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage+%5C%28Sydney%5C%29%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage+%5C%28Sydney%5C%29%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "Science Fiction Foundation Collection",
+          "count": 26105,
+          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CScience+Fiction+Foundation+Collection%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CScience+Fiction+Foundation+Collection%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "PublicationDate",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28PublicationDate_mfacet%2Cor%29",
+      "hasAppliedValue": false,
+      "fieldName": "PublicationDate_mfacet",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28PublicationDate_mfacet%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2008",
+          "count": 45234,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2008%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2008%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2006",
+          "count": 47502,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2006%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2006%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2007",
+          "count": 44646,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2007%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2007%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2004",
+          "count": 35920,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2004%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2004%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2005",
+          "count": 37249,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2005%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2005%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2002",
+          "count": 35035,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2002%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2002%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "2003",
+          "count": 32962,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2003%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2003%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "1978",
+          "count": 22697,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1978%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1978%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "1979",
+          "count": 24566,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1979%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1979%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "1989",
+          "count": 23169,
+          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1989%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1989%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 10,
+      "displayName": "SubjectTerms",
+      "combineMode": "and",
+      "pageNumber": 1,
+      "listValuesCommand": "s.cmd=listFacetValues%28SubjectTerms_mfacet%2Cand%29",
+      "hasAppliedValue": false,
+      "fieldName": "SubjectTerms_mfacet",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=removeFacetField%28SubjectTerms_mfacet%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "law",
+          "count": 9469,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Claw%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Claw%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "history",
+          "count": 65910,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "reviews",
+          "count": 8058,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Creviews%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Creviews%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "philosophy",
+          "count": 9709,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cphilosophy%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cphilosophy%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "science fiction",
+          "count": 14295,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cscience+fiction%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cscience+fiction%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "economic conditions",
+          "count": 8250,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceconomic+conditions%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceconomic+conditions%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "social conditions",
+          "count": 8691,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Csocial+conditions%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Csocial+conditions%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "education",
+          "count": 10728,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceducation%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceducation%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "politics and government",
+          "count": 16848,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cpolitics+and+government%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cpolitics+and+government%2Ctrue%29",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "history and criticism",
+          "count": 41449,
+          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory+and+criticism%2Cfalse%29",
+          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory+and+criticism%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    },
+    {
+      "pageSize": 1,
+      "displayName": "Fulltext",
+      "combineMode": "or",
+      "pageNumber": 1,
+      "hasAppliedValue": false,
+      "fieldName": "Fulltext",
+      "hasLimitingValue": true,
+      "removeCommand": "s.cmd=setParameter%28countFullText%2Cfalse%29",
+      "counts": [
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "value": "true",
+          "count": 0,
+          "applyCommand": "s.cmd=setParameter%28fullTextOnly%2Ctrue%29",
+          "isApplied": false
+        }
+      ]
+    }
+  ],
+  "sessionId": "eca42571-59cd-43e0-bee4-4657e7aec02a",
+  "recordCount": 1506825,
+  "rangeFacetFields": [
+
+  ],
+  "scholarlyCount": 30710,
+  "query": {
+    "searchTerms": [
+
+    ],
+    "rangeFilters": [
+
+    ],
+    "facetValueGroupFilters": [
+
+    ],
+    "queryString": "",
+    "facetValueFilters": [
+
+    ],
+    "textQueries": [
+
+    ],
+    "textFilters": [
+
+    ],
+    "facetFields": [
+
+    ],
+    "rangeFacetFields": [
+
+    ],
+    "sort": [
+
+    ],
+    "params": [
+
+    ]
+  }
+}

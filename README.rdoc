@@ -1,0 +1,77 @@
+= summon
+
+* http://summon.rubyforge.org
+* http://www.serialssolutions.com/summon
+* http://api.summon.serialssolutions.com
+
+== DESCRIPTION:
+
+Ruby language bindings for Serials Solutions Summon Unified Discovery Service
+
+== FEATURES/PROBLEMS:
+
+* perform searches using the Summon public API from within ruby.
+
+== SYNOPSIS:
+
+=== From the Command Line
+
+ #help
+ summon --help
+ 
+ #simple text query
+ summon "Will Shakespeare"
+  
+ #books only please!
+ summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book)"
+ 
+ #lots of results.
+ summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book) setPageSize(100)"
+
+=== Inside Code
+
+  require 'summon'
+  @service = Summon::Service.new(:access_id => 'myaccessid', :secret_key => 'mysecretkey')
+
+  #search using parameters
+  search = @service.search("s.q" => "Elephants", "s.fvf" => "ContentType,Book")
+  puts search.record_count #=> 137
+  search.documents.each do |doc|
+  	puts doc.title
+  end
+
+  #search using commands
+  search = @service.search("s.cmd" => "addTextQuery(Elephants) addFacetValueFilters(ContentType,Book)")
+
+== REQUIREMENTS:
+
+* ruby >= 1.8.6
+
+== INSTALL:
+
+* sudo gem install summon
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Serials Solutions LLC
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

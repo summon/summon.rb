@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#
+#  Created on 2009-7-14.
+#  Copyright (c) 2009. All rights reserved.
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/summon")
+require "summon/cli"
+
+Summon::CLI.execute(STDOUT, ARGV)
