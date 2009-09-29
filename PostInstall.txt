@@ -3,6 +3,3 @@ For comprehensive documentation on Summon API options and usage visit:
 
 http://api.summon.serialssolutions.com
 
-
-
-
