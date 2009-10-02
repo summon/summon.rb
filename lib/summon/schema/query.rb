@@ -38,10 +38,19 @@ class Summon::Query < Summon::Schema
     end
   end
       
-  def to_hash
+  def to_hash    
+    # {}.tap do |params|
+    #   for param in query_string.split("&") do
+    #     name, value = param.split("=")
+    #     next if value.nil?
+    #     name = CGI.une
+    #   end
+    # end
+    
     return {} if query_string.nil? || query_string == ""
     params = query_string.split("&").inject({}) do |params, param|
       name, value = param.split("=")
+      next params if value.nil?
       name = CGI.unescape(name)
       value = CGI.unescape(value)
       params.tap do

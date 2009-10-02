@@ -90,6 +90,7 @@ describe Summon::Query do
     query_hash("s.fq=Balthazar&s.fq=Author_t%3A%28Linster%2C+Richard+L%29").should == {"s.fq" => ["Balthazar", "Author_t:(Linster, Richard L)"]}
     query_hash("s.fq=Author_t%3A%28Linster%2C+Richard+L%29&s.q=Probability+models+of+recidivism%5C%3A+an+exploration").should == 
       {"s.fq" => "Author_t:(Linster, Richard L)", "s.q" => "Probability models of recidivism\\: an exploration"}
+    query_hash("s.tl=&s.q=foo").should == {"s.q" => "foo"}
   end
   
   it "has params" do

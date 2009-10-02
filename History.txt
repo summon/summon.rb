@@ -1,7 +1,8 @@
 === 1.x.x 20XX-XX-XX
 * N major enhancements:
 * N minor enhancements:
-* N bug fixes:
+* 1 bug fixes:
+  * empty parameter was causing a NameError on the return trip
 
 === 1.0.0 2009-09-28
 
