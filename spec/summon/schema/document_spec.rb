@@ -166,6 +166,15 @@ describe Summon::Document do
   ],
   "DissertationSchool": [
     "West Virginia University"
+  ],
+  "thumbnail_s": [
+    "http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/small"
+  ],
+  "thumbnail_l": [
+    "http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/large"
+  ],
+  "thumbnail_m": [
+    "http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/medium"
   ]
 }
   JSON
@@ -225,9 +234,9 @@ subject_terms:
 - Popular music
 - Rock music
 subtitle: the life and death of Joey Stefano
-thumbnail_large: 
-thumbnail_medium: 
-thumbnail_small: 
+thumbnail_large: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/large
+thumbnail_medium: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/medium
+thumbnail_small: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/small
 title: Lisa Hunter -- alive
 url: 
 volume: 

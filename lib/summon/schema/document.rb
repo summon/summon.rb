@@ -44,9 +44,9 @@ class Summon::Document < Summon::Schema
   attr :open_url
   attr :subject_terms
 
-  attr :thumbnail_small, :json_name => "Thumbnail-s"
-  attr :thumbnail_medium, :json_name => "Thumbnail-m"
-  attr :thumbnail_large, :json_name => "Thumbnail-l"
+  attr :thumbnail_small, :json_name =>  "thumbnail_s"
+  attr :thumbnail_medium, :json_name => "thumbnail_m"
+  attr :thumbnail_large, :json_name =>  "thumbnail_l"
   attr :availability_token
 
 
