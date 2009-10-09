@@ -8,7 +8,11 @@ class Summon::RangeFacet < Summon::Schema
   def clear_filters_command
     "removeRangeFilter(#{field_name})"
   end
-  
+
+  def range?
+    true
+  end
+
   def empty?
     false
   end
