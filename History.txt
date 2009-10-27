@@ -1,6 +1,7 @@
 === 1.x.x 20XX-XX-XX
 * N major enhancements:
   * add support for Thumbnails in the thumbnail_small, thumbnail_medium, and thumbnail_large fields
+  * add availability service for querying physical catalogue records.
 * N minor enhancements:
 * 1 bug fixes:
   * empty parameter was causing a NameError on the return trip

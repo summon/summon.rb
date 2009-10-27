@@ -47,7 +47,7 @@ class Summon::Document < Summon::Schema
   attr :thumbnail_small, :json_name =>  "thumbnail_s"
   attr :thumbnail_medium, :json_name => "thumbnail_m"
   attr :thumbnail_large, :json_name =>  "thumbnail_l"
-  attr :availability_token
+  attr :availability_id
 
 
   def isbn
