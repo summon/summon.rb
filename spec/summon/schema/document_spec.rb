@@ -121,7 +121,7 @@ describe Summon::Document do
   "Snippet": [
     "This is the snippet"
   ],
-  "availabilityToken": "b16644323",
+  "availabilityId": "b16644323",
   "ContentType": [
     "Audio Recording"
   ],
@@ -184,7 +184,7 @@ describe Summon::Document do
 abstract: This is the most awesome document ever
 authors: 
 - Hunter, Lisa
-availability_token: b16644323
+availability_id: b16644323
 call_number: M1630.18 .H95 2000
 content_type: Audio Recording
 dissertation_advisor: Claudio Friedmann
