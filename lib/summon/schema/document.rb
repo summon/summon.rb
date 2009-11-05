@@ -26,7 +26,7 @@ class Summon::Document < Summon::Schema
   attr :dissertation_school
   
   attr :library
-  attr :call_number, :json_name => "LCCallNum"
+  attr :call_numbers, :json_name => "LCCallNum"
   attr :doi, :json_name => "DOI"
   attr :isbns, :json_name => "ISBN"
   attr :issns, :json_name => "ISSN"
@@ -52,6 +52,10 @@ class Summon::Document < Summon::Schema
 
   def isbn
     @isbns.first
+  end
+  
+  def call_number
+    @call_numbers.first
   end
 
   def pages?

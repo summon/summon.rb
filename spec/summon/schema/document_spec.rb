@@ -67,7 +67,8 @@ describe Summon::Document do
     "gvsu_catalog_b16644323"
   ],
   "LCCallNum": [
-    "M1630.18 .H95 2000"
+    "M1630.18 .H95 2000",
+    "M1630.20 .H95 2000"
   ],
   "Language": [
     "English"
@@ -185,7 +186,9 @@ abstract: This is the most awesome document ever
 authors: 
 - Hunter, Lisa
 availability_id: b16644323
-call_number: M1630.18 .H95 2000
+call_numbers: 
+- M1630.18 .H95 2000
+- M1630.20 .H95 2000
 content_type: Audio Recording
 dissertation_advisor: Claudio Friedmann
 dissertation_category: Education
