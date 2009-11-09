@@ -54,6 +54,10 @@ describe Summon::Document do
   "Author": [
     "Hunter, Lisa"
   ],
+  "CorporateAuthor": [
+    "Hunter, Rick",
+    "Crusher, Beverly"
+  ],
   "PublicationDate": [
     "c2000."
   ],
@@ -190,6 +194,9 @@ call_numbers:
 - M1630.18 .H95 2000
 - M1630.20 .H95 2000
 content_type: Audio Recording
+corporate_authors: 
+- Hunter, Rick
+- Crusher, Beverly
 dissertation_advisor: Claudio Friedmann
 dissertation_category: Education
 dissertation_degree: M.S.J.

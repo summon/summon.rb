@@ -8,6 +8,7 @@ class Summon::Document < Summon::Schema
   attr :content_type
 
   attr :authors, :json_name => "Author"
+  attr :corporate_authors, :json_name => "CorporateAuthor"
   attr :publishers, :json_name => "Publisher"
   attr :volume
   attr :issue
@@ -72,6 +73,10 @@ class Summon::Document < Summon::Schema
   
   def authors
     @authors.map {|n| Summon::Author.new(n)}
+  end
+  
+  def corporate_authors
+    @corporate_authors.map {|n| Summon::Author.new(n)}
   end
   
   def to_s(options = {})
