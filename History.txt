@@ -1,8 +1,11 @@
-=== 1.x.x 20XX-XX-XX
-* N major enhancements:
+=== 1.1.0 2009-11-10
+* 2 major enhancements:
   * add support for Thumbnails in the thumbnail_small, thumbnail_medium, and thumbnail_large fields
   * add availability service for querying physical catalogue records.
-* N minor enhancements:
+* 2 minor enhancements:
+  * add support to handle multiple call numbers.
+  * add support for corporate author.
+  * add range? to see whether a facet is a range or not
 * 1 bug fixes:
   * empty parameter was causing a NameError on the return trip
   * added range? predicate to range facets so that they can be identified as ranges

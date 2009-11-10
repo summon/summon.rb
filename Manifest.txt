@@ -1,4 +1,3 @@
-.specification
 History.txt
 Manifest.txt
 PostInstall.txt
