@@ -32,6 +32,7 @@ class Summon::Document < Summon::Schema
   attr :isbns, :json_name => "ISBN"
   attr :issns, :json_name => "ISSN"
   attr :patent_number
+  attr :gov_doc_class_nums, :json_name => "GovDocClassNum"
   
   
   attr :subject_terms
@@ -57,6 +58,10 @@ class Summon::Document < Summon::Schema
   
   def call_number
     @call_numbers.first
+  end
+  
+  def gov_doc_class_num
+    @gov_doc_class_nums.first
   end
 
   def pages?

@@ -74,6 +74,10 @@ describe Summon::Document do
     "M1630.18 .H95 2000",
     "M1630.20 .H95 2000"
   ],
+  "GovDocClassNum": [
+    "A 57.38/42:M 45",
+    "A 57.38/42:M 45"
+  ],
   "Language": [
     "English"
   ],
@@ -211,6 +215,9 @@ fulltext: false
 genres: 
 - Biography
 - Congress
+gov_doc_class_nums: 
+- A 57.38/42:M 45
+- A 57.38/42:M 45
 id: gvsu_catalog_b16644323
 isbns: 
 - 0849343763 (v. 1)
