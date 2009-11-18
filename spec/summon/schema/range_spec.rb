@@ -6,7 +6,7 @@ describe Summon::RangeFacet do
     {
       "displayName": "PublicationDate",
       "removeCommand": "removeFacetField(PublicationDate)",
-      "fieldName": "PublicationDate_dt",
+      "fieldName": "PublicationDate",
       "counts": [
         {
           "count": 119795,
@@ -31,7 +31,7 @@ describe Summon::RangeFacet do
     JSON
     range.display_name.should == "PublicationDate"
     range.remove_command.should == "removeFacetField(PublicationDate)"
-    range.field_name.should == "PublicationDate_dt"
+    range.field_name.should == "PublicationDate"
     range.counts.should_not be_nil
     range.counts.length.should be(2)
     range.counts[0].tap do |c|

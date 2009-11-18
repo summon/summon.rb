@@ -15,7 +15,7 @@ describe Summon::Query do
       "rangeFacetFields": [9],
       "sort": [
       {
-        "fieldName": "PublicationDate_dt",
+        "fieldName": "PublicationDate",
         "sortOrder": "desc"
       }
     ],
@@ -34,7 +34,7 @@ describe Summon::Query do
       text_filters.should == [7]
       facet_fields.should == [8]
       sorts.length.should == 1
-      sort.field_name.should == "PublicationDate_dt"
+      sort.field_name.should == "PublicationDate"
       sort.sort_order.should == "desc"
     }
   end
