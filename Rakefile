@@ -13,10 +13,10 @@ $hoe = Hoe.spec 'summon' do
   self.post_install_message = File.read('PostInstall.txt')
   self.rubyforge_name       = self.name
   self.extra_deps           = [
-                                ['json_pure','>= 1.1.7']
+                                ['json','>= 1.2.0']
                               ]
   self.extra_dev_deps       = [
-                                ['rspec', '>= 1.2.7']
+                                ['rspec', '>= 1.2.9']
                             ]                          
   self.version              = Summon::VERSION
 end
