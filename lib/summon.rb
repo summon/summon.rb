@@ -6,7 +6,7 @@ require 'cgi'
 require 'json'
 
 module Summon
-  VERSION = "1.1.0"
+  VERSION = "1.1.1"
   require 'summon/log'
   require 'summon/service'
   require 'summon/transport'

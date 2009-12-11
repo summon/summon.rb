@@ -1,9 +1,7 @@
-=== 1.1.x 200x-xx-xx
-* x major enhancements:
-* x minor enhancements:
+=== 1.1.1 2009-12-11
+* 2 minor enhancements:
   * add support to handle government document classification number (GovDocClassNum)
   * map error.code into error object to allow for finer grained error messages
-* x bug fixes:
 
 === 1.1.0 2009-11-10
 * 2 major enhancements:
