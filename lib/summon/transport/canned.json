@@ -1,2327 +1,1513 @@
 {
-  "pageCount": 100456,
-  "queryTime": 57,
-  "fullTextCount": 0,
+  "pageCount": 55301653,
   "didYouMeanSuggestions": [
-	{
-      "originalQuery": "louis rmstrong",
-      "newSearchCommand": "s.cmd=setTextQuery%28louis+armstrong%29",
-      "suggestedQuery": "louis armstrong"
-    }
+
   ],
-  "totalRequestTime": 80,
+  "queryTime": 360,
   "documents": [
     {
-      "Publisher_xml": [
+      "Copyright_xml": [
         {
-          "name": "Spirulina Records"
-        },
-        {
-          "name": "Swingsistersound"
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
         }
       ],
-      "SubjectTerms": [
-        "Women's music",
-        "Popular music",
-        "Rock music"
+      "PageNote": [
+        "B.5"
       ],
-      "TableOfContents": [
-        "The very thing -- Dark night -- 2 truths & uh lie -- Reckless -- Spin -- Free -- Real of you -- Fire -- Purple hair -- Ghost -- Nuthin' -- Faith."
+      "PublicationDecade": [
+        "2000"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
       ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "Compact disc."
-      ],
-      "PublicationDateYear": [
-        "2000"
-      ],
       "hasFullText": false,
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Hunter, Lisa"
+      "Title": [
+        "OBITUARIES"
       ],
       "PublicationDate": [
-        "c2000."
-      ],
-      "Title": [
-        "Lisa Hunter -- alive"
-      ],
-      "ID": [
-        "gvsu_catalog_b16644323"
-      ],
-      "LCCallNum": [
-        "M1630.18 .H95 2000"
-      ],
-      "Language": [
-        "English"
-      ],
-      "PublicationDateCentury": [
-        "2000"
-      ],
-      "PublicationDateDecade": [
-        "2000"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323",
-      "Author_xml": [
-        {
-          "fullname": "Hunter, Lisa",
-          "surname": "Hunter",
-          "givenname": "Lisa"
-        }
-      ],
-      "Library": [
-        "Women's Center Library"
-      ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "c2000.",
-          "day": "01",
-          "year": "2000"
-        }
-      ],
-      "PublicationPlace": [
-        "S.l.",
-        "Ann Arbor, Mich"
-      ],
-      "TemporalSubjectTerms": [
-        "1991-2000"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "S.l."
-        },
-        {
-          "name": "Ann Arbor, Mich"
-        }
-      ],
-      "DocumentTitleAlternate": [
-        "Alive"
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b16644323",
-      "ContentType": [
-        "Audio Recording"
-      ],
-      "Publisher": [
-        "Spirulina Records",
-        "Swingsistersound"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "Lewis Publishers"
-        }
-      ],
-      "SubjectTerms": [
-        "Environmental risk assessment"
-      ],
-      "TableOfContents": [
-        "Introduction and overview of difficulties encountered in developing comparative rankings of environmental problems \/ C. Richard Cothern -- Current concerns regarding the implementation of risk-based management: how real are they? \/ William V. Garetz -- Application of ecological knowledge to environmental problems: ecological risk assessment \/ David Policansky -- Threat of greenhouse warming \/ Rob Coppock -- Revising the risk assessment paradigm: limits on the quantitative ranking of environmental problems \/ Ellen K. Silbergeld -- It is possible to do quantitative assessment of relative risk \/ James D. Wilson -- Noncancer health endpoints: approaches to quantitative risk assessment \/ William Farland and Michael Dourson -- Gaps in knowledge in assessing the risk of cancer \/ Art Gregory -- Estimating viral disease risk from drinking water \/ Charles P. Gerba and Joan B. Rose -- Atmospheric nitrogen oxides: a bridesmaid revisited \/ John Bachmann -- Temporal variations in exposure data \/ Nancy K. Kim.",
-        "cont) Integrated approach to risk characterization of multiple pathway chemical exposures \/ Christopher T. DeRosa ... [et al.] -- Method for obtaining guidance for the combination of qualitative rankings by cancer and noncancer risks into a single, qualitative health risk ranking \/ Paul F. Deisler, Jr. -- Use of statistical insignificance in the formulation of risk-based standards for carcinogens \/ Roy E. Albert and Rakesh Shukla -- Possible carcinogenic hazards from natural and synthetic chemicals: setting priorities \/ Lois Swirsky ... [et al.] -- Impact of data gaps in EPA's regional comparative risk projects \/ Rosalie R. Day -- Use of economic data and analysis in comparative risk projects: questions of policy and reliability \/ Palma Risler -- Role of evidential reason and epistemic discourse in establishing the risk of environmental carcinogens \/ Douglas Crawford-Brown and Jeffery Arnold -- How to move quickly to risk-based environmental management: a specific proposal \/ William V. Garetz."
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "363.7"
-      ],
-      "Notes": [
-        "Based on a symposium held on Aug. 28, 1991 in New York City.",
-        "Includes bibliographical references and index."
-      ],
-      "PublicationDateYear": [
-        "1993"
-      ],
-      "hasFullText": false,
-      "ISBN": [
-        "0873716051 (acid-free paper)"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Cothern, C. Richard"
-      ],
-      "PageCount": [
-        "317 p."
-      ],
-      "PublicationDate": [
-        "c1993."
-      ],
-      "Title": [
-        "Comparative environmental risk assessment"
+        "20020316"
       ],
       "Genre": [
-        "Congresses"
+        "Obituary",
+        "Obituary"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b14315361"
+        "proquest_dll_1839009301"
       ],
-      "LCCN": [
-        "92002389"
-      ],
-      "LCCallNum": [
-        "TD193.5 .C66 1993"
+      "NewspaperSection": [
+        "Valley & State"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
-        "1900"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "PublicationDateDecade": [
-        "1990"
+      "SSID": [
+        "ssj0015727"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Comparative+environmental+risk+assessment&rft.au=Cothern%2C+C.+Richard&rft.date=c199-3.&rft.pub=Lewis+Publishers&rft.isbn=0873716051+%28acid-free+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b14315361",
-      "Author_xml": [
-        {
-          "fullname": "Cothern, C. Richard",
-          "surname": "Cothern",
-          "givenname": "C. Richard"
-        }
-      ],
-      "Library": [
-        "AWRI"
+      "ISSN": [
+        "0892-8711"
       ],
       "PublicationDate_xml": [
         {
-          "month": "01",
-          "text": "c1993.",
-          "day": "01",
-          "year": "1993"
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
         }
       ],
       "PublicationPlace": [
-        "Boca Raton"
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.5&rft.externalDBID=AREP&rft.externalDocID=1839009301",
+      "PQID": [
+        "1839009301"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "Boca Raton"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
         ""
       ],
-      "availabilityToken": "b14315361",
-      "ContentType": [
-        "Book"
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
       ],
-      "Publisher": [
-        "Lewis Publishers"
+      "StartPage": [
+        "B.5"
+      ],
+      "ContentType": [
+        "Newspaper Article"
       ]
     },
     {
-      "Publisher_xml": [
-        {
-          "name": "CRC Press"
-        }
-      ],
       "SubjectTerms": [
-        "Herbicides",
-        "Herbicides",
-        "Environmental aspects",
-        "Soils",
-        "Herbicide content",
-        "Environmental chemistry",
-        "Environmental Exposure",
-        "Soil",
-        "analysis"
+        "Relocation"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "574.5\/222"
-      ],
-      "Notes": [
-        "Includes bibliographical references and index."
-      ],
-      "PublicationDateYear": [
-        "1988"
-      ],
-      "hasFullText": false,
-      "ISBN": [
-        "0849343763 (v. 1)",
-        "0849343771 (v. 2)"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Grover, R"
-      ],
-      "PageCount": [
-        "v. <1-2"
-      ],
-      "PublicationDate": [
-        "c1988"
-      ],
-      "Title": [
-        "Environmental chemistry of herbicides"
-      ],
-      "ID": [
-        "gvsu_catalog_b13988840"
-      ],
-      "LCCN": [
-        "87028975"
-      ],
-      "LCCallNum": [
-        "SB951.4 .E58 1988"
-      ],
-      "Language": [
-        "English"
-      ],
-      "PublicationDateCentury": [
-        "1900"
-      ],
-      "PublicationDateDecade": [
-        "1980"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Environmental+chemistry+of+herbicides&rft.au=Grover%2C+R&rft.date=c198&rft.pub=CRC+Press&rft.isbn=0849343763+%28v.+1%29&rft.externalDBID=n%2Fa&rft.externalDocID=b13988840",
-      "Author_xml": [
+      "Copyright_xml": [
         {
-          "fullname": "Grover, R",
-          "surname": "Grover",
-          "givenname": "R"
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
         }
       ],
-      "Library": [
-        "AWRI"
+      "PageNote": [
+        "D.1"
       ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "c1988-",
-          "day": "01",
-          "year": "1988"
-        }
-      ],
-      "PublicationPlace": [
-        "Boca Raton, Fla"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Boca Raton, Fla"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b13988840",
-      "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "CRC Press"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "Harrington Park Press"
-        }
-      ],
-      "SubjectTerms": [
-        "Male homosexuality",
-        "History",
-        "Male friendship"
-      ],
-      "TableOfContents": [
-        "The freedom of the frontier -- Warme Bru\u0308der, mouches, and mollies -- Rom, sodomy, and the lash -- Gone for a soldier -- Sodomites in America's libraries -- Racism and homosexual desire in the antebellum period -- The nation's capital under Jefferson : four case studies -- On the streets of Philadelphia, Annapolis, and Boston -- Spirituality and sublimation -- Gender anarchy as a revolutionary threat -- Male intimacy at the fringes.."
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "Includes bibliographical references (p. 271-311) and index."
-      ],
-      "PublicationDateYear": [
-        "2006"
-      ],
-      "URI": [
-        "http:\/\/www.loc.gov\/catdir\/toc\/ecip0513\/2005014632.html",
-        "http:\/\/firstsearch.oclc.org\/WebZ\/DCARead?standardNoType=1&standardNo=1560233443:srcdbname=worldcat:fromExternal=true&sessionid=0",
-        "http:\/\/firstsearch.oclc.org\/WebZ\/DECRead?standardNoType=1&standardNo=1560233443&sessionid=0&srcdbname=worldcat&key=b79f9d2692ada1adb2ba6858597bd58178c63705a76d4cc7cb24baed020b6cbd&ectype=TOC"
-      ],
-      "hasFullText": false,
-      "GeographicLocations_xml": [
-        {
-          "name": "United States"
-        }
-      ],
-      "ISBN": [
-        "1560233443 (hard : alk. paper)",
-        "9781560233459",
-        "9781560233442",
-        "1560233451 (soft : alk. paper)"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Benemann, William"
-      ],
-      "PageCount": [
-        "xx, 322 p."
-      ],
-      "PublicationDate": [
-        "c2006."
-      ],
-      "Subtitle": [
-        "beyond romantic friendships"
-      ],
-      "Title": [
-        "Male-male intimacy in early America"
-      ],
-      "ID": [
-        "gvsu_catalog_b19786062"
-      ],
-      "LCCN": [
-        "2005014632"
-      ],
-      "Language": [
-        "English"
-      ],
-      "PublicationDateCentury": [
+      "PublicationDecade": [
         "2000"
       ],
-      "PublicationDateDecade": [
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
         "2000"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Male-male+intimacy+in+early+America&rft.au=Benemann%2C+William&rft.date=c200-6.&rft.pub=Harrington+Park+Press&rft.isbn=1560233443+%28hard+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b19786062",
-      "Author_xml": [
-        {
-          "fullname": "Benemann, William",
-          "surname": "Benemann",
-          "givenname": "William"
-        }
-      ],
-      "GeographicLocations": [
-        "United States"
-      ],
-      "Library": [
-        "LGBT Resource Center"
-      ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "c2006.",
-          "day": "01",
-          "year": "2006"
-        }
-      ],
-      "PublicationPlace": [
-        "New York"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "New York"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b19786062",
-      "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "Harrington Park Press"
-      ]
-    },
-    {
-      "SubjectTerms": [
-        "Job hunting",
-        "Occupations",
-        "Professions",
-        "Vocational guidance"
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      "Abstract": [
+        "With its combination of brand-name prices and discount prices, Kohl's has become one of the hottest names in retailing."
       ],
       "hasFullText": false,
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
       "Title": [
-        "Career resources"
-      ],
-      "ID": [
-        "gvsu_catalog_b12245379"
-      ],
-      "LCCallNum": [
-        "Filed by Organization (C...)"
-      ],
-      "Language": [
-        "Unknown"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12245379",
-      "CorporateAuthor": [
-        "Citizens Insurance"
-      ],
-      "Library": [
-        "Career Services"
-      ],
-      "PublicationPlace": [
-        "Howell, MI"
-      ],
-      "CorporateAuthor_xml": [
-        {
-          "name": "Citizens Insurance"
-        }
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Howell, MI"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b12245379",
-      "ContentType": [
-        "Book"
-      ]
-    },
-    {
-      "SubjectTerms": [
-        "Job hunting",
-        "Occupations",
-        "Professions",
-        "Vocational guidance"
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "File contains brochures, catalogs and other publications useful to potential job seekers."
-      ],
-      "hasFullText": false,
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Title": [
-        "Career resources"
-      ],
-      "ID": [
-        "gvsu_catalog_b12239240"
-      ],
-      "LCCallNum": [
-        "Filed by Organization (A...)"
-      ],
-      "Language": [
-        "Unknown"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12239240",
-      "CorporateAuthor": [
-        "Amoco Corporation"
-      ],
-      "Library": [
-        "Career Services"
-      ],
-      "PublicationPlace": [
-        "Chicago, IL"
-      ],
-      "CorporateAuthor_xml": [
-        {
-          "name": "Amoco Corporation"
-        }
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Chicago, IL"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b12239240",
-      "ContentType": [
-        "Book"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "CRC Press"
-        }
-      ],
-      "SubjectTerms": [
-        "Polychlorinated biphenyls",
-        "Environmental aspects",
-        "Biphe\u0301nyles polychlore\u0301s",
-        "Aspect de l'environnement"
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "363.1\/79"
-      ],
-      "Notes": [
-        "Includes bibliographical references and indexes."
-      ],
-      "PublicationDateYear": [
-        "1986"
-      ],
-      "hasFullText": false,
-      "ISBN": [
-        "0849359295 (set)"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Waid, John S"
-      ],
-      "PageCount": [
-        "3 v."
+        "KOHL'S PLANS 8 TO 10 DEPARTMENT STORES IN VALLEY"
       ],
       "PublicationDate": [
-        "c1986-c1987."
-      ],
-      "Title": [
-        "PCBs and the environment"
-      ],
-      "ID": [
-        "gvsu_catalog_b1396950x"
-      ],
-      "LCCN": [
-        "86017549"
-      ],
-      "LCCallNum": [
-        "QH545.P6 P236 1986"
-      ],
-      "Language": [
-        "English"
-      ],
-      "PublicationDateCentury": [
-        "1900"
-      ],
-      "PublicationDateDecade": [
-        "1980"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=PCBs+and+the+environment&rft.au=Waid%2C+John+S&rft.date=c198-6--c1&rft.pub=CRC+Press&rft.isbn=0849359295+%28set%29&rft.externalDBID=n%2Fa&rft.externalDocID=b1396950x",
-      "Author_xml": [
-        {
-          "fullname": "Waid, John S",
-          "surname": "Waid",
-          "givenname": "John S"
-        }
-      ],
-      "Library": [
-        "AWRI"
-      ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "c1986-c1987.",
-          "day": "01",
-          "year": "1986"
-        }
-      ],
-      "PublicationPlace": [
-        "Boca Raton, Fla"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Boca Raton, Fla"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b1396950x",
-      "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "CRC Press"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "Swallow Press\/Ohio University Press"
-        }
-      ],
-      "SubjectTerms": [
-        "Anorexia",
-        "Patients"
-      ],
-      "TableOfContents": [
-        "Body story -- Girl body -- Virgin body -- Starving body -- Wedding body -- Giving birth -- Blind spot."
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "B",
-        "362.196\/85262\/0092"
-      ],
-      "Notes": [
-        "Includes bibliographical references (p. 143-148)."
-      ],
-      "PublicationDateYear": [
-        "2004"
-      ],
-      "hasFullText": false,
-      "GeographicLocations_xml": [
-        {
-          "name": "United States"
-        }
-      ],
-      "ISBN": [
-        "0804010641 (pbk. : alk. paper)",
-        "0804010633 (cloth : alk. paper)"
-      ],
-      "RelatedPersons_xml": [
-        {
-          "fullname": "De Pree, Julia Knowlton",
-          "surname": "De Pree",
-          "givenname": "Julia Knowlton"
-        }
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
+        "20020316"
       ],
       "Author": [
-        "De Pree, Julia Knowlton"
-      ],
-      "PageCount": [
-        "ix, 148 p."
-      ],
-      "PublicationDate": [
-        "c2004."
-      ],
-      "Title": [
-        "Body story"
+        "Glen Creno"
       ],
       "Genre": [
-        "Biography"
+        "News",
+        "News"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b14147609"
+        "proquest_dll_1839009611"
       ],
-      "LCCN": [
-        "2003027357"
-      ],
-      "LCCallNum": [
-        "RC552.A5 D43 2004"
+      "NewspaperSection": [
+        "Business"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
-        "2000"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "PublicationDateDecade": [
-        "2000"
+      "SSID": [
+        "ssj0015727"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Body+story&rft.au=De+Pree%2C+Julia+Knowlton&rft.date=c200-4.&rft.pub=Swallow+Press%2FOhio+University+Press&rft.isbn=0804010641+%28pbk.+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b14147609",
+      "ISSN": [
+        "0892-8711"
+      ],
       "Author_xml": [
         {
-          "fullname": "De Pree, Julia Knowlton",
-          "surname": "De Pree",
-          "givenname": "Julia Knowlton"
+          "fullname": "Glen Creno"
         }
-      ],
-      "GeographicLocations": [
-        "United States"
-      ],
-      "Library": [
-        "Women's Center Library"
       ],
       "PublicationDate_xml": [
         {
-          "month": "01",
-          "text": "c2004.",
-          "day": "01",
-          "year": "2004"
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
         }
       ],
       "PublicationPlace": [
-        "Athens, Ohio"
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=KOHL%27S+PLANS+8+TO+10+DEPARTMENT+STORES+IN+VALLEY&rft.jtitle=Arizona+Republic&rft.au=Glen+Creno&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=D.1&rft.externalDBID=AREP&rft.externalDocID=1839009611",
+      "PQID": [
+        "1839009611"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "Athens, Ohio"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "RelatedPersons": [
-        "De Pree, Julia Knowlton"
-      ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
-        ""
+        "With its combination of brand-name prices and discount prices, Kohl's has become one of the hottest names in retailing."
       ],
-      "availabilityToken": "b14147609",
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "D.1"
+      ],
       "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "Swallow Press\/Ohio University Press"
+        "Newspaper Article"
       ]
     },
     {
-      "Publisher_xml": [
+      "SubjectTerms": [
+        "Junk bonds",
+        "Bear markets",
+        "High yield investments",
+        "Mutual funds",
+        "Investment policy"
+      ],
+      "Copyright_xml": [
         {
-          "name": "Alyson Publications"
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
         }
       ],
-      "SubjectTerms": [
-        "Motion picture actors and actresses",
-        "Gay motion picture actors and actresses",
-        "Gay erotic films"
+      "PageNote": [
+        "D.1"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
       ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "Filmography: p. 205-209."
-      ],
-      "PublicationDateYear": [
-        "1996"
+      "Abstract": [
+        "[...] both stocks and junk bonds should flourish if the economy picks up steam."
       ],
       "hasFullText": false,
-      "GeographicLocations_xml": [
-        {
-          "name": "United States"
-        }
-      ],
-      "ISBN": [
-        "1555833837 (pb : acid-free paper)",
-        "9781555833831 (pb : acid-free paper)"
-      ],
-      "RelatedPersons_xml": [
-        {
-          "fullname": "Stefano, Joey",
-          "surname": "Stefano",
-          "givenname": "Joey"
-        }
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Isherwood, Charles"
-      ],
-      "PageCount": [
-        "208 p."
+      "Title": [
+        "ECONOMIC REBOUND POINTS TO BETTER TIMES FOR BATTERED HIGH-YIELD FUNDS"
       ],
       "PublicationDate": [
-        "1996."
+        "20020316"
       ],
-      "Subtitle": [
-        "the life and death of Joey Stefano"
-      ],
-      "Title": [
-        "Wonder bread and ecstasy"
+      "Author": [
+        "RUSS WILES"
       ],
       "Genre": [
-        "Biography"
+        "News",
+        "News"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b22630090"
+        "proquest_dll_1839009421"
       ],
-      "LCCN": [
-        "96026524"
+      "NewspaperSection": [
+        "Business"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
-        "1900"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "PublicationDateDecade": [
-        "1990"
+      "SSID": [
+        "ssj0015727"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Wonder+bread+and+ecstasy&rft.au=Isherwood%2C+Charles&rft.date=1996&rft.pub=Alyson+Publications&rft.isbn=1555833837+%28pb+%3A+acid-free+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b22630090",
+      "ISSN": [
+        "0892-8711"
+      ],
       "Author_xml": [
         {
-          "fullname": "Isherwood, Charles",
-          "surname": "Isherwood",
-          "givenname": "Charles"
+          "fullname": "RUSS WILES"
         }
-      ],
-      "GeographicLocations": [
-        "United States"
-      ],
-      "Library": [
-        "LGBT Resource Center"
       ],
       "PublicationDate_xml": [
         {
-          "month": "01",
-          "text": "1996.",
-          "day": "01",
-          "year": "1996"
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
         }
       ],
       "PublicationPlace": [
-        "Los Angeles"
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=ECONOMIC+REBOUND+POINTS+TO+BETTER+TIMES+FOR+BATTERED+HIGH-YIELD+FUNDS&rft.jtitle=Arizona+Republic&rft.au=RUSS+WILES&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=D.1&rft.externalDBID=AREP&rft.externalDocID=1839009421",
+      "PQID": [
+        "1839009421"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "Los Angeles"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "RelatedPersons": [
-        "Stefano, Joey"
-      ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
-        ""
+        "[...] both stocks and junk bonds should flourish if the economy picks up steam."
       ],
-      "availabilityToken": "b22630090",
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "D.1"
+      ],
       "ContentType": [
-        "Book"
-      ],
-      "Edition": [
-        "1st ed."
-      ],
-      "Publisher": [
-        "Alyson Publications"
+        "Newspaper Article"
       ]
     },
     {
-      "Publisher_xml": [
+      "SubjectTerms": [
+        "Restaurants"
+      ],
+      "Copyright_xml": [
         {
-          "name": "Pilgrim Press"
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
         }
       ],
-      "SubjectTerms": [
-        "Virtues",
-        "Biblical teaching",
-        "Blacks in the Bible",
-        "Women in the Bible",
-        "African American women",
-        "Conduct of life",
-        "Religious life"
+      "PageNote": [
+        "E.10"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "277.3\/0082"
-      ],
-      "Notes": [
-        "Includes bibliographical references (p. 131-134) and index."
-      ],
-      "PublicationDateYear": [
+      "PublicationDecade": [
         "2000"
       ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
+      ],
+      "inHoldings": false,
+      "Abstract": [
+        "Choose from P.F. Chang's, Kona Grill and California Pizza Kitchen."
+      ],
       "hasFullText": false,
-      "ISBN": [
-        "082981373X (paper : alk. paper)"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Gill, LaVerne McCain"
-      ],
-      "PageCount": [
-        "xxviii, 140 p."
+      "Title": [
+        "MALL UNDER THE MOON WHEN THE SUN SETS, THE LIGHTS GO ON AT CHANDLER'S INDOOR MECCA"
       ],
       "PublicationDate": [
-        "2000."
-      ],
-      "Subtitle": [
-        "African women in the Bible and the virtues of black womanhood"
-      ],
-      "Title": [
-        "Daughters of dignity"
-      ],
-      "ID": [
-        "gvsu_catalog_b13923080"
-      ],
-      "LCCN": [
-        "99057376"
-      ],
-      "LCCallNum": [
-        "BS680.V56 G55 2000"
-      ],
-      "Language": [
-        "English"
-      ],
-      "PublicationDateCentury": [
-        "2000"
-      ],
-      "PublicationDateDecade": [
-        "2000"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Daughters+of+dignity&rft.au=Gill%2C+LaVerne+McCain&rft.date=2000&rft.pub=Pilgrim+Press&rft.isbn=082981373X+%28paper+%3A+alk.+paper%29&rft.externalDBID=n%2Fa&rft.externalDocID=b13923080",
-      "Author_xml": [
-        {
-          "fullname": "Gill, LaVerne McCain",
-          "surname": "Gill",
-          "givenname": "LaVerne McCain"
-        }
-      ],
-      "Library": [
-        "Women's Center Library"
-      ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "2000.",
-          "day": "01",
-          "year": "2000"
-        }
-      ],
-      "PublicationPlace": [
-        "Cleveland, Ohio"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Cleveland, Ohio"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b13923080",
-      "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "Pilgrim Press"
-      ]
-    },
-    {
-      "SubjectTerms": [
-        "Job hunting",
-        "Occupations",
-        "Professions",
-        "Vocational guidance"
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "File contains brochures, catalogs and other publications useful to potential job seekers."
-      ],
-      "hasFullText": false,
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Title": [
-        "Career resources"
-      ],
-      "ID": [
-        "gvsu_catalog_b12302168"
-      ],
-      "LCCallNum": [
-        "Filed by Organization (L...)"
-      ],
-      "Language": [
-        "Unknown"
-      ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12302168",
-      "CorporateAuthor": [
-        "Lakeland Regional Health System"
-      ],
-      "Library": [
-        "Career Services"
-      ],
-      "PublicationPlace": [
-        "Benton Harbor, MI"
-      ],
-      "CorporateAuthor_xml": [
-        {
-          "name": "Lakeland Regional Health System"
-        }
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Benton Harbor, MI"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b12302168",
-      "ContentType": [
-        "Book"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "VGM Career Horizons"
-        }
-      ],
-      "SubjectTerms": [
-        "Job hunting",
-        "Computer network resources",
-        "Internet",
-        "World Wide Web"
-      ],
-      "TableOfContents": [
-        "Pounding the virtual pavement: Using the Internet in your job search -- Internet job application -- Great job lead banks -- Jobs in business, marketing, and commercial services -- Jobs in the social sciences and the world of nonprofits -- Jobs in the humanities, recreation, hospitality and personal services -- Jobs in natural sciences, health, and medicine -- Jobs in engineering, mathematics, technology and transportation -- Opportunities in government, public policy, and public service -- Entry-level and summer employment, internships, and co-ops -- State and local resources for the United States -- International opportunities -- Resources for diverse audiences -- Lifelong career planning. ch. 1. ch. 2. ch. 3. ch. 4. ch. 5. ch. 6. ch. 7. ch. 8. ch. 9. ch. 10. ch. 11. ch. 12. ch. 13. ch. 14."
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
-      "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "Includes index."
-      ],
-      "PublicationDateYear": [
-        "2000"
-      ],
-      "hasFullText": false,
-      "ISBN": [
-        "0658002252"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
+        "20020316"
       ],
       "Author": [
-        "Dikel, Margaret F",
-        "Roehm, Frances E"
+        "Jaimee Rose"
       ],
-      "PageCount": [
-        "viii, 344 p."
+      "Genre": [
+        "News",
+        "News"
       ],
-      "PublicationDate": [
-        "c2000."
-      ],
-      "Title": [
-        "The guide to Internet job searching"
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b13555431"
+        "proquest_dll_1839009851"
       ],
-      "LCCallNum": [
-        "HF5382.7 .D55 2000"
+      "NewspaperSection": [
+        "Arizona Living"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
+      "PublicationEdition": [
+        "Final Chaser"
+      ],
+      "SSID": [
+        "ssj0015727"
+      ],
+      "ISSN": [
+        "0892-8711"
+      ],
+      "Author_xml": [
+        {
+          "fullname": "Jaimee Rose"
+        }
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
+        }
+      ],
+      "PublicationPlace": [
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=MALL+UNDER+THE+MOON+WHEN+THE+SUN+SETS%2C+THE+LIGHTS+GO+ON+AT+CHANDLER%27S+INDOOR+MECCA&rft.jtitle=Arizona+Republic&rft.au=Jaimee+Rose&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=E.10&rft.externalDBID=AREP&rft.externalDocID=1839009851",
+      "PQID": [
+        "1839009851"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Phoenix, Ariz"
+        }
+      ],
+      "DLL_JC": [
+        "AREP"
+      ],
+      "Snippet": [
+        "Choose from P.F. Chang's, Kona Grill and California Pizza Kitchen."
+      ],
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "E.10"
+      ],
+      "ContentType": [
+        "Newspaper Article"
+      ]
+    },
+    {
+      "SubjectTerms": [
+        "Automobile racing"
+      ],
+      "Copyright_xml": [
+        {
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
+        }
+      ],
+      "PageNote": [
+        "C.4"
+      ],
+      "PublicationDecade": [
         "2000"
       ],
-      "PublicationDateDecade": [
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
         "2000"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=The+guide+to+Internet+job+searching&rft.au=Dikel%2C+Margaret+F&rft.au=Roehm%2C+Frances+E&rft.date=c200-0.&rft.pub=VGM+Career+Horizons&rft.isbn=0658002252&rft.externalDBID=n%2Fa&rft.externalDocID=b13555431",
-      "Author_xml": [
-        {
-          "fullname": "Dikel, Margaret F",
-          "surname": "Dikel",
-          "givenname": "Margaret F"
-        },
-        {
-          "fullname": "Roehm, Frances E",
-          "surname": "Roehm",
-          "givenname": "Frances E"
-        }
-      ],
-      "Library": [
-        "Career Services"
-      ],
-      "PublicationDate_xml": [
-        {
-          "month": "01",
-          "text": "c2000.",
-          "day": "01",
-          "year": "2000"
-        }
-      ],
-      "PublicationPlace": [
-        "Lincolnwood, Ill"
-      ],
-      "PublicationPlace_xml": [
-        {
-          "name": "Lincolnwood, Ill"
-        }
-      ],
-      "score": [
-        "1.0"
-      ],
-      "Snippet": [
-        ""
-      ],
-      "availabilityToken": "b13555431",
-      "ContentType": [
-        "Book"
-      ],
-      "Edition": [
-        "2000-01 ed."
-      ],
-      "Publisher": [
-        "VGM Career Horizons"
-      ]
-    },
-    {
-      "Publisher_xml": [
-        {
-          "name": "Bantam Books"
-        }
-      ],
-      "SubjectTerms": [
-        "Lesbianism"
-      ],
-      "TableOfContents": [
-        "Lesbian: myth & reality -- Self image -- Sexuality and sex roles -- Life styles -- Lesbians are mothers too -- Growing up gay -- Lesbian paranoia: real & imagined fears -- Lesbians united -- Lesbian\/woman -- Not toleration: lesbian liberation."
-      ],
-      "XQueryRevision": [
-        "Rev: 6229"
-      ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "PublicationDateYear": [
-        "1972"
+      "Abstract": [
+        "The authors, who are veteran race reporters, even included a chapter that answers questions such as, Why don't (NASCAR drivers) race in the rain like other sanctioning bodies?"
       ],
       "hasFullText": false,
-      "GeographicLocations_xml": [
-        {
-          "name": "United States"
-        }
-      ],
-      "ISBN": [
-        "0553117025"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "PublicationSeriesTitle": [
-        "A Bantam book"
-      ],
-      "Author": [
-        "Martin, Del",
-        "Lyon, Phyllis"
-      ],
-      "PageCount": [
-        "310 p."
+      "Title": [
+        "HUGE NASCAR TOME HAS IT ALL"
       ],
       "PublicationDate": [
-        "1972"
+        "20020316"
       ],
-      "Title": [
-        "Lesbian\/woman"
+      "Author": [
+        "Mark Armijo"
+      ],
+      "Genre": [
+        "News",
+        "News"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b10512640"
+        "proquest_dll_1839009651"
       ],
-      "LCCallNum": [
-        "HQ76.3 .U5 M37 1972"
+      "NewspaperSection": [
+        "Sports"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
-        "1900"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "PublicationDateDecade": [
-        "1970"
+      "SSID": [
+        "ssj0015727"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Lesbian%2Fwoman&rft.au=Martin%2C+Del&rft.au=Lyon%2C+Phyllis&rft.series=A+Bantam+book&rft.date=1972&rft.pub=Bantam+Books&rft.isbn=0553117025&rft.externalDBID=n%2Fa&rft.externalDocID=b10512640",
+      "ISSN": [
+        "0892-8711"
+      ],
       "Author_xml": [
         {
-          "fullname": "Martin, Del",
-          "surname": "Martin",
-          "givenname": "Del"
-        },
-        {
-          "fullname": "Lyon, Phyllis",
-          "surname": "Lyon",
-          "givenname": "Phyllis"
+          "fullname": "Mark Armijo"
         }
-      ],
-      "GeographicLocations": [
-        "United States"
-      ],
-      "Library": [
-        "LGBT Resource Center",
-        "Zumberge Library"
       ],
       "PublicationDate_xml": [
         {
-          "month": "01",
-          "text": "[1972]",
-          "day": "01",
-          "year": "1972"
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
         }
       ],
       "PublicationPlace": [
-        "New York"
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=HUGE+NASCAR+TOME+HAS+IT+ALL&rft.jtitle=Arizona+Republic&rft.au=Mark+Armijo&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=C.4&rft.externalDBID=AREP&rft.externalDocID=1839009651",
+      "PQID": [
+        "1839009651"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "New York"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
-        ""
+        "The authors, who are veteran race reporters, even included a chapter that answers questions such as, Why don't (NASCAR drivers) race in the rain like other sanc..."
       ],
-      "availabilityToken": "b10512640",
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "C.4"
+      ],
       "ContentType": [
-        "Book"
-      ],
-      "Publisher": [
-        "Bantam Books"
+        "Newspaper Article"
       ]
     },
     {
-      "Publisher_xml": [
+      "SubjectTerms": [
+        "Athletes",
+        "Cyclones",
+        "Professional hockey"
+      ],
+      "Copyright_xml": [
         {
-          "name": "Viking"
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
         }
       ],
-      "SubjectTerms": [
-        "Feminism",
-        "History",
-        "Women",
-        "Social conditions",
-        "Social conditions"
+      "PageNote": [
+        "C.8"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
       ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "DEWEY": [
-        "305.4\/2"
-      ],
-      "Notes": [
-        "Includes bibliographical references (p. 265-266)."
-      ],
-      "PublicationDateYear": [
-        "1989"
+      "Abstract": [
+        "Savage, 31, was acquired Jan. 25 from Montreal along with a third-round draft pick and future considerations for Sergei Berezin."
       ],
       "hasFullText": false,
-      "GeographicLocations_xml": [
-        {
-          "name": "United States"
-        }
-      ],
-      "ISBN": [
-        "0670819107 :"
-      ],
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
-      "Author": [
-        "Shreve, Anita"
-      ],
-      "PageCount": [
-        "ix, 275 p."
+      "Title": [
+        "COYOTES SIGN SAVAGE FOR 4 MORE YEARS"
       ],
       "PublicationDate": [
-        "1989."
+        "20020316"
       ],
-      "Subtitle": [
-        "the legacy of the consciousness-raising movement"
+      "Author": [
+        "Bob McManaman"
       ],
-      "Title": [
-        "Women together, women alone"
+      "Genre": [
+        "News",
+        "News"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b1356402x"
+        "proquest_dll_1839009961"
       ],
-      "LCCN": [
-        "88040478"
-      ],
-      "LCCallNum": [
-        "HQ1421 .S57 1989"
+      "NewspaperSection": [
+        "Sports"
       ],
       "Language": [
         "English"
       ],
-      "PublicationDateCentury": [
-        "1900"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "PublicationDateDecade": [
-        "1980"
+      "SSID": [
+        "ssj0015727"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Women+together%2C+women+alone&rft.au=Shreve%2C+Anita&rft.date=1989&rft.pub=Viking&rft.isbn=0670819107+%3A&rft.externalDBID=n%2Fa&rft.externalDocID=b1356402x",
+      "ISSN": [
+        "0892-8711"
+      ],
       "Author_xml": [
         {
-          "fullname": "Shreve, Anita",
-          "surname": "Shreve",
-          "givenname": "Anita"
+          "fullname": "Bob McManaman"
         }
-      ],
-      "GeographicLocations": [
-        "United States"
-      ],
-      "Library": [
-        "Women's Center Library"
       ],
       "PublicationDate_xml": [
         {
-          "month": "01",
-          "text": "1989.",
-          "day": "01",
-          "year": "1989"
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
         }
       ],
       "PublicationPlace": [
-        "New York"
+        "Phoenix, Ariz"
       ],
-      "TemporalSubjectTerms": [
-        "20th century",
-        "1980"
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=COYOTES+SIGN+SAVAGE+FOR+4+MORE+YEARS&rft.jtitle=Arizona+Republic&rft.au=Bob+McManaman&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=C.8&rft.externalDBID=AREP&rft.externalDocID=1839009961",
+      "PQID": [
+        "1839009961"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "New York"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
+      ],
+      "Snippet": [
+        "Savage, 31, was acquired Jan. 25 from Montreal along with a third-round draft pick and future considerations for Sergei Berezin."
+      ],
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "C.8"
+      ],
+      "ContentType": [
+        "Newspaper Article"
+      ]
+    },
+    {
+      "Copyright_xml": [
+        {
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
+        }
+      ],
+      "PageNote": [
+        "B.4"
+      ],
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
+      ],
+      "inHoldings": false,
+      "hasFullText": false,
+      "Title": [
+        "OBITUARIES"
+      ],
+      "PublicationDate": [
+        "20020316"
+      ],
+      "Genre": [
+        "Obituary",
+        "Obituary"
+      ],
+      "PCID": [
+        "47992751"
+      ],
+      "ID": [
+        "proquest_dll_1839009101"
+      ],
+      "NewspaperSection": [
+        "Valley & State"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationEdition": [
+        "Final Chaser"
+      ],
+      "SSID": [
+        "ssj0015727"
+      ],
+      "ISSN": [
+        "0892-8711"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
+        }
+      ],
+      "PublicationPlace": [
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.4&rft.externalDBID=AREP&rft.externalDocID=1839009101",
+      "PQID": [
+        "1839009101"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Phoenix, Ariz"
+        }
+      ],
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
         ""
       ],
-      "availabilityToken": "b1356402x",
-      "ContentType": [
-        "Book"
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
       ],
-      "Publisher": [
-        "Viking"
+      "StartPage": [
+        "B.4"
+      ],
+      "ContentType": [
+        "Newspaper Article"
       ]
     },
     {
       "SubjectTerms": [
-        "Job hunting",
-        "Occupations",
-        "Professions",
-        "Vocational guidance"
+        "Athletes",
+        "Cyclones",
+        "Professional hockey"
       ],
-      "XQueryRevision": [
-        "Rev: 6229"
+      "Copyright_xml": [
+        {
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
+        }
+      ],
+      "PageNote": [
+        "C.1"
+      ],
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
       ],
       "inHoldings": false,
-      "DBID": [
-        "GXQ"
-      ],
-      "Notes": [
-        "File contains brochures, catalogs and other publications useful to potential job seekers."
+      "Abstract": [
+        "The sputtering but spunky Predators gave the Coyotes a fight, but they simply were no match for the hottest team in hockey, as Phoenix rolled to its sixth straight win with a 3-2 victory to start a five-game trip."
       ],
       "hasFullText": false,
-      "timestamp": [
-        "Thu Jul 09 19:44:12 EDT 2009"
-      ],
       "Title": [
-        "Career resources"
+        "BURKE'S 40 SAVES KEY COYOTES' 6TH STRAIGHT VICTORY"
+      ],
+      "PublicationDate": [
+        "20020316"
+      ],
+      "Author": [
+        "Bob McManaman"
+      ],
+      "Genre": [
+        "News",
+        "News"
+      ],
+      "PCID": [
+        "47992751"
       ],
       "ID": [
-        "gvsu_catalog_b12308006"
+        "proquest_dll_1839009531"
       ],
-      "LCCallNum": [
-        "Filed by Organization (M...)"
+      "NewspaperSection": [
+        "Sports"
       ],
       "Language": [
-        "Unknown"
+        "English"
       ],
-      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:book&rft.genre=book&rft.title=Career+resources&rft.externalDBID=n%2Fa&rft.externalDocID=b12308006",
-      "CorporateAuthor": [
-        "Manpower Temporary Services"
+      "PublicationEdition": [
+        "Final Chaser"
       ],
-      "Library": [
-        "Career Services"
+      "SSID": [
+        "ssj0015727"
+      ],
+      "ISSN": [
+        "0892-8711"
+      ],
+      "Author_xml": [
+        {
+          "fullname": "Bob McManaman"
+        }
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
+        }
       ],
       "PublicationPlace": [
-        "Grand Rapids, MI"
+        "Phoenix, Ariz"
       ],
-      "CorporateAuthor_xml": [
-        {
-          "name": "Manpower Temporary Services"
-        }
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=BURKE%27S+40+SAVES+KEY+COYOTES%27+6TH+STRAIGHT+VICTORY&rft.jtitle=Arizona+Republic&rft.au=Bob+McManaman&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=C.1&rft.externalDBID=AREP&rft.externalDocID=1839009531",
+      "PQID": [
+        "1839009531"
       ],
       "PublicationPlace_xml": [
         {
-          "name": "Grand Rapids, MI"
+          "name": "Phoenix, Ariz"
         }
       ],
-      "score": [
-        "1.0"
+      "DLL_JC": [
+        "AREP"
+      ],
+      "Snippet": [
+        "The sputtering but spunky Predators gave the Coyotes a fight, but they simply were no match for the hottest team in hockey, as Phoenix rolled to its sixth strai..."
+      ],
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "C.1"
+      ],
+      "ContentType": [
+        "Newspaper Article"
+      ]
+    },
+    {
+      "Copyright_xml": [
+        {
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
+        }
+      ],
+      "PageNote": [
+        "B.4"
+      ],
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
+      ],
+      "inHoldings": false,
+      "hasFullText": false,
+      "Title": [
+        "OBITUARIES"
+      ],
+      "PublicationDate": [
+        "20020316"
+      ],
+      "Genre": [
+        "Obituary",
+        "Obituary"
+      ],
+      "PCID": [
+        "47992751"
+      ],
+      "ID": [
+        "proquest_dll_1839009191"
+      ],
+      "NewspaperSection": [
+        "Valley & State"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationEdition": [
+        "Final Chaser"
+      ],
+      "SSID": [
+        "ssj0015727"
+      ],
+      "ISSN": [
+        "0892-8711"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
+        }
+      ],
+      "PublicationPlace": [
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.4&rft.externalDBID=AREP&rft.externalDocID=1839009191",
+      "PQID": [
+        "1839009191"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Phoenix, Ariz"
+        }
+      ],
+      "DLL_JC": [
+        "AREP"
       ],
       "Snippet": [
         ""
       ],
-      "availabilityToken": "b12308006",
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "B.4"
+      ],
       "ContentType": [
-        "Book"
+        "Newspaper Article"
+      ]
+    },
+    {
+      "Copyright_xml": [
+        {
+          "notice": "Copyright 2002 - Arizona Republic - All Rights Reverved"
+        }
+      ],
+      "PageNote": [
+        "B.4"
+      ],
+      "PublicationDecade": [
+        "2000"
+      ],
+      "PublicationTitle": [
+        "Arizona Republic"
+      ],
+      "PublicationCentury": [
+        "2000"
+      ],
+      "inHoldings": false,
+      "hasFullText": false,
+      "Title": [
+        "OBITUARIES"
+      ],
+      "PublicationDate": [
+        "20020316"
+      ],
+      "Genre": [
+        "Obituary",
+        "Obituary"
+      ],
+      "PCID": [
+        "47992751"
+      ],
+      "ID": [
+        "proquest_dll_1839009071"
+      ],
+      "NewspaperSection": [
+        "Valley & State"
+      ],
+      "Language": [
+        "English"
+      ],
+      "PublicationEdition": [
+        "Final Chaser"
+      ],
+      "SSID": [
+        "ssj0015727"
+      ],
+      "ISSN": [
+        "0892-8711"
+      ],
+      "PublicationDate_xml": [
+        {
+          "month": "03",
+          "text": "20020316",
+          "day": "16",
+          "year": "2002"
+        }
+      ],
+      "PublicationPlace": [
+        "Phoenix, Ariz"
+      ],
+      "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.4&rft.externalDBID=AREP&rft.externalDocID=1839009071",
+      "PQID": [
+        "1839009071"
+      ],
+      "PublicationPlace_xml": [
+        {
+          "name": "Phoenix, Ariz"
+        }
+      ],
+      "DLL_JC": [
+        "AREP"
+      ],
+      "Snippet": [
+        ""
+      ],
+      "Copyright": [
+        "Copyright 2002 - Arizona Republic - All Rights Reverved"
+      ],
+      "StartPage": [
+        "B.4"
+      ],
+      "ContentType": [
+        "Newspaper Article"
       ]
     }
   ],
-  "elapsedQueryTime": 62,
+  "totalRequestTime": 380,
+  "elapsedQueryTime": 369,
+  "version": "1.1.0",
   "facetFields": [
     {
-      "pageSize": 200,
-      "displayName": "sys_source_id",
-      "combineMode": "and",
-      "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28sys_source_id%2Cand%29",
-      "hasAppliedValue": false,
-      "fieldName": "sys_source_id",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28sys_source_id%29",
-      "counts": [
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "ieee",
-          "count": 46112,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cieee%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cieee%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "crossref",
-          "count": 136300,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ccrossref%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ccrossref%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "gvsu",
-          "count": 60534,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cgvsu%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cgvsu%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "ucalgary",
-          "count": 105651,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cucalgary%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cucalgary%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "ulrichs",
-          "count": 243315,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Culrichs%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Culrichs%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "emerald",
-          "count": 66119,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cemerald%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cemerald%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "liverpool",
-          "count": 595375,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cliverpool%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cliverpool%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "usyd",
-          "count": 100010,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cusyd%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cusyd%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "wmich",
-          "count": 128009,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cwmich%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Cwmich%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "econlit",
-          "count": 25400,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ceconlit%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_source_id%2Ceconlit%2Ctrue%29",
-          "isApplied": false
-        }
-      ]
-    },
-    {
-      "pageSize": 200,
-      "displayName": "sys_package_id",
-      "combineMode": "and",
-      "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28sys_package_id%2Cand%29",
-      "hasAppliedValue": false,
-      "fieldName": "sys_package_id",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28sys_package_id%29",
-      "counts": [
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "luna",
-          "count": 16,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cluna%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cluna%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "escholarship",
-          "count": 100,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cescholarship%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cescholarship%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "catalog",
-          "count": 982562,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Ccatalog%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Ccatalog%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "primary",
-          "count": 517246,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cprimary%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cprimary%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "findingaids",
-          "count": 1,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cfindingaids%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Cfindingaids%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "ourroots",
-          "count": 6900,
-          "applyCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Courroots%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28sys_package_id%2Courroots%2Ctrue%29",
-          "isApplied": false
-        }
-      ]
-    },
-    {
-      "pageSize": 10,
+      "pageSize": 6,
       "displayName": "ContentType",
-      "combineMode": "or",
+      "listValuesCommand": "listFacetValues(ContentType,or)",
       "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28ContentType_sfacet%2Cor%29",
+      "combineMode": "or",
       "hasAppliedValue": false,
+      "removeCommand": "removeFacetField(ContentType)",
+      "hasLimitingValue": true,
       "fieldName": "ContentType_sfacet",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28ContentType_sfacet%29",
+      "removeValueFiltersCommand": "removeFacetValueFilter(ContentType)",
       "counts": [
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Book",
-          "count": 799602,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CBook%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CBook%2Ctrue%29",
+          "count": 397831756,
+          "value": "Newspaper Article",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,Newspaper Article:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,Newspaper Article)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Trade Publication",
-          "count": 14613,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CTrade+Publication%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CTrade+Publication%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Archival Material",
-          "count": 6917,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CArchival+Material%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CArchival+Material%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "eBook",
-          "count": 118483,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CeBook%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CeBook%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Journal",
-          "count": 198759,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Magazine",
-          "count": 41709,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CMagazine%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CMagazine%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Government Document",
-          "count": 23035,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CGovernment+Document%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CGovernment+Document%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Conference Proceeding",
-          "count": 45340,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CConference+Proceeding%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CConference+Proceeding%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "JournalArticle",
-          "count": 49765,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournalArticle%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournalArticle%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
+          "count": 118733119,
           "value": "Journal Article",
-          "count": 179002,
-          "applyCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal+Article%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28ContentType_sfacet%2CJournal+Article%2Ctrue%29",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,Journal Article:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,Journal Article)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 16238898,
+          "value": "Book",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,Book:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,Book)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 7333265,
+          "value": "Dissertation",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,Dissertation:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,Dissertation)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 3489367,
+          "value": "eBook",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,eBook:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,eBook)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 1983494,
+          "value": "Government Document",
+          "applyNegatedCommand": "addFacetValueFilters(ContentType,Government Document:t)",
+          "applyCommand": "addFacetValueFilters(ContentType,Government Document)",
           "isApplied": false
         }
       ]
     },
     {
-      "pageSize": 10,
+      "pageSize": 2,
       "displayName": "IsScholarly",
-      "combineMode": "or",
+      "listValuesCommand": "listFacetValues(IsScholarly,or)",
       "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28IsScholarly_b%2Cor%29",
+      "combineMode": "or",
       "hasAppliedValue": false,
+      "removeCommand": "removeFacetField(IsScholarly)",
+      "hasLimitingValue": true,
       "fieldName": "IsScholarly_b",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28IsScholarly_b%29",
+      "removeValueFiltersCommand": "removeFacetValueFilter(IsScholarly)",
       "counts": [
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "true",
-          "count": 30710,
-          "applyCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Ctrue%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Ctrue%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
+          "count": 113082156,
           "value": "false",
-          "count": 351573,
-          "applyCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Cfalse%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28IsScholarly_b%2Cfalse%2Ctrue%29",
+          "applyNegatedCommand": "addFacetValueFilters(IsScholarly,false:t)",
+          "applyCommand": "addFacetValueFilters(IsScholarly,false)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 13822003,
+          "value": "true",
+          "applyNegatedCommand": "addFacetValueFilters(IsScholarly,true:t)",
+          "applyCommand": "addFacetValueFilters(IsScholarly,true)",
           "isApplied": false
         }
       ]
     },
     {
-      "pageSize": 10,
+      "pageSize": 6,
       "displayName": "Language",
-      "combineMode": "or",
+      "listValuesCommand": "listFacetValues(Language,or)",
       "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28Language_mfacet%2Cor%29",
+      "combineMode": "or",
       "hasAppliedValue": false,
+      "removeCommand": "removeFacetField(Language)",
+      "hasLimitingValue": true,
       "fieldName": "Language_mfacet",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28Language_mfacet%29",
+      "removeValueFiltersCommand": "removeFacetValueFilter(Language)",
       "counts": [
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Spanish",
-          "count": 33471,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CSpanish%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CSpanish%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Portuguese",
-          "count": 6827,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CPortuguese%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CPortuguese%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Latin",
-          "count": 3344,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CLatin%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CLatin%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Russian",
-          "count": 4802,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CRussian%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CRussian%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "French",
-          "count": 41252,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CFrench%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CFrench%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Unknown",
-          "count": 68904,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CUnknown%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CUnknown%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Italian",
-          "count": 10589,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CItalian%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CItalian%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "German",
-          "count": 33440,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CGerman%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CGerman%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Dutch",
-          "count": 2721,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CDutch%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CDutch%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
+          "count": 517427235,
           "value": "English",
-          "count": 1012517,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CEnglish%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Language_mfacet%2CEnglish%2Ctrue%29",
+          "applyNegatedCommand": "addFacetValueFilters(Language,English:t)",
+          "applyCommand": "addFacetValueFilters(Language,English)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 5478697,
+          "value": "Spanish",
+          "applyNegatedCommand": "addFacetValueFilters(Language,Spanish:t)",
+          "applyCommand": "addFacetValueFilters(Language,Spanish)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 2190194,
+          "value": "Portuguese",
+          "applyNegatedCommand": "addFacetValueFilters(Language,Portuguese:t)",
+          "applyCommand": "addFacetValueFilters(Language,Portuguese)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 1859828,
+          "value": "German",
+          "applyNegatedCommand": "addFacetValueFilters(Language,German:t)",
+          "applyCommand": "addFacetValueFilters(Language,German)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 1583220,
+          "value": "French",
+          "applyNegatedCommand": "addFacetValueFilters(Language,French:t)",
+          "applyCommand": "addFacetValueFilters(Language,French)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 310798,
+          "value": "Chinese",
+          "applyNegatedCommand": "addFacetValueFilters(Language,Chinese:t)",
+          "applyCommand": "addFacetValueFilters(Language,Chinese)",
           "isApplied": false
         }
       ]
     },
     {
-      "pageSize": 10,
+      "pageSize": 6,
       "displayName": "Library",
-      "combineMode": "or",
+      "listValuesCommand": "listFacetValues(Library,or)",
       "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28Library_mfacet%2Cor%29",
+      "combineMode": "or",
       "hasAppliedValue": false,
+      "removeCommand": "removeFacetField(Library)",
+      "hasLimitingValue": true,
       "fieldName": "Library_mfacet",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28Library_mfacet%29",
+      "removeValueFiltersCommand": "removeFacetValueFilter(Library)",
       "counts": [
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Storage",
-          "count": 38874,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage%2Ctrue%29",
+          "count": 1068666,
+          "value": "Main Library",
+          "applyNegatedCommand": "addFacetValueFilters(Library,Main Library:t)",
+          "applyCommand": "addFacetValueFilters(Library,Main Library)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "MacKimmie Library",
-          "count": 83054,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CMacKimmie+Library%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CMacKimmie+Library%2Ctrue%29",
+          "count": 1064988,
+          "value": "Baker Berry Library",
+          "applyNegatedCommand": "addFacetValueFilters(Library,Baker Berry Library:t)",
+          "applyCommand": "addFacetValueFilters(Library,Baker Berry Library)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
+          "count": 960121,
+          "value": "HAYDEN STACKS",
+          "applyNegatedCommand": "addFacetValueFilters(Library,HAYDEN STACKS:t)",
+          "applyCommand": "addFacetValueFilters(Library,HAYDEN STACKS)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 741136,
           "value": "Fisher Research",
-          "count": 57724,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CFisher+Research%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CFisher+Research%2Ctrue%29",
+          "applyNegatedCommand": "addFacetValueFilters(Library,Fisher Research:t)",
+          "applyCommand": "addFacetValueFilters(Library,Fisher Research)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Electronic Resource",
-          "count": 95548,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CElectronic+Resource%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CElectronic+Resource%2Ctrue%29",
+          "count": 512123,
+          "value": "UMKC Nichols Library",
+          "applyNegatedCommand": "addFacetValueFilters(Library,UMKC Nichols Library:t)",
+          "applyCommand": "addFacetValueFilters(Library,UMKC Nichols Library)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "Steelcase Library",
-          "count": 16581,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSteelcase+Library%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSteelcase+Library%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Harold Cohen Library",
-          "count": 68515,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CHarold+Cohen+Library%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CHarold+Cohen+Library%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Store Request",
-          "count": 68353,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStore+Request%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStore+Request%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Sydney Jones Library",
-          "count": 313203,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSydney+Jones+Library%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CSydney+Jones+Library%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Storage (Sydney)",
-          "count": 17410,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage+%5C%28Sydney%5C%29%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CStorage+%5C%28Sydney%5C%29%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "Science Fiction Foundation Collection",
-          "count": 26105,
-          "applyCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CScience+Fiction+Foundation+Collection%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28Library_mfacet%2CScience+Fiction+Foundation+Collection%2Ctrue%29",
+          "count": 508825,
+          "value": "E-Book Collection",
+          "applyNegatedCommand": "addFacetValueFilters(Library,E-Book Collection:t)",
+          "applyCommand": "addFacetValueFilters(Library,E-Book Collection)",
           "isApplied": false
         }
       ]
     },
     {
-      "pageSize": 10,
-      "displayName": "PublicationDate",
-      "combineMode": "or",
-      "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28PublicationDate_mfacet%2Cor%29",
-      "hasAppliedValue": false,
-      "fieldName": "PublicationDate_mfacet",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28PublicationDate_mfacet%29",
-      "counts": [
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2008",
-          "count": 45234,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2008%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2008%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2006",
-          "count": 47502,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2006%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2006%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2007",
-          "count": 44646,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2007%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2007%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2004",
-          "count": 35920,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2004%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2004%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2005",
-          "count": 37249,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2005%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2005%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2002",
-          "count": 35035,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2002%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2002%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "2003",
-          "count": 32962,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2003%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C2003%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "1978",
-          "count": 22697,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1978%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1978%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "1979",
-          "count": 24566,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1979%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1979%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "1989",
-          "count": 23169,
-          "applyCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1989%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28PublicationDate_mfacet%2C1989%2Ctrue%29",
-          "isApplied": false
-        }
-      ]
-    },
-    {
-      "pageSize": 10,
+      "pageSize": 6,
       "displayName": "SubjectTerms",
-      "combineMode": "and",
+      "listValuesCommand": "listFacetValues(SubjectTerms,and)",
       "pageNumber": 1,
-      "listValuesCommand": "s.cmd=listFacetValues%28SubjectTerms_mfacet%2Cand%29",
+      "combineMode": "and",
       "hasAppliedValue": false,
-      "fieldName": "SubjectTerms_mfacet",
+      "removeCommand": "removeFacetField(SubjectTerms)",
       "hasLimitingValue": true,
-      "removeCommand": "s.cmd=removeFacetField%28SubjectTerms_mfacet%29",
+      "fieldName": "SubjectTerms_mfacet",
+      "removeValueFiltersCommand": "removeFacetValueFilter(SubjectTerms)",
       "counts": [
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "law",
-          "count": 9469,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Claw%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Claw%2Ctrue%29",
+          "count": 6835055,
+          "value": "canada",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,canada:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,canada)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
+          "count": 4325317,
+          "value": "united states",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,united states:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,united states)",
+          "isApplied": false
+        },
+        {
+          "isFurtherLimiting": true,
+          "isNegated": false,
+          "count": 3053506,
           "value": "history",
-          "count": 65910,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory%2Ctrue%29",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,history:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,history)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "reviews",
-          "count": 8058,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Creviews%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Creviews%2Ctrue%29",
+          "count": 2708084,
+          "value": "humans",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,humans:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,humans)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "philosophy",
-          "count": 9709,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cphilosophy%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cphilosophy%2Ctrue%29",
+          "count": 2307790,
+          "value": "athletes",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,athletes:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,athletes)",
           "isApplied": false
         },
         {
           "isFurtherLimiting": true,
           "isNegated": false,
-          "value": "science fiction",
-          "count": 14295,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cscience+fiction%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cscience+fiction%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "economic conditions",
-          "count": 8250,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceconomic+conditions%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceconomic+conditions%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "social conditions",
-          "count": 8691,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Csocial+conditions%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Csocial+conditions%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "education",
-          "count": 10728,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceducation%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Ceducation%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "politics and government",
-          "count": 16848,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cpolitics+and+government%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Cpolitics+and+government%2Ctrue%29",
-          "isApplied": false
-        },
-        {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "history and criticism",
-          "count": 41449,
-          "applyCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory+and+criticism%2Cfalse%29",
-          "applyNegatedCommand": "s.cmd=addFacetValueFilter%28SubjectTerms_mfacet%2Chistory+and+criticism%2Ctrue%29",
+          "count": 2297895,
+          "value": "nonfiction",
+          "applyNegatedCommand": "addFacetValueFilters(SubjectTerms,nonfiction:t)",
+          "applyCommand": "addFacetValueFilters(SubjectTerms,nonfiction)",
           "isApplied": false
         }
       ]
     },
     {
       "pageSize": 1,
-      "displayName": "Fulltext",
+      "displayName": "IsFullText",
+      "pageNumber": 0,
       "combineMode": "or",
-      "pageNumber": 1,
       "hasAppliedValue": false,
-      "fieldName": "Fulltext",
-      "hasLimitingValue": true,
-      "removeCommand": "s.cmd=setParameter%28countFullText%2Cfalse%29",
+      "removeCommand": "removeFacetField(IsFullText)",
+      "hasLimitingValue": false,
+      "fieldName": "IsFullText",
+      "removeValueFiltersCommand": "removeFacetValueFilter(IsFullText)",
+      "counts": [
+
+      ]
+    }
+  ],
+  "rangeFacetFields": [
+    {
+      "displayName": "PublicationDate",
+      "removeCommand": "removeFacetField(PublicationDate)",
+      "fieldName": "PublicationDate_dt",
       "counts": [
         {
-          "isFurtherLimiting": true,
-          "isNegated": false,
-          "value": "true",
-          "count": 0,
-          "applyCommand": "s.cmd=setParameter%28fullTextOnly%2Ctrue%29",
+          "count": 339655011,
+          "applyCommand": "addRangeFilter(PublicationDate,*:2000)",
+          "range": {
+            "minValue": "*",
+            "maxValue": "2000"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 18856986,
+          "applyCommand": "addRangeFilter(PublicationDate,2001:2001)",
+          "range": {
+            "minValue": "2001",
+            "maxValue": "2001"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 19002048,
+          "applyCommand": "addRangeFilter(PublicationDate,2002:2002)",
+          "range": {
+            "minValue": "2002",
+            "maxValue": "2002"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 21173262,
+          "applyCommand": "addRangeFilter(PublicationDate,2003:2003)",
+          "range": {
+            "minValue": "2003",
+            "maxValue": "2003"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 22103626,
+          "applyCommand": "addRangeFilter(PublicationDate,2004:2004)",
+          "range": {
+            "minValue": "2004",
+            "maxValue": "2004"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 24616569,
+          "applyCommand": "addRangeFilter(PublicationDate,2005:2005)",
+          "range": {
+            "minValue": "2005",
+            "maxValue": "2005"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 24828835,
+          "applyCommand": "addRangeFilter(PublicationDate,2006:2006)",
+          "range": {
+            "minValue": "2006",
+            "maxValue": "2006"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 36248702,
+          "applyCommand": "addRangeFilter(PublicationDate,2007:2007)",
+          "range": {
+            "minValue": "2007",
+            "maxValue": "2007"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 24181815,
+          "applyCommand": "addRangeFilter(PublicationDate,2008:2008)",
+          "range": {
+            "minValue": "2008",
+            "maxValue": "2008"
+          },
+          "isApplied": false
+        },
+        {
+          "count": 21039863,
+          "applyCommand": "addRangeFilter(PublicationDate,2009:2009)",
+          "range": {
+            "minValue": "2009",
+            "maxValue": "2009"
+          },
           "isApplied": false
         }
       ]
     }
   ],
-  "sessionId": "eca42571-59cd-43e0-bee4-4657e7aec02a",
-  "recordCount": 1506825,
-  "rangeFacetFields": [
-
-  ],
-  "scholarlyCount": 30710,
+  "recordCount": 553016530,
+  "sessionId": "SUMMON-SESSION-legolas.local-98635-1",
   "query": {
     "searchTerms": [
 
     ],
+    "pageSize": 10,
     "rangeFilters": [
 
     ],
     "facetValueGroupFilters": [
 
     ],
-    "queryString": "",
     "facetValueFilters": [
+
+    ],
+    "queryString": "s.ho=t&s.rff=PublicationDate%2C*%3A2000%2C2001%3A2001%2C2002%3A2002%2C2003%3A2003%2C2004%3A2004%2C2005%3A2005%2C2006%3A2006%2C2007%3A2007%2C2008%3A2008%2C2009%3A2009&s.ps=10&s.ff=IsScholarly%2Cor%2C1%2C2&s.ff=Language%2Cor%2C1%2C6&s.ff=ContentType%2Cor%2C1%2C6&s.ff=IsFullText%2Cor%2C1%2C2&s.ff=Library%2Cor%2C1%2C6&s.ff=SubjectTerms%2Cand%2C1%2C6",
+    "facetFields": [
+      {
+        "pageSize": 2,
+        "pageNumber": 1,
+        "combineMode": "or",
+        "removeCommand": "removeFacetField(IsScholarly)",
+        "fieldName": "IsScholarly"
+      },
+      {
+        "pageSize": 6,
+        "pageNumber": 1,
+        "combineMode": "or",
+        "removeCommand": "removeFacetField(Language)",
+        "fieldName": "Language"
+      },
+      {
+        "pageSize": 6,
+        "pageNumber": 1,
+        "combineMode": "or",
+        "removeCommand": "removeFacetField(ContentType)",
+        "fieldName": "ContentType"
+      },
+      {
+        "pageSize": 2,
+        "pageNumber": 1,
+        "combineMode": "or",
+        "removeCommand": "removeFacetField(IsFullText)",
+        "fieldName": "IsFullText"
+      },
+      {
+        "pageSize": 6,
+        "pageNumber": 1,
+        "combineMode": "or",
+        "removeCommand": "removeFacetField(Library)",
+        "fieldName": "Library"
+      },
+      {
+        "pageSize": 6,
+        "pageNumber": 1,
+        "combineMode": "and",
+        "removeCommand": "removeFacetField(SubjectTerms)",
+        "fieldName": "SubjectTerms"
+      }
+    ],
+    "textFilters": [
 
     ],
     "textQueries": [
 
     ],
-    "textFilters": [
-
-    ],
-    "facetFields": [
-
-    ],
-    "rangeFacetFields": [
-
-    ],
     "sort": [
 
     ],
-    "params": [
-
-    ]
+    "rangeFacetFields": [
+      {
+        "ranges": [
+          {
+            "minValue": "*",
+            "maxValue": "2000"
+          },
+          {
+            "minValue": "2001",
+            "maxValue": "2001"
+          },
+          {
+            "minValue": "2002",
+            "maxValue": "2002"
+          },
+          {
+            "minValue": "2003",
+            "maxValue": "2003"
+          },
+          {
+            "minValue": "2004",
+            "maxValue": "2004"
+          },
+          {
+            "minValue": "2005",
+            "maxValue": "2005"
+          },
+          {
+            "minValue": "2006",
+            "maxValue": "2006"
+          },
+          {
+            "minValue": "2007",
+            "maxValue": "2007"
+          },
+          {
+            "minValue": "2008",
+            "maxValue": "2008"
+          },
+          {
+            "minValue": "2009",
+            "maxValue": "2009"
+          }
+        ],
+        "removeCommand": "removeFacetField(PublicationDate)",
+        "fieldName": "PublicationDate"
+      }
+    ],
+    "isHoldingsOnlyEnabled": true
   }
 }
