@@ -87,6 +87,10 @@ class Summon::Document < Summon::Schema
   def to_s(options = {})
     "Title: #{title}"
   end
+
+  def local_content_type
+    translate(@content_type)      
+  end
 end
 
 

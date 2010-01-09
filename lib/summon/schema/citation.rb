@@ -6,6 +6,6 @@ class Summon::Citation < Summon::Schema
   attr :text
   
   def self.parse_results(results)
-    results["Results"]["Citations"]["Citation"].map {|result| new(result) }
+    results["Results"]["Citations"]["Citation"].map {|result| new(@service, result) }
   end
 end

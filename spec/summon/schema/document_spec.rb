@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Document do
   it "should map" do
-    doc = Summon::Document.new(JSON.parse(EXAMPLE_DOCUMENT_JSON))
+    doc = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))
     doc.remove_src
     doc.publication_date.remove_src
     doc.authors.each {|a| a.remove_src }
@@ -235,6 +235,7 @@ patent_number:
 publication_date: !ruby/object:Summon::Date 
   day: "02"
   month: "01"
+  service: 
   src: 
   text: c2000.
   year: "2000"
@@ -243,6 +244,7 @@ publication_title: Batman Books
 publishers: 
 - Spirulina Records
 - Swingsistersound
+service: 
 snippet: This is the snippet
 src: 
 start_page: pp23

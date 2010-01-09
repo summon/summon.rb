@@ -14,5 +14,9 @@ describe Summon::Service do
   it "has a default url which is the public production summon url" do
     Summon::Service.new.url.should == "http://api.summon.serialssolutions.com"
   end
-    
+  
+  it "should have a locale set to the locale specified" do
+    Summon::Service.new.locale.should == 'en'
+  end
+      
 end

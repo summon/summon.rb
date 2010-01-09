@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Search do
   it "maps" do
-    search = Summon::Search.new(JSON.parse(<<-JSON))
+    search = Summon::Search.new(@service, JSON.parse(<<-JSON))
     {
       "pageCount": 0,
       "didYouMeanSuggestions": [
@@ -34,7 +34,7 @@ JSON
   end
   
   it "should handle an error case" do
-    search = Summon::Search.new(
+    search = Summon::Search.new(@service, 
       "version" => "1.0.0", 
       "errors" => [
         {
@@ -55,8 +55,8 @@ JSON
   end
   
   it "should be empty w/ no docs" do
-    Summon::Search.new({}).should be_empty
-    Summon::Search.new({"documents" => [{}]}).should_not be_empty
+    Summon::Search.new(@service, {}).should be_empty
+    Summon::Search.new(@service, {"documents" => [{}]}).should_not be_empty
   end
     
 end

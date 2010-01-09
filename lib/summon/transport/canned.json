@@ -1,8 +1,11 @@
 {
   "pageCount": 55301653,
   "didYouMeanSuggestions": [
-
-  ],
+  {
+    "originalQuery": "louis rmstrong",
+    "newSearchCommand": "s.cmd=setTextQuery%28louis+armstrong%29",
+    "suggestedQuery": "louis armstrong"
+  }],
   "queryTime": 360,
   "documents": [
     {
@@ -30,6 +33,9 @@
       ],
       "PublicationDate": [
         "20020316"
+      ],
+      "Author": [
+        "Hunter, Lisa"
       ],
       "Genre": [
         "Obituary",

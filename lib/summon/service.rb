@@ -2,14 +2,17 @@
 module Summon
   class Service
     
-    attr_reader :transport, :url, :access_id, :client_key
+    attr_reader :transport, :url, :access_id, :client_key, :locale
     
-    def initialize(options = {})      
+    def initialize(options = {})
+      puts "IN SERVICE : #{options.inspect}"
+      
       @url        = options[:url] || "http://api.summon.serialssolutions.com"
-      @access_id  = options[:access_id]      
+      @access_id  = options[:access_id]
       @secret_key = options[:secret_key]
       @client_key = options[:client_key]
-      @log        = Log.new(options[:log])      
+      @locale     = options[:locale] || Summon::DEFAULT_LOCALE
+      @log        = Log.new(options[:log])
       @transport  = options[:transport] || Summon::Transport::Http.new(:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :session_id => options[:session_id], :log => @log)
     end
 
@@ -19,7 +22,7 @@ module Summon
     
     def search(params = {})
       connect("/search", params) do |result|
-        Summon::Search.new(result)
+        Summon::Search.new(self,result)
       end
     end
 
@@ -37,7 +40,6 @@ module Summon
     def connect(path, params = {})
       yield @transport.get(path, params)
     end
-            
   end
 end
 

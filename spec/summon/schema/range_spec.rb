@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::RangeFacet do
   it "maps" do
-    range = Summon::RangeFacet.new(JSON.parse(<<-JSON))
+    range = Summon::RangeFacet.new(@service, JSON.parse(<<-JSON))
     {
       "displayName": "PublicationDate",
       "removeCommand": "removeFacetField(PublicationDate)",

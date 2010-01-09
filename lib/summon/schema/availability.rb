@@ -8,7 +8,7 @@ class Summon::Availability < Summon::Schema
 
   def self.parse_results(results)
     results["Result"]["RecordSummary"].map do |record| 
-      new(record["Record"].merge(:token => record["ID"]))
+      new(@service, record["Record"].merge(:token => record["ID"]))
     end
   end
 end

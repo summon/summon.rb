@@ -5,10 +5,10 @@ describe "Summon Gem Integration Test" do
     service = Summon::Service.new(:transport => Summon::Transport::Canned.new)
     search = service.search
     search.should_not be_nil
-    search.record_count.should == 1506825
-    search.page_count.should == 100456
-    search.total_request_time.should == 80
-    search.query_time.should == 57
+    search.record_count.should == 553016530
+    search.page_count.should == 55301653
+    search.total_request_time.should == 380
+    search.query_time.should == 360
     search.suggestions.should_not be_nil
     search.suggestions.length.should == 1
     dym = search.suggestions.first
@@ -17,12 +17,12 @@ describe "Summon Gem Integration Test" do
     
     documents = search.documents
     documents.should_not be_nil
-    documents.length.should == 15
+    documents.length.should == 10
     d = documents[0]
-    d.id.should == "gvsu_catalog_b16644323"
-    d.content_type.should == "Audio Recording"
+    d.id.should == 'proquest_dll_1839009301'
+    d.content_type.should == 'Newspaper Article'
     d.authors.map{|a| a.name}.should == ["Hunter, Lisa"]
-    d.open_url.should == "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323"
+    d.open_url.should == "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.5&rft.externalDBID=AREP&rft.externalDocID=1839009301"
     d.fulltext?.should be(false)
     
     
@@ -30,7 +30,7 @@ describe "Summon Gem Integration Test" do
     facets.should_not be_nil
     facets.length.should >= 5
     ctype = facets[2]
-    ctype.display_name.should == "ContentType"
+    ctype.display_name.should == "Language"
     ctype.combine_mode.should == 'or'
   end
   
@@ -44,5 +44,9 @@ describe "Summon Gem Integration Test" do
     Summon.unescape(escaped).should == unescaped
     Summon.unescape(Summon.escape(unescaped)).should == unescaped
     Summon.escape(Summon.unescape(escaped)).should == escaped
+  end
+  
+  it "should have a default locale" do
+    Summon::DEFAULT_LOCALE.should == 'en'
   end
 end

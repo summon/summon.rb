@@ -17,6 +17,10 @@ class Summon::RangeFacet < Summon::Schema
     false
   end
   
+  def local_name
+    translate(@display_name)
+  end
+  
   # #COMPATIBILITY
   # 
   # alias_method :name, :display_name

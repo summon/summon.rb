@@ -13,7 +13,7 @@ module Summon
     end
 
     module Initializer
-      def new(values = {})
+      def new(service, values = {})
         dup = {}
         for k, v in values
           dup[k.to_s] = v
@@ -21,21 +21,21 @@ module Summon
         instance = allocate
         instance.instance_eval do
           @src = values
+          @service = service
         end
         for attribute in @attrs
-          instance.instance_variable_set("@#{attribute.name}", attribute.get(dup))
-        end
+          instance.instance_variable_set("@#{attribute.name}", attribute.get(service, dup))
+        end        
         instance
       end
     end
     
-    module ClassMethods      
-      
+    module ClassMethods
       def attr(name, options = {})
         if name.to_s =~ /^(.*)\?$/
           name = $1
           options[:boolean] = true
-        end        
+        end
         symbol = name.to_sym
         @attrs << ::Summon::Schema::Attr.new(symbol, options)
         define_method(name) do |*args|
@@ -63,12 +63,27 @@ module Summon
         self.class.attrs.inject({}) do |json, attr|
           json.merge attr.name => self.send(attr.name)
         end.to_json(*a)        
-      end    
+      end
+      
+      def locale
+        puts "CALLING LOCALE?: #{@service.locale}"
+        @service.locale
+      end
+      
+      def translate(value)
+        puts "CALLING translate: #{value}"
+        default = Summon::Locale.const_get(Summon::DEFAULT_LOCALE.upcase)
+        translator = Summon::Locale.const_defined?(locale.upcase) ? Summon::Locale.const_get(locale.upcase) : default
+        puts "translator: #{translator.inspect}"
+        puts "translator::TRANSLATIONS - #{translator::TRANSLATIONS[value]}"
+        translator::TRANSLATIONS[value] ? translator::TRANSLATIONS[value] : default::TRANSLATIONS[value] ? default::TRANSLATIONS[value] : value
+      end
     end
     
     class Attr
       attr_reader :name
       def initialize(name, options)
+        puts "IN Attr::initialize: name - #{name} options - #{options}"
         @name = name
         @boolean = options[:boolean]
         @camel_name = camelize(name.to_s)
@@ -79,14 +94,14 @@ module Summon
         @single = options[:single].nil? ? !(name.to_s.downcase =~ /s$/) : options[:single]
       end
       
-      def get(json)      
+      def get(service, json)
         raw = json[@json_name || @camel_name]
         raw = json[@pascal_name] if raw.nil?
         if raw.nil?
           @single ? nil : []
         else
           raw = @single && raw.kind_of?(Array) ? raw.first : raw
-          transform(raw) || raw          
+          transform(service, raw) || raw
         end
       end
       
@@ -96,14 +111,14 @@ module Summon
         end
       end
       
-      def transform(raw)
+      def transform(service, raw)
         if @transform
-          ctor = proc do |h| 
-            ::Summon.const_get(@transform).new(h)
+          ctor = proc do |s,h| 
+            ::Summon.const_get(@transform).new(s,h)
           end
-          raw.kind_of?(Array) ? raw.map(&ctor) : ctor.call(raw)
+          raw.kind_of?(Array) ? raw.map {|a| [service, a]}.map(&ctor) : ctor.call(service, raw)
         end
       end
     end
   end
-end
+ end

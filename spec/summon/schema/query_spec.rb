@@ -154,7 +154,7 @@ describe Summon::Query do
   end
   
   def query(params)
-    Summon::Query.new(params)
+    Summon::Query.new(@service, params)
   end
   
 end

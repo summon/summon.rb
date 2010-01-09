@@ -11,7 +11,47 @@ describe Summon::Schema do
   end
   
   def init(values)
-    @class.new(values)
+    @class.new(mock(:service, :locale => 'en'), values)
+  end
+  
+  describe "Locale" do
+                
+    it "should have a french local when set to fr" do
+      Class.new(Summon::Schema).new(mock(:service, :locale => 'fr')).tap do |o|
+        o.locale.should == 'fr'
+      end
+    end
+    
+    it "should translate ContentType to french" do
+      Class.new(Summon::Schema).new(mock(:service, :locale => 'fr')).tap do |o|
+        o.translate("ContentType").should == 'Type de la Contente'
+      end
+    end
+    
+    it "should be able to switch translation languages" do
+      mock(:service, :locale => 'fr').tap do |service|
+        Class.new(Summon::Schema).new(service).tap do |o|
+          o.translate("ContentType").should == 'Type de la Contente'
+          service.stub!(:locale).and_return('en')
+          o.translate("ContentType").should == 'ContentType'
+        end
+      end
+    end
+    
+    it "should go to the default language if the locale is not available" do
+      Class.new(Summon::Schema).new(mock(:service, :locale => 'fr')).tap do |o|
+       o.translate("ContentType").should == 'Type de la Contente'
+       o.translate("Book").should == 'Book'        
+      end
+    end
+    
+    it "should default to english if it does not recognize the locale" do
+      mock(:service, :locale => 'xx').tap do |service|
+        Class.new(Summon::Schema).new(service).tap do |o|
+          o.translate("ContentType").should == 'ContentType'
+        end
+      end
+    end
   end
   
   it "pulls its attributes from a hash" do
@@ -137,7 +177,4 @@ describe Summon::Schema do
     end
     init({}).foos.should == []
   end
-  
-  
-  
 end

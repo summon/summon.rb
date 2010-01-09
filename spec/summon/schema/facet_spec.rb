@@ -1,9 +1,8 @@
 require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Facet do
-
   it "should map" do
-    facet = Summon::Facet.new(JSON.parse(EXAMPLE_FACET_JSON))
+    facet = Summon::Facet.new(@service, JSON.parse(EXAMPLE_FACET_JSON))
     facet.remove_src
     facet.counts.each {|f| f.remove_src }
     facet.to_yaml.should == EXPECTED_FACET_YAML
@@ -14,12 +13,33 @@ describe Summon::Facet do
     first.remove_command.should == "eatMyShorts()"
   end
   
+  describe "translate display name" do
+    it "should return the default value" do
+      mock(:service, :locale => 'en').tap do |service|
+        @facet = Summon::Facet.new(service, JSON.parse(EXAMPLE_FACET_JSON))
+        @facet.local_name.should == @facet.display_name
+      end
+    end
+    
+    it "should return the Frech locale" do
+      mock(:service, :locale => 'fr').tap do |service|
+        @facet = Summon::Facet.new(service, JSON.parse(EXAMPLE_FACET_JSON))
+      
+        @facet.display_name.should == "ContentType"
+        @facet.local_name.should == "Type de la Contente"
+      end
+    end
+  end
+  
+  
   it "should now how to escape values" do
-    count = Summon::FacetCount.new(:value => "the quick, brown, fox")
+    service = mock(:service, :locale => 'en')
+    
+    count = Summon::FacetCount.new(service, :value => "the quick, brown, fox")
     count.value.should == "the quick, brown, fox"
     count.escaped_value.should == 'the quick\, brown\, fox'
     
-    Summon::FacetCount.new(:value => ': everything (else) and $1 or {is} it\ ').escaped_value.should == 
+    Summon::FacetCount.new(service, :value => ': everything (else) and $1 or {is} it\ ').escaped_value.should == 
                                      '\: everything \(else\) and \$1 or \{is\} it\\ '
   end
   
@@ -82,6 +102,7 @@ counts:
   further_limiting: true
   negated: false
   remove_command: eatMyShorts()
+  service: 
   src: 
   value: Book
 - !ruby/object:Summon::FacetCount 
@@ -92,6 +113,7 @@ counts:
   further_limiting: true
   negated: false
   remove_command: eatMyShorts()
+  service: 
   src: 
   value: JournalArticle
 - !ruby/object:Summon::FacetCount 
@@ -102,6 +124,7 @@ counts:
   further_limiting: true
   negated: false
   remove_command: eatMyShorts()
+  service: 
   src: 
   value: Journal Article
 display_name: ContentType
@@ -110,6 +133,7 @@ page_number: 1
 page_size: 10
 remove_command: removeFacetField(ContentType_sfacet)
 remove_value_filters_command: removeFacetValueFilters(ContentType)
+service: 
 src: 
   YAML
 end
