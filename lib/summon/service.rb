@@ -5,8 +5,6 @@ module Summon
     attr_reader :transport, :url, :access_id, :client_key, :locale
     
     def initialize(options = {})
-      puts "IN SERVICE : #{options.inspect}"
-      
       @url        = options[:url] || "http://api.summon.serialssolutions.com"
       @access_id  = options[:access_id]
       @secret_key = options[:secret_key]

@@ -66,16 +66,12 @@ module Summon
       end
       
       def locale
-        puts "CALLING LOCALE?: #{@service.locale}"
         @service.locale
       end
       
       def translate(value)
-        puts "CALLING translate: #{value}"
         default = Summon::Locale.const_get(Summon::DEFAULT_LOCALE.upcase)
         translator = Summon::Locale.const_defined?(locale.upcase) ? Summon::Locale.const_get(locale.upcase) : default
-        puts "translator: #{translator.inspect}"
-        puts "translator::TRANSLATIONS - #{translator::TRANSLATIONS[value]}"
         translator::TRANSLATIONS[value] ? translator::TRANSLATIONS[value] : default::TRANSLATIONS[value] ? default::TRANSLATIONS[value] : value
       end
     end
@@ -83,7 +79,6 @@ module Summon
     class Attr
       attr_reader :name
       def initialize(name, options)
-        puts "IN Attr::initialize: name - #{name} options - #{options}"
         @name = name
         @boolean = options[:boolean]
         @camel_name = camelize(name.to_s)
