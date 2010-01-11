@@ -73,6 +73,9 @@ describe Summon::Document do
   "ISICitedReferencesCount": [
     5
   ],
+  "ISICitedReferencesURI": [
+    "http://happy.com"
+  ],
   "LCCallNum": [
     "M1630.18 .H95 2000",
     "M1630.20 .H95 2000"
@@ -229,6 +232,7 @@ isbns:
 - 0849343763 (v. 1)
 - 0849343771 (v. 2)
 isi_cited_references_count: 5
+isi_cited_references_uri: http://happy.com
 issns: 
 - 1063-7125
 - 0000-1111
