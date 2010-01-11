@@ -8,6 +8,10 @@ bin/summonh
 ispec/integration_spec.rb
 lib/summon.rb
 lib/summon/cli.rb
+lib/summon/locales/en.rb
+lib/summon/locales/fr.rb
+lib/summon/locales/jp.rb
+lib/summon/locales/xx.rb
 lib/summon/log.rb
 lib/summon/schema.rb
 lib/summon/schema/availability.rb

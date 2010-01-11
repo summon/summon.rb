@@ -6,12 +6,12 @@ require 'cgi'
 require 'json'
 
 module Summon
-  VERSION = "1.1.2"
+  VERSION = "1.1.3"
   DEFAULT_LOCALE = 'en'
   require 'summon/locales/en'
   require 'summon/locales/fr'
   require 'summon/locales/jp'
-  
+
   require 'summon/log'
   require 'summon/service'
   require 'summon/transport'

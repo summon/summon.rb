@@ -1,3 +1,8 @@
+=== 1.1.3 2010-01-11
+* 2 major enhancements:
+  * support for passing locale to summon gem
+  * add japanese language translations
+
 === 1.1.1 2009-12-11
 * 2 minor enhancements:
   * add support to handle government document classification number (GovDocClassNum)
