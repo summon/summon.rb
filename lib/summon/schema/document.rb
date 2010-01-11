@@ -44,6 +44,7 @@ class Summon::Document < Summon::Schema
   attr :snippet #highlight
   attr :abstract
   attr :fulltext, :boolean => true, :json_name => "hasFullText"
+  attr :uri, :json_name => "URI"
   attr :url
   attr :open_url
   attr :subject_terms
@@ -52,7 +53,6 @@ class Summon::Document < Summon::Schema
   attr :thumbnail_medium, :json_name => "thumbnail_m"
   attr :thumbnail_large, :json_name =>  "thumbnail_l"
   attr :availability_id
-
 
   def isbn
     @isbns.first

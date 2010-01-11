@@ -90,6 +90,9 @@ describe Summon::Document do
   "PublicationDateDecade": [
     "2000"
   ],
+  "URI": [
+    "http://disney.com"
+  ],
   "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323",
   "Author_xml": [
     {
@@ -261,6 +264,7 @@ thumbnail_large: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3
 thumbnail_medium: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/medium
 thumbnail_small: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/small
 title: Lisa Hunter -- alive
+uri: http://disney.com
 url: 
 volume: 
   YAML
