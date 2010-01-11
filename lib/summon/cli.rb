@@ -51,7 +51,6 @@ module Summon
         opts.on("--s.ps=INT", Integer, "Page Size: number of documents to return per page") {|n| params["s.ps"] = n}
         opts.on("--s.pn=INT", Integer, "Page Number: start the results at this page, starting with 1") {|n| params["s.pn"] = n}
         opts.on("--s.ho=BOOLEAN", "Holdings Only: restrict this search to my institution's holdings only ") {|n| params["s.ho"] = n}
-        opts.on("--s.role=ROLE", String, "Set to Authenticated in order to fetch restricted content") {|r| params["s.role"] = r; raise OptionParser::ParseError.new("'authenticated' is the only valid value of parameter 's.role' (was '#{r}')") unless r == 'authenticated'}
         opts.on("--s.sort=FIELD:DIRECTION", "Sort: specifiy sort order (e.g. PublicationDate:DESC)") {|s| params["s.sort"] = s}
         opts.on("--s.dym=BOOLEAN", "Did You Mean?: enables or disables search suggestions.") {|dym| params["s.dym"] = dym}
 
