@@ -21,7 +21,8 @@ module Summon
         "s.fvgf" => [],
         "s.rff" => [],
         "s.hs" => "*",
-        "s.he" => "*"
+        "s.he" => "*",
+        "s.role" => "none"
       }
       raw = nil
 
@@ -53,6 +54,7 @@ module Summon
         opts.on("--s.ho=BOOLEAN", "Holdings Only: restrict this search to my institution's holdings only ") {|n| params["s.ho"] = n}
         opts.on("--s.sort=FIELD:DIRECTION", "Sort: specifiy sort order (e.g. PublicationDate:DESC)") {|s| params["s.sort"] = s}
         opts.on("--s.dym=BOOLEAN", "Did You Mean?: enables or disables search suggestions.") {|dym| params["s.dym"] = dym}
+        opts.on("--s.role=VALUE", "API Authorization Role.  e.g. --s.role=none (default) or --s.role=authenticated") {|s| params["s.role"] = s}
 
         opts.separator ""
         opts.separator "Configuration Options"
