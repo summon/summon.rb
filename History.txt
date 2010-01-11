@@ -1,3 +1,6 @@
+=== 1.1.4 2010-01-12
+* 1 minor enhancements:
+  * add access to ISICitedReferencesCount for documents on which they're available
 === 1.1.3 2010-01-11
 * 2 major enhancements:
   * support for passing locale to summon gem
