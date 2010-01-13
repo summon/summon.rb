@@ -26,6 +26,7 @@ module Summon
   require 'summon/schema/availability'
   require 'summon/schema/citation'
   require 'summon/schema/error'
+  require 'summon/schema/recommendation_list'
   
   def self.escape(value)
     value.gsub(/(,|\(|\)|\{|\}|\$|\:)/, '\\\\\1').gsub("\\", '\\')

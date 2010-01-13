@@ -8,6 +8,7 @@ class Summon::Search < Summon::Schema
   attr :total_request_time
 
   attr :query, :transform => :Query
+  attr :recommendations, :transform => :RecommendationList, :json_name => "recommendationLists"
   attr :suggestions, :transform => :Suggestion, :json_name => :didYouMeanSuggestions
   attr :documents, :transform => :Document
   attr :facets, :transform => :Facet, :json_name => "facetFields"
