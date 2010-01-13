@@ -1,3 +1,7 @@
+=== 1.1.5 2010-01-13
+* 1 major enhancement
+  * add support for database recomendation lists
+  
 === 1.1.4 2010-01-12
 * 4 minor enhancements:
   * add ISICitedReferencesCount for documents on which they're available
