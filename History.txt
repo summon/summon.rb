@@ -1,3 +1,7 @@
+=== 1.1.6 2010-01-14
+* 1 minor enhancement
+  * tweak database recommendation lists to make it support multiple recommendations
+  
 === 1.1.5 2010-01-13
 * 1 major enhancement
   * add support for database recomendation lists

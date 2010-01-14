@@ -1,15 +1,9 @@
 class Summon::RecommendationList < Summon::Schema
-  attr :database
+  attr :databases, :transform => :DatabaseRecommendation, :single => false, :json_name => "database"
+end
 
-  def description
-    @database['description']
-  end
-
-  def link
-    @database['link']
-  end
-
-  def title
-    @database['title']
-  end
+class Summon::DatabaseRecommendation < Summon::Schema
+  attr :title
+  attr :link
+  attr :description
 end

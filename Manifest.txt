@@ -46,6 +46,7 @@ spec/summon/schema/document_spec.rb
 spec/summon/schema/facet_spec.rb
 spec/summon/schema/query_spec.rb
 spec/summon/schema/range_spec.rb
+spec/summon/schema/recommendation_list_spec.rb
 spec/summon/schema/search_spec.rb
 spec/summon/schema_spec.rb
 spec/summon/service_spec.rb
