@@ -1,3 +1,7 @@
+=== 1.1.7 2010-02-18
+* 1 minor enhancement
+  * allow locale to be specified as either a string or a symbol
+  
 === 1.1.6 2010-01-14
 * 1 minor enhancement
   * tweak database recommendation lists to make it support multiple recommendations
