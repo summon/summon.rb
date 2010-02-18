@@ -15,8 +15,16 @@ describe Summon::Service do
     Summon::Service.new.url.should == "http://api.summon.serialssolutions.com"
   end
   
-  it "should have a locale set to the locale specified" do
-    Summon::Service.new.locale.should == 'en'
+  describe "Locale" do
+  
+    it "has a default" do
+      Summon::Service.new.locale.should == 'en'
+    end
+  
+    it "doesn't matter whether you pass it a symbol or not for the locale" do
+      Summon::Service.new(:locale => :nl).locale.should == 'nl'
+    end
+  
   end
       
 end
