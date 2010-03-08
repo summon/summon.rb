@@ -1,3 +1,8 @@
+
+=== upcoming
+* 1 minor enhancements
+  * added from_library? to see if a document is from the library catalog
+
 === 1.1.7 2010-02-18
 * 1 minor enhancement
   * allow locale to be specified as either a string or a symbol

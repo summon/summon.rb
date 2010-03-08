@@ -94,6 +94,11 @@ class Summon::Document < Summon::Schema
   def local_content_type
     translate(@content_type)      
   end
+
+  def from_library?
+    @availability_id != nil
+  end
+
 end
 
 

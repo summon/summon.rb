@@ -8,6 +8,20 @@ describe Summon::Document do
     doc.authors.each {|a| a.remove_src }
     doc.to_yaml.should == EXPECTED_DOCUMENT_YAML
   end
+
+  describe "from_library?" do
+    it "should return true if the document has an availability_id" do
+      doc = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))
+      doc.from_library?.should be(true)
+    end
+
+    it "should return false if the document doesn't have an availability_id" do
+      document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
+      document_data.delete('availabilityId')
+      doc = Summon::Document.new(@service, document_data)
+      doc.from_library?.should be(false)
+    end
+  end
     
   EXAMPLE_DOCUMENT_JSON = <<-JSON
 {
