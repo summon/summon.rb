@@ -63,7 +63,7 @@ module Summon
         "Bosnian" =>  "ボスニア語",
         "Government Document" =>  "政府文書",
         "Fijian" =>  "フィージー語",
-        "PublicationDate" =>  "公開日",
+        "PublicationDate" =>  "発行年月日",
         "Art" =>  "美術",
         "Report" =>  "レポート",
         "Music Recording" =>  "音楽録音",
