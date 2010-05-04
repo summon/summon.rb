@@ -207,6 +207,9 @@ describe Summon::Document do
   ],
   "thumbnail_m": [
     "http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/medium"
+  ],
+  "PublicationPlace": [
+    "Indiana"
   ]
 }
   JSON
@@ -264,6 +267,7 @@ publication_date: !ruby/object:Summon::Date
   src: 
   text: c2000.
   year: "2000"
+publication_place: Indiana
 publication_series_title: A Bantam book
 publication_title: Batman Books
 publishers: 
