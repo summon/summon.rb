@@ -1,7 +1,8 @@
 === EDGE 
 * 1 minor enhancement
   * fix japanese translation for Publication Date 
-  
+  * Added publication_place to document schema
+
 === 1.1.8 2010-03-08
 * 1 minor enhancements
   * added from_library? to see if a document is from the library catalog
