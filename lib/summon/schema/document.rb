@@ -16,6 +16,7 @@ class Summon::Document < Summon::Schema
   attr :end_page
   attr :page_count
   attr :publication_date, :json_name => "PublicationDate_xml",  :transform => :Date
+  attr :publication_place
 
   attr :isi_cited_references_count, :json_name => "ISICitedReferencesCount"
   attr :isi_cited_references_uri, :json_name => "ISICitedReferencesURI"
