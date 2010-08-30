@@ -1,5 +1,12 @@
+=== 1.1.10 2010-05-06
+* 4 minor enhancements
+  * updated "en" and "xx" locales
+  * Added additional translation stubs
+  * Added full on translations
+  # Added Edition to document schema
+
 === 1.1.9 2010-05-03
-* 1 minor enhancement
+* 2 minor enhancement
   * fix japanese translation for Publication Date 
   * Added publication_place to document schema
 

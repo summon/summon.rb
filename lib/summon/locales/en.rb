@@ -2,12 +2,12 @@ module Summon
   module Locale
     module EN
       TRANSLATIONS = {
-        "ContentType"               => "ContentType",
-        "IsScholarly"               => "IsScholarly",
+        "ContentType"               => "Content Type",
+        "IsScholarly"               => "Is Scholarly",
         "Language"                  => "Language",
-        "Library"                   => "Library",
-        "PublicationDate"           => "PublicationDate",
-        "SubjectTerms"              => "SubjectTerms",
+        "Library"                   => "Library Locations",
+        "PublicationDate"           => "Publication Date",
+        "SubjectTerms"              => "Subject Terms",
         
         "Album"                     => "Album",
         "Architectural Drawing"     => "Architectural Drawing",

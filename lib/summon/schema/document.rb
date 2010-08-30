@@ -12,6 +12,7 @@ class Summon::Document < Summon::Schema
   attr :publishers, :json_name => "Publisher"
   attr :volume
   attr :issue
+  attr :edition
   attr :start_page
   attr :end_page
   attr :page_count

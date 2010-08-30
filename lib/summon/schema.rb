@@ -66,7 +66,7 @@ module Summon
       end
       
       def locale
-        @service.locale
+        @service.locale.gsub(/-/, "")
       end
       
       def translate(value)
@@ -101,15 +101,36 @@ module Summon
       end
       
       def camelize(str)
-        str.gsub /(\w)_(\w)/ do 
+        str.gsub /(\w)_(\w)/ do
           "#{$1}#{$2.upcase}"
         end
+      end
+
+      def pascalize(str)
+        str.gsub(/(_|^)(\w)/) {$2.upcase}
       end
       
       def transform(service, raw)
         if @transform
-          ctor = proc do |s,h| 
-            ::Summon.const_get(@transform).new(s,h)
+          case @transform
+            when Class
+              ctor = proc do |s,h|
+                @transform.new(s, h)
+              end
+
+            when Array
+              obj = ::Summon
+              @transform.each do |ns|
+                obj = obj.const_get(pascalize(ns.to_s))
+              end
+              ctor = proc do |s, h|
+                obj.new(s, h)
+              end
+
+            else
+              ctor = proc do |s,h|
+                ::Summon.const_get(@transform).new(s,h)
+              end
           end
           raw.kind_of?(Array) ? raw.map {|a| [service, a]}.map(&ctor) : ctor.call(service, raw)
         end

@@ -110,6 +110,33 @@ describe Summon::Schema do
       o.steaming.should_not be_nil
       o.steaming.type.should == "swirled"
     end
+
+    it "should accept a class as transformer" do
+      class Summon::DogHouse < Summon::Schema
+        attr :type
+      end
+      class_eval do
+        attr :place, :transform => Summon::DogHouse
+      end
+
+      o = init('place' => {:type => 'fancy'})
+      o.place.should_not be_nil
+      o.place.type.should == 'fancy'
+    end
+
+    it "should accept an array of symbols as transformer" do
+      module Summon::Pets; end
+      class Summon::Pets::PitBull < Summon::Schema
+        attr :name
+      end
+      class_eval do
+        attr :dog, :transform => [:pets, :pit_bull]
+      end
+
+      o = init('dog' => {:name => 'Fido'})
+      o.dog.should_not be_nil
+      o.dog.name.should == "Fido"
+    end
   
     it "will apply a transform across an array if the field is an array" do
       class Summon::DogPatch < Summon::Schema
