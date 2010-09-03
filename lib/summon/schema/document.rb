@@ -56,6 +56,7 @@ class Summon::Document < Summon::Schema
   attr :thumbnail_medium, :json_name => "thumbnail_m"
   attr :thumbnail_large, :json_name =>  "thumbnail_l"
   attr :availability_id
+  attr :dbid, :json_name => "DBID", :single => false
 
   def isbn
     @isbns.first
