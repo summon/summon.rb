@@ -1,3 +1,7 @@
+=== 1.1.11 2010-09-03
+* 1 minor enhancement
+  * added dbid field accessor to the document schema
+
 === 1.1.10 2010-05-06
 * 4 minor enhancements
   * updated "en" and "xx" locales
