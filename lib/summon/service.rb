@@ -11,13 +11,14 @@ module Summon
       @client_key = options[:client_key]
       @locale     = (options[:locale] || Summon::DEFAULT_LOCALE).to_s
       @log        = Log.new(options[:log])
-      @transport  = options[:transport] || Summon::Transport::Http.new(:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :session_id => options[:session_id], :log => @log)
+      @benchmark  = options[:benchmark] || Pass.new
+      @transport  = options[:transport] || Summon::Transport::Http.new(:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :session_id => options[:session_id], :log => @log, :benchmark => @benchmark)
     end
 
     def version
       connect("/version") {|result| result["version"] }
-    end    
-    
+    end
+
     def search(params = {})
       connect("/search", params) do |result|
         Summon::Search.new(self,result)
@@ -27,16 +28,22 @@ module Summon
     def modify_search(original_search, command)
       search original_search.query.to_hash.merge("s.cmd" => command)
     end
-    
+
     #clone a service with overridden options
     def [](options)
-      self.class.new({:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :log => @log.impl}.merge(options))
+      self.class.new({:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :log => @log.impl}.merge(options), :benchmark => @benchmark)
     end
 
     private
-    
+
     def connect(path, params = {})
       yield @transport.get(path, params)
+    end
+
+    class Pass
+      def report(*args)
+        yield
+      end
     end
   end
 end

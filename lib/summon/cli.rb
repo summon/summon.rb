@@ -25,6 +25,7 @@ module Summon
         "s.role" => "none"
       }
       raw = nil
+      do_benchmarks = false
 
       mandatory_options = %w(  )
 
@@ -66,7 +67,8 @@ module Summon
         opts.on("-k", "--secret-key=KEY", String, "Summon API Secret Key", "Default: ~/.summonrc[secret_key]") {|key| options[:secret_key] = key}
         opts.on("-c --sersol-client-id=CLIENT_HASH", String, "Specific Serials Solutions Client ID to use when making this query", 
           "Only useful when your access id is authorized to query multiple accounts") {|id| options[:client_key] = config.client_key(id)}
-          
+
+        opts.on("--benchmark", "Benchmark the the query") { do_benchmarks = true}
         opts.on("-g", "--get=URL", "Takes a raw summon url, and queries the api without first performing any encoding.") {|url| raw = url}
         opts.on("--verbose", "output more request information") {options[:log].merge! :level => :info }
         opts.on("--debug", "output very detailed information") {options[:log].merge! :level => :debug }
@@ -86,8 +88,16 @@ module Summon
         end
       end
       begin
-        service = Summon::Service.new(config.options.merge options)
-        puts JSON.pretty_generate(raw ? service.transport.urlget(raw) : service.transport.get("/search", params))
+        if do_benchmarks
+          require 'summon/benchmark'
+          b = Summon::Benchmark.new
+          service = Summon::Service.new(config.options.merge(options).merge(:benchmark => b))
+          raw ? service.transport.urlget(raw) : service.transport.get("/search", params)
+          b.output
+        else
+          service = Summon::Service.new(config.options.merge(options))
+          puts JSON.pretty_generate(raw ? service.transport.urlget(raw) : service.transport.get("/search", params))
+        end
       rescue Summon::Transport::TransportError => e
         puts e.message
       end

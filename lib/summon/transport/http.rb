@@ -15,6 +15,7 @@ module Summon::Transport
       @session_id = @options[:session_id] || "SUMMON-SESSION-#{Socket.gethostname}-#{$$}-#{sidalloc}"
       @url        = @options[:url]
       @log        = Summon::Log.new(options[:log])
+      @benchmark  = @options[:benchmark] || Summon::Service::Pass.new
     end
 
     def get(path, params = {})
@@ -24,40 +25,49 @@ module Summon::Transport
     end    
 
     def urlget(url, params = nil, session_id = nil)
-      uri = URI.parse url
-      params ||= from_query_string(uri.query)      
-      session_id ||= @session_id
-      headers = Headers.new(
-        :url => url,
-        :params => params,
-        :access_id => @access_id,
-        :secret_key => @secret_key,
-        :client_key => @client_key,
-        :session_id => session_id,
-        :log => @log
-      )
-      
-      @log.info("ruby-summon:transport") {
-        "GET: #{url}"
-      }
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.start do
-        get = Net::HTTP::Get.new("#{uri.path}#{'?' + uri.query if uri.query && uri.query != ''}")
-        get.merge! headers
-        http.request(get) do |response|          
-          case response
-            when Net::HTTPSuccess
-              return parse(response)
-            when Net::HTTPUnauthorized
-              raise AuthorizationError, status(response)
-            when Net::HTTPClientError
-              raise RequestError, error(response)
-            when Net::HTTPServerError
-              raise ServiceError, error(response)
-            else
-              raise UnknownResponseError, "Unknown response: #{response}"
+      @benchmark.report("total:") do
+        uri = URI.parse url
+        params ||= from_query_string(uri.query)      
+        session_id ||= @session_id
+        headers = @benchmark.report("calculate headers") do
+          Headers.new(
+            :url => url,
+            :params => params,
+            :access_id => @access_id,
+            :secret_key => @secret_key,
+            :client_key => @client_key,
+            :session_id => session_id,
+            :log => @log
+          )
+        end
+        @log.info("ruby-summon:transport") {
+          "GET: #{url}"
+        }
+        result = nil
+        @benchmark.report("http request") do
+          http = Net::HTTP.new(uri.host, uri.port)
+          http.start do
+            get = Net::HTTP::Get.new("#{uri.path}#{'?' + uri.query if uri.query && uri.query != ''}")
+            get.merge! headers
+            http.request(get) do |response|
+              case response
+                when Net::HTTPSuccess
+                  @benchmark.report("parse response") do
+                    result = parse(response)
+                  end
+                when Net::HTTPUnauthorized
+                  raise AuthorizationError, status(response)
+                when Net::HTTPClientError
+                  raise RequestError, error(response)
+                when Net::HTTPServerError
+                  raise ServiceError, error(response)
+                else
+                  raise UnknownResponseError, "Unknown response: #{response}"
+              end
+            end
           end
         end
+        result
       end
     end
 
