@@ -44,29 +44,30 @@ module Summon::Transport
           "GET: #{url}"
         }
         result = nil
-        @benchmark.report("http request") do
           http = Net::HTTP.new(uri.host, uri.port)
           http.start do
             get = Net::HTTP::Get.new("#{uri.path}#{'?' + uri.query if uri.query && uri.query != ''}")
             get.merge! headers
-            http.request(get) do |response|
-              case response
-                when Net::HTTPSuccess
-                  @benchmark.report("parse response") do
-                    result = parse(response)
-                  end
-                when Net::HTTPUnauthorized
-                  raise AuthorizationError, status(response)
-                when Net::HTTPClientError
-                  raise RequestError, error(response)
-                when Net::HTTPServerError
-                  raise ServiceError, error(response)
-                else
-                  raise UnknownResponseError, "Unknown response: #{response}"
-              end
+            response = @benchmark.report("http request") do
+              http.request(get)
+            end
+            case response
+              when Net::HTTPSuccess
+                @benchmark.report("parse response") do
+                  result = parse(response)
+                end
+              when Net::HTTPUnauthorized
+                raise AuthorizationError, status(response)
+              when Net::HTTPClientError
+                raise RequestError, error(response)
+              when Net::HTTPServerError
+                raise ServiceError, error(response)
+              else
+                raise UnknownResponseError, "Unknown response: #{response}"
             end
           end
-        end
+    
+        ###
         result
       end
     end

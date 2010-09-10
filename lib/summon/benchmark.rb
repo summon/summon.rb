@@ -15,6 +15,7 @@ module Summon
     end
     
     def output(to = $stdout)
+      to.printf("%20s  %s\n", "","real time")
       to.puts(@timings.map {|t| t.format("%-20n: %r")})
     end
   end
