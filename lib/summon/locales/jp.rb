@@ -47,7 +47,7 @@ module Summon
         "ContentType" =>  "コンテンツタイプ",
         "Galician" =>  "ガリシア語",
         "Implements" =>  "器具",
-        "Book" =>  "本",
+        "Book" =>  "図書（冊子体）",
         "German" =>  "ドイツ語",
         "Indonesian" =>  "インドネシア語",
         "Microform" =>  "マイクロフォーム",
