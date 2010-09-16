@@ -1,12 +1,10 @@
 require 'optparse'
 require 'json'
 require 'fileutils'
-require 'time'
 
 module Summon
   class CLI
     def self.execute(stdout, arguments=[])
-      start_t = Time.now
       config = Config.load
       options = {
         :log => {:level => :warn}
@@ -103,8 +101,6 @@ module Summon
       rescue Summon::Transport::TransportError => e
         puts e.message
       end
-      end_t = Time.now
-      puts "TOTAL: #{end_t - start_t}"
     end
     
     
