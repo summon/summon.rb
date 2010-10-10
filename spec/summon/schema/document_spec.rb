@@ -227,6 +227,8 @@ content_type: Audio Recording
 corporate_authors: 
 - Hunter, Rick
 - Crusher, Beverly
+dbid: 
+- GXQ
 dissertation_advisor: Claudio Friedmann
 dissertation_category: Education
 dissertation_degree: M.S.J.
@@ -236,6 +238,7 @@ dissertation_degree_date_decade: "2000"
 dissertation_degree_date_year: "2001"
 dissertation_school: West Virginia University
 doi: 10.1109\/CBMS.2008.1
+edition: 
 end_page: i
 fulltext: false
 genres: 

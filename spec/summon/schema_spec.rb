@@ -33,7 +33,7 @@ describe Summon::Schema do
         Class.new(Summon::Schema).new(service).tap do |o|
           o.translate("ContentType").should == 'Type de la Contente'
           service.stub!(:locale).and_return('en')
-          o.translate("ContentType").should == 'ContentType'
+          o.translate("ContentType").should == 'Content Type'
         end
       end
     end
@@ -48,7 +48,7 @@ describe Summon::Schema do
     it "should default to english if it does not recognize the locale" do
       mock(:service, :locale => 'xx').tap do |service|
         Class.new(Summon::Schema).new(service).tap do |o|
-          o.translate("ContentType").should == 'ContentType'
+          o.translate("ContentType").should == 'Content Type'
         end
       end
     end

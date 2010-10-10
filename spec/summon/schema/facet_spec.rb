@@ -17,7 +17,8 @@ describe Summon::Facet do
     it "should return the default value" do
       mock(:service, :locale => 'en').tap do |service|
         @facet = Summon::Facet.new(service, JSON.parse(EXAMPLE_FACET_JSON))
-        @facet.local_name.should == @facet.display_name
+        @facet.display_name.should == "ContentType"
+        @facet.local_name.should == "Content Type"
       end
     end
     
