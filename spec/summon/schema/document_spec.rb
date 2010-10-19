@@ -259,6 +259,8 @@ issns:
 issue: "7"
 languages: 
 - English
+lib_guide_tab: []
+
 library: Women's Center Library
 open_url: ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323
 page_count: xxviii, 140 p.

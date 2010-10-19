@@ -57,6 +57,8 @@ class Summon::Document < Summon::Schema
   attr :thumbnail_large, :json_name =>  "thumbnail_l"
   attr :availability_id
   attr :dbid, :json_name => "DBID", :single => false
+  
+  attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
 
   def isbn
     @isbns.first
@@ -98,12 +100,15 @@ class Summon::Document < Summon::Schema
     translate(@content_type)      
   end
 
+  def lib_guide_tabs
+    @lib_guide_tab.map {|n| Summon::LibGuideTab.new(n["name"], n["uri"])}
+  end
+
   def from_library?
     @availability_id != nil
   end
 
 end
-
 
 class Summon::Author < Struct.new(:name)
   def name(*args)
@@ -111,3 +116,12 @@ class Summon::Author < Struct.new(:name)
   end
 end
 
+class Summon::LibGuideTab < Struct.new(:name, :uri)
+  def name(*args)
+    super()
+  end
+  
+  def uri(*args)
+    super()
+  end
+end
