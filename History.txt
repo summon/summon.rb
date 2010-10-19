@@ -1,3 +1,7 @@
+=== 1.1.12 2010-10-19
+* 1 minor enhancement
+  * added lib_guide_tabs to document schema
+
 === 1.1.11 2010-09-03
 * 1 minor enhancement
   * added dbid field accessor to the document schema
