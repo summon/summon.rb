@@ -1,6 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/../lib/summon')
 gem 'rspec'
 require 'spec'
+require 'yaml'
 
 def pre(text)
   puts "<pre>" +
