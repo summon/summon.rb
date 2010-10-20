@@ -31,7 +31,7 @@ module Summon
 
     #clone a service with overridden options
     def [](options)
-      self.class.new({:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :log => @log.impl}.merge(options), :benchmark => @benchmark)
+      self.class.new({:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :log => @log.impl, :benchmark => @benchmark}.merge(options))
     end
 
     private
