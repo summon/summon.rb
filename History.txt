@@ -1,3 +1,7 @@
+=== 1.1.14 2010-10-20
+* 1 minor enhancement
+  * German translation updates
+
 === 1.1.13 2010-10-20
 * 1 minor enhancement
   * fix service cloning

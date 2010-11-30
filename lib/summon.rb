@@ -6,7 +6,7 @@ require 'cgi'
 require 'json'
 
 module Summon
-  VERSION = "1.1.13"
+  VERSION = "1.1.14"
   DEFAULT_LOCALE = 'en'
   
   locale_dir = File.dirname(__FILE__) + '/summon/locales'
