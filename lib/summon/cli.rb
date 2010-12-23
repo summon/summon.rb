@@ -20,6 +20,7 @@ module Summon
         "s.fvf" => [],
         "s.fvgf" => [],
         "s.rff" => [],
+        "s.sl" => [],
         "s.hs" => "*",
         "s.he" => "*",
         "s.role" => "none"
@@ -47,6 +48,7 @@ module Summon
         opts.on("--s.fvgf=FIELD,MODE,VALUES", "Facet Value Group Filter: advanced functionality. see official api docs. e.g. 'SubjectTerms,or,northern+america,u.s.,canada'")
         opts.on("--s.rff=<facetField>, <minValue>:<maxValue>[:<inclusive>][, <minValue>:<maxValue>[:<inclusive>]]*", "Range Facet Field: e.g. PublicationDate,1971:1980,1981:1990,1991:2000,2001:2010") {|rff| params["s.rff"] << rff}
         opts.on("--s.rf=<fieldName>, <minValue>:<maxValue>[:<inclusive>]", "Range Filter: filter the result list to values lying within the range. e.g. PublicationDate,1971:1980")
+        opts.on("--s.sl=<fieldName>,<value>,<min>,<max>") { |sl| params["s.sl"] << sl }
         opts.on("--s.hl=BOOLEAN", "Highlight: turn highlighting on or off: e.g. --s.hl=false") {|hl| params["s.hl"] = hl}
         opts.on("--s.hs=DELIMITER", String, "Highlight Start: demarcate the beginning of a term hit. default is *") {|d| params["s.hs"] = d}
         opts.on("--s.he=DELIMITER", String, "Highlight End: demarcate the beginning of a term hit. default is *") {|d| params["s.he"] = d}

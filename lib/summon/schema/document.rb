@@ -59,6 +59,8 @@ class Summon::Document < Summon::Schema
   attr :dbid, :json_name => "DBID", :single => false
   
   attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
+  
+  attr :spotlight_children, :single => false, :transform => :Document
 
   def isbn
     @isbns.first
@@ -107,7 +109,7 @@ class Summon::Document < Summon::Schema
   def from_library?
     @availability_id != nil
   end
-
+  
 end
 
 class Summon::Author < Struct.new(:name)
