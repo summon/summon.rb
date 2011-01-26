@@ -33,6 +33,7 @@ http://api.summon.serialssolutions.com
       s.add_runtime_dependency(%q<json>, [">= 1.2.0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<hoe>, [">= 2.6.2"])
+      s.add_development_dependency('newgem')
     else
       s.add_dependency(%q<json>, [">= 1.2.0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
