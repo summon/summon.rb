@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Document do
   it "should map" do
-    pending "For the sake of time will do this later.. -db"
+    pending "This is a really nasty test"
     doc = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))
     doc.remove_src
     doc.publication_date.remove_src

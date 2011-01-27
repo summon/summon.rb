@@ -1,3 +1,11 @@
+=== 1.1.15 2011-01-26
+* 5 minor enhancements
+  * added meeting_name to document schema
+  * added deweys to document schema
+  * added eisbns to document schema
+  * added eissns to document schema
+  * added copyright to document schema
+
 === 1.1.15pre 2010-12-23
 * 1 major enhancement
   * added spotlight_children to document schema

@@ -1,14 +1,16 @@
 # -*- encoding: utf-8 -*-
 
+require 'lib/summon'
+
 Gem::Specification.new do |s|
   s.name = %q{summon}
-  s.version = "1.1.15pre"
+  s.version = Summon::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Charles Lowell"]
+  s.authors = ["Charles Lowell", "Daniël van de Burgt"]
   s.date = %q{2010-12-23}
   s.description = %q{Ruby language bindings for Serials Solutions Summon Unified Discovery Service}
-  s.email = ["cowboyd@thefrontside.net"]
+  s.email = ["cowboyd@thefrontside.net", "daniel.vandeburgt@serialssolutions.com"]
   s.executables = ["summon", "summonh"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
   s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "bin/summon", "bin/summonh", "ispec/integration_spec.rb", "lib/summon.rb", "lib/summon/benchmark.rb", "lib/summon/cli.rb", "lib/summon/locales/dadk.rb", "lib/summon/locales/dede.rb", "lib/summon/locales/en.rb", "lib/summon/locales/eses.rb", "lib/summon/locales/fifi.rb", "lib/summon/locales/fr.rb", "lib/summon/locales/frfr.rb", "lib/summon/locales/isis.rb", "lib/summon/locales/itit.rb", "lib/summon/locales/jp.rb", "lib/summon/locales/nlnl.rb", "lib/summon/locales/nono.rb", "lib/summon/locales/ptpt.rb", "lib/summon/locales/svse.rb", "lib/summon/locales/zacn.rb", "lib/summon/locales/zhcn.rb", "lib/summon/log.rb", "lib/summon/schema.rb", "lib/summon/schema/availability.rb", "lib/summon/schema/citation.rb", "lib/summon/schema/date.rb", "lib/summon/schema/document.rb", "lib/summon/schema/error.rb", "lib/summon/schema/facet.rb", "lib/summon/schema/query.rb", "lib/summon/schema/range.rb", "lib/summon/schema/recommendation_list.rb", "lib/summon/schema/search.rb", "lib/summon/schema/suggestion.rb", "lib/summon/service.rb", "lib/summon/transport.rb", "lib/summon/transport/canned.json", "lib/summon/transport/canned.rb", "lib/summon/transport/errors.rb", "lib/summon/transport/headers.rb", "lib/summon/transport/http.rb", "lib/summon/transport/qstring.rb", "script/console", "script/destroy", "script/generate", "spec/spec.opts", "spec/spec_helper.rb", "spec/summon/log_spec.rb", "spec/summon/schema/availability_spec.rb", "spec/summon/schema/citation_spec.rb", "spec/summon/schema/date_spec.rb", "spec/summon/schema/document_spec.rb", "spec/summon/schema/facet_spec.rb", "spec/summon/schema/query_spec.rb", "spec/summon/schema/range_spec.rb", "spec/summon/schema/recommendation_list_spec.rb", "spec/summon/schema/search_spec.rb", "spec/summon/schema_spec.rb", "spec/summon/service_spec.rb", "spec/summon/transport/headers_spec.rb", "spec/summon/transport/http_spec.rb", "spec/summon/transport/qstring_spec.rb", "spec/summon_spec.rb", "summon.gemspec"]

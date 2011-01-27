@@ -18,7 +18,8 @@ class Summon::Document < Summon::Schema
   attr :page_count
   attr :publication_date, :json_name => "PublicationDate_xml",  :transform => :Date
   attr :publication_place
-
+  attr :meeting_name, :single => false
+  
   attr :isi_cited_references_count, :json_name => "ISICitedReferencesCount"
   attr :isi_cited_references_uri, :json_name => "ISICitedReferencesURI"
   
@@ -33,12 +34,16 @@ class Summon::Document < Summon::Schema
   
   attr :library
   attr :call_numbers, :json_name => "LCCallNum"
+  attr :deweys, :json_name => "DEWEY"
   attr :doi, :json_name => "DOI"
   attr :isbns, :json_name => "ISBN"
   attr :issns, :json_name => "ISSN"
+  attr :eisbns, :json_name => "EISBN"
+  attr :eissns, :json_name => "EISSN"
   attr :patent_number
   attr :gov_doc_class_nums, :json_name => "GovDocClassNum"
   
+  attr :copyright
   
   attr :subject_terms
   attr :genres, :json_name => "Genre"
