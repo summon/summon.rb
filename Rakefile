@@ -10,13 +10,15 @@ Hoe.plugin :newgem
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
 $hoe = Hoe.spec 'summon' do
   self.developer 'Charles Lowell', 'cowboyd@thefrontside.net'
+  self.developer 'Daniël van de Burgt', 'daniel.vandeburgt@serialssolutions.com'
   self.post_install_message = File.read('PostInstall.txt')
   self.rubyforge_name       = self.name
   self.extra_deps           = [
                                 ['json','>= 1.2.0']
                               ]
   self.extra_dev_deps       = [
-                                ['rspec', '>= 1.2.9']
+                                ['rspec', '>= 1.2.9'],
+                                ['newgem']
                             ]                          
   self.version              = Summon::VERSION
 end

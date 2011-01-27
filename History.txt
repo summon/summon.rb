@@ -1,3 +1,15 @@
+=== 1.1.16 2011-01-27
+* 8 minor enhancements
+	* document schema changes
+		* renamed dissertation_advisor => dissertation_advisors
+		* renamed dissertation_category => dissertation_categories
+		* renamed dissertation_degree => dissertation_degrees
+		* renamed dissertation_degree_date => dissertation_degrees_dates
+		* renamed dissertation_school = dissertation_schools
+		* removed dissertation_degree_date_decade
+		* removed dissertation_degree_date_century
+		* removed dissertation_degree_date_year
+
 === 1.1.15 2011-01-26
 * 5 minor enhancements
   * added meeting_name to document schema

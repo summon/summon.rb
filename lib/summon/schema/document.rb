@@ -23,14 +23,11 @@ class Summon::Document < Summon::Schema
   attr :isi_cited_references_count, :json_name => "ISICitedReferencesCount"
   attr :isi_cited_references_uri, :json_name => "ISICitedReferencesURI"
   
-  attr :dissertation_advisor
-  attr :dissertation_category
-  attr :dissertation_degree
-  attr :dissertation_degree_date
-  attr :dissertation_degree_date_decade
-  attr :dissertation_degree_date_century
-  attr :dissertation_degree_date_year
-  attr :dissertation_school
+  attr :dissertation_advisors, :json_name => "DissertationAdvisor"
+  attr :dissertation_categories, :json_name => "DissertationCategory"
+  attr :dissertation_degrees, :json_name => "DissertationDegree"
+  attr :dissertation_degrees_dates, :json_name => "DissertationDegreeDate"
+  attr :dissertation_schools, :json_name => "DissertationSchool"
   
   attr :library
   attr :call_numbers, :json_name => "LCCallNum"
