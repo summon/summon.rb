@@ -40,7 +40,7 @@ class Summon::Document < Summon::Schema
   attr :patent_number
   attr :gov_doc_class_nums, :json_name => "GovDocClassNum"
   
-  attr :copyright
+  attr :copyright, :single => false
   
   attr :subject_terms
   attr :genres, :json_name => "Genre"

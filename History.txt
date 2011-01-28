@@ -1,3 +1,7 @@
+=== 1.1.16 2011-01-28
+* 1 minor enhancement
+	* copyright field is multi-value (document schema)
+
 === 1.1.16 2011-01-27
 * 8 minor enhancements
 	* document schema changes
