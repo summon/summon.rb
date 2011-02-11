@@ -1,34 +1,34 @@
-= summon
+# summon
 
 * http://summon.rubyforge.org
 * http://www.serialssolutions.com/summon
 * http://api.summon.serialssolutions.com
 
-== DESCRIPTION:
+## DESCRIPTION:
 
 Ruby language bindings for Serials Solutions Summon Unified Discovery Service
 
-== FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS:
 
 * perform searches using the Summon public API from within ruby.
 
-== SYNOPSIS:
+## SYNOPSIS:
 
-=== From the Command Line
+### From the Command Line
 
- #help
- summon --help
- 
- #simple text query
- summon "Will Shakespeare"
-  
- #books only please!
- summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book)"
- 
- #lots of results.
- summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book) setPageSize(100)"
+    #help
+    summon --help
+    
+    #simple text query
+    summon "Will Shakespeare"
+    
+    #books only please!
+    summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book)"
 
-=== Inside Code
+    #lots of results.
+    summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book) setPageSize(100)"
+
+### Inside Code
 
   require 'summon'
   @service = Summon::Service.new(:access_id => 'myaccessid', :secret_key => 'mysecretkey')
@@ -43,15 +43,15 @@ Ruby language bindings for Serials Solutions Summon Unified Discovery Service
   #search using commands
   search = @service.search("s.cmd" => "addTextQuery(Elephants) addFacetValueFilters(ContentType,Book)")
 
-== REQUIREMENTS:
+## REQUIREMENTS:
 
 * ruby >= 1.8.6
 
-== INSTALL:
+## INSTALL:
 
-* sudo gem install summon
+    sudo gem install summon
 
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
