@@ -6,12 +6,6 @@ require 'cgi'
 require 'json'
 
 module Summon
-  DEFAULT_LOCALE = 'en'
-  
-  locale_dir = File.dirname(__FILE__) + '/summon/locales'
-  Dir["#{locale_dir}/*.rb"].each { |file| 
-    require file
-  }
 
   require 'summon/version'
   require 'summon/log'
@@ -29,7 +23,7 @@ module Summon
   require 'summon/schema/citation'
   require 'summon/schema/error'
   require 'summon/schema/recommendation_list'
-  
+
   def self.escape(value)
     value.gsub(/(,|\(|\)|\{|\}|\$|\:)/, '\\\\\1').gsub("\\", '\\')
   end

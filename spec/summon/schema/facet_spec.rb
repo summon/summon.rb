@@ -13,28 +13,8 @@ describe Summon::Facet do
     first.remove_command.should == "eatMyShorts()"
   end
   
-  describe "translate display name" do
-    it "should return the default value" do
-      mock(:service, :locale => 'en').tap do |service|
-        @facet = Summon::Facet.new(service, JSON.parse(EXAMPLE_FACET_JSON))
-        @facet.display_name.should == "ContentType"
-        @facet.local_name.should == "Content Type"
-      end
-    end
-    
-    it "should return the Frech locale" do
-      mock(:service, :locale => 'fr').tap do |service|
-        @facet = Summon::Facet.new(service, JSON.parse(EXAMPLE_FACET_JSON))
-      
-        @facet.display_name.should == "ContentType"
-        @facet.local_name.should == "Type de la Contente"
-      end
-    end
-  end
-  
-  
   it "should now how to escape values" do
-    service = mock(:service, :locale => 'en')
+    service = mock(:service)
     
     count = Summon::FacetCount.new(service, :value => "the quick, brown, fox")
     count.value.should == "the quick, brown, fox"

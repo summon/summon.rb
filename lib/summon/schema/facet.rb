@@ -22,9 +22,6 @@ class Summon::Facet < Summon::Schema
     @counts.empty?
   end
   
-  def local_name
-    translate(@display_name)
-  end
 end
 
 class Summon::FacetCount < Summon::Schema
@@ -37,14 +34,6 @@ class Summon::FacetCount < Summon::Schema
   attr :apply_negated_command
   attr :remove_command
 
-  def local_value
-    translate(@value)
-  end
-
-  def escaped_local_value
-    Summon.escape(@local_value)
-  end
-  
   def escaped_value
     Summon.escape(@value)
   end

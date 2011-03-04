@@ -25,17 +25,4 @@ describe Summon::Service do
     another.instance_variable_get(:@secret_key).should == options[:secret_key]
   end
 
-  
-  describe "Locale" do
-  
-    it "has a default" do
-      Summon::Service.new.locale.should == 'en'
-    end
-  
-    it "doesn't matter whether you pass it a symbol or not for the locale" do
-      Summon::Service.new(:locale => :nl).locale.should == 'nl'
-    end
-  
-  end
-      
 end

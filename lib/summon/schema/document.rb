@@ -100,10 +100,6 @@ class Summon::Document < Summon::Schema
     "Title: #{title}"
   end
 
-  def local_content_type
-    translate(@content_type)      
-  end
-
   def lib_guide_tabs
     @lib_guide_tab.map {|n| Summon::LibGuideTab.new(n["name"], n["uri"])}
   end

@@ -46,7 +46,4 @@ describe "Summon Gem Integration Test" do
     Summon.escape(Summon.unescape(escaped)).should == escaped
   end
   
-  it "should have a default locale" do
-    Summon::DEFAULT_LOCALE.should == 'en'
-  end
 end

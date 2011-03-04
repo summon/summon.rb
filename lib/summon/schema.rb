@@ -65,15 +65,6 @@ module Summon
         end.to_json(*a)        
       end
       
-      def locale
-        @service.locale.gsub(/-/, "")
-      end
-      
-      def translate(value)
-        default = Summon::Locale.const_get(Summon::DEFAULT_LOCALE.upcase)
-        translator = Summon::Locale.const_defined?(locale.upcase) ? Summon::Locale.const_get(locale.upcase) : default
-        translator::TRANSLATIONS[value] ? translator::TRANSLATIONS[value] : default::TRANSLATIONS[value] ? default::TRANSLATIONS[value] : value
-      end
     end
     
     class Attr

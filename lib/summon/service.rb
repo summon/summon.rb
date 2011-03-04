@@ -2,14 +2,13 @@
 module Summon
   class Service
     
-    attr_reader :transport, :url, :access_id, :client_key, :locale
+    attr_reader :transport, :url, :access_id, :client_key
     
     def initialize(options = {})
       @url        = options[:url] || "http://api.summon.serialssolutions.com"
       @access_id  = options[:access_id]
       @secret_key = options[:secret_key]
       @client_key = options[:client_key]
-      @locale     = (options[:locale] || Summon::DEFAULT_LOCALE).to_s
       @log        = Log.new(options[:log])
       @benchmark  = options[:benchmark] || Pass.new
       @transport  = options[:transport] || Summon::Transport::Http.new(:url => @url, :access_id => @access_id, :secret_key => @secret_key, :client_key => @client_key, :session_id => options[:session_id], :log => @log, :benchmark => @benchmark)

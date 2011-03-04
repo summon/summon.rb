@@ -23,6 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json (>= 1.2.0)
   rake
   rspec (>= 2.0.0)
   summon!

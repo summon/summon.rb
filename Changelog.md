@@ -1,4 +1,9 @@
-### Edge
+### 1.2.0
+
+* 1 major enhancement
+  * removed translations
+
+### 1.1.18
 
 * modernize the gemming process
 
