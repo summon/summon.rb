@@ -4,3 +4,4 @@ doc
 pkg
 .specification
 .DS_Store
+.rvmrc

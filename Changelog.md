@@ -1,11 +1,9 @@
-### 1.2.0
+### 1.2.0 2011-04-09
 
-* 1 major enhancement
-  * removed translations
-
-### 1.1.18
-
+* removed translations
 * modernize the gemming process
+* support for spotlighting
+* Copyright field in document is now multi-value
 
 ### 1.1.17 2011-01-28
 * 1 minor enhancement
