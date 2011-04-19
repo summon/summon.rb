@@ -7,7 +7,7 @@ class Summon::Document < Summon::Schema
   attr :publication_series_title
   attr :content_type
 
-  attr :authors, :json_name => "Author"
+  attr :authors, :json_name => "Author_xml"
   attr :corporate_authors, :json_name => "CorporateAuthor"
   attr :publishers, :json_name => "Publisher"
   attr :volume
@@ -89,7 +89,7 @@ class Summon::Document < Summon::Schema
   end
   
   def authors
-    @authors.map {|n| Summon::Author.new(n)}
+    @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"])}
   end
   
   def corporate_authors
@@ -110,10 +110,17 @@ class Summon::Document < Summon::Schema
   
 end
 
-class Summon::Author < Struct.new(:name)
-  def name(*args)
+class Summon::Author < Struct.new(:fullname, :surname, :givenname)
+  def fullname(*args)
     super()
   end
+  def surname(*args)
+    super()
+  end
+  def givenname(*args)
+    super()
+  end
+  alias_method :name, :fullname
 end
 
 class Summon::LibGuideTab < Struct.new(:name, :uri)

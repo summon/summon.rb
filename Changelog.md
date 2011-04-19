@@ -1,3 +1,7 @@
+### 1.2.1.beta1 2011-04-19
+* 1 major enhancement
+  * authors are now ordered
+
 ### 1.2.0 2011-04-09
 
 * removed translations

@@ -21,7 +21,7 @@ describe "Summon Gem Integration Test" do
     d = documents[0]
     d.id.should == 'proquest_dll_1839009301'
     d.content_type.should == 'Newspaper Article'
-    d.authors.map{|a| a.name}.should == ["Hunter, Lisa"]
+    d.authors.map{|a| a.name}.should == ["Liang, Yong X", "Gu, Miao N", "Wang, Shi D", "Chu, Hai C"]
     d.open_url.should == "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.5&rft.externalDBID=AREP&rft.externalDocID=1839009301"
     d.fulltext?.should be(false)
     
