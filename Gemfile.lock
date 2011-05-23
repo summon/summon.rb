@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    summon (1.2.1)
+    summon (1.2.2)
       json (>= 1.2.0)
 
 GEM

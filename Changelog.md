@@ -1,3 +1,13 @@
+### 1.2.2 2011-05-22
+
+* 1 minor enhancement:
+  * fixed Search.to_s
+
+### 1.2.1 2011-05-22
+
+* 1 major enhancement:
+  * Ruby 1.9.2 compatibility fixes
+
 ### 1.2.0 2011-04-09
 
 * removed translations
