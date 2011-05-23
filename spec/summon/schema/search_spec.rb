@@ -1,8 +1,8 @@
 require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Search do
-  it "maps" do
-    search = Summon::Search.new(@service, JSON.parse(<<-JSON))
+  before do
+    @search = Summon::Search.new(@service, JSON.parse(<<-JSON))
     {
       "pageCount": 0,
       "didYouMeanSuggestions": [
@@ -23,14 +23,17 @@ describe Summon::Search do
       "sessionId": "cfaa4020-1abe-4a9d-ae6e-e433a36c1069",
       "query": {}
     }
-JSON
-    search.page_count.should == 0
-    search.record_count.should == 4589937
-    search.query_time.should == 124
-    search.session_id.should == "cfaa4020-1abe-4a9d-ae6e-e433a36c1069"
-    search.documents.should == []
-    search.version.should == "1.0.0"
-    search.query.should be_kind_of(Summon::Query)
+  JSON
+  end
+  
+  it "maps" do
+    @search.page_count.should == 0
+    @search.record_count.should == 4589937
+    @search.query_time.should == 124
+    @search.session_id.should == "cfaa4020-1abe-4a9d-ae6e-e433a36c1069"
+    @search.documents.should == []
+    @search.version.should == "1.0.0"
+    @search.query.should be_kind_of(Summon::Query)
   end
   
   it "should handle an error case" do
@@ -57,6 +60,12 @@ JSON
   it "should be empty w/ no docs" do
     Summon::Search.new(@service, {}).should be_empty
     Summon::Search.new(@service, {"documents" => [{}]}).should_not be_empty
+  end
+  
+  context "to_s" do
+    it "renders correctly" do
+      @search.to_s.should == "<Summon::Search>{records: 4589937, pages: 0, query_time: 124ms, request_time: 129ms}"
+    end
   end
     
 end

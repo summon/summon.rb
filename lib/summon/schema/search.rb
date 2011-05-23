@@ -33,6 +33,6 @@ class Summon::Search < Summon::Schema
   end          
 
   def to_s(options = {})
-    "<Summon::Search>{records: #{result_count}, pages:#{page_count}, :query_time: #{query.query_time}ms, request_time:#{total_request_time}ms}"
+    "<Summon::Search>{records: #{record_count}, pages: #{page_count}, query_time: #{query_time}ms, request_time: #{total_request_time}ms}"
   end
 end
