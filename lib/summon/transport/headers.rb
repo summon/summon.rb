@@ -1,7 +1,7 @@
 require 'time'
 require 'uri'
 require 'openssl'
-require 'sha1'
+require 'digest/sha1'
 require 'base64'
 
 module Summon::Transport
