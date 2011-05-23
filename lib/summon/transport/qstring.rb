@@ -37,7 +37,7 @@ module Summon::Transport
         for param in qstr.split('&')
           m,k,v = *param.match(/^(.*?)=(.*?)$/)
           if current = result[k]
-            result[k] = current.to_a
+            result[k] = current.kind_of?(Array) ? current : [current]
             result[k] << urldecode(v)
           else
             result[k] = urldecode(v)
