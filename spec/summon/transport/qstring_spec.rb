@@ -21,4 +21,10 @@ describe Summon::Transport::Qstring do
     from_query_string(nil).should be_empty
     from_query_string("").should be_empty
   end
+  
+  it "encodes strings properly" do
+    to_query_string("foo" => "bar").should == "foo=bar"
+    to_query_string("foo" => "*").should == "foo=%2a"
+  end
+  
 end
