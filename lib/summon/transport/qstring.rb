@@ -18,11 +18,15 @@ module Summon::Transport
         end
       end.reject{|o| o.nil? || o.empty?}.sort.join('&')        
     end
-    
+
     def urlencode(str)
-      str.gsub(/[^a-zA-Z0-9_\.\-]/n) {|s| sprintf('%%%02x', s[0]) }
+      if RUBY_VERSION >= "1.9"
+        URI.encode_www_form_component(str)
+      else
+        str.gsub(/[^a-zA-Z0-9_\.\-]/n) {|s| sprintf('%%%02x', s[0].ord) }
+      end
     end
-    
+
     def urldecode(str)
       CGI.unescape(str)
     end
