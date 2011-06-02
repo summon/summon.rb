@@ -23,7 +23,7 @@ describe Summon::Document do
       doc.from_library?.should be(false)
     end
   end
-  
+
   describe "authors" do
     before do
       document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
@@ -32,8 +32,21 @@ describe Summon::Document do
     it "should read them from Authors_xml" do
       @doc.authors.map(&:name).should == ["Liang, Yong X", "Gu, Miao N", "Wang, Shi D", "Chu, Hai C"]
     end
+    it "should set the corporate flag to false" do
+      @doc.authors.map(&:corporate).should == [false, false, false, false]
+    end
   end
-    
+
+  describe "corporate authors" do
+    before do
+      document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
+      @doc = Summon::Document.new(@service, document_data)
+    end
+    it "should set the corporate flag to true" do
+      @doc.corporate_authors.map(&:corporate).should == [true, true]
+    end
+
+  end
   EXAMPLE_DOCUMENT_JSON = <<-JSON
 {
   "Publisher_xml": [

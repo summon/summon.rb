@@ -89,11 +89,11 @@ class Summon::Document < Summon::Schema
   end
   
   def authors
-    @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"])}
+    @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], false)}
   end
   
   def corporate_authors
-    @corporate_authors.map {|n| Summon::Author.new(n)}
+    @corporate_authors.map {|n| Summon::Author.new(n, nil, nil, true)}
   end
   
   def to_s(options = {})
@@ -110,7 +110,7 @@ class Summon::Document < Summon::Schema
   
 end
 
-class Summon::Author < Struct.new(:fullname, :surname, :givenname)
+class Summon::Author < Struct.new(:fullname, :surname, :givenname, :corporate)
   def fullname(*args)
     super()
   end
@@ -118,6 +118,9 @@ class Summon::Author < Struct.new(:fullname, :surname, :givenname)
     super()
   end
   def givenname(*args)
+    super()
+  end
+  def corporate(*args)
     super()
   end
   alias_method :name, :fullname
