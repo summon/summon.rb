@@ -1,3 +1,7 @@
+### 1.2.3
+* 1 major enhancement
+  * authors are now ordered
+
 ### 1.2.2 2011-05-22
 
 * 1 minor enhancement:

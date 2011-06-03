@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    summon (1.2.2)
+    summon (1.2.3)
       json (>= 1.2.0)
 
 GEM
@@ -9,15 +9,15 @@ GEM
   specs:
     diff-lcs (1.1.2)
     json (1.5.1)
-    rake (0.8.7)
-    rspec (2.4.0)
-      rspec-core (~> 2.4.0)
-      rspec-expectations (~> 2.4.0)
-      rspec-mocks (~> 2.4.0)
-    rspec-core (2.4.0)
-    rspec-expectations (2.4.0)
+    rake (0.9.1)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.3)
+    rspec-expectations (2.6.0)
       diff-lcs (~> 1.1.2)
-    rspec-mocks (2.4.0)
+    rspec-mocks (2.6.0)
 
 PLATFORMS
   ruby

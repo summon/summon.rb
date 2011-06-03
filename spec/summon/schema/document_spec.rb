@@ -23,6 +23,20 @@ describe Summon::Document do
       doc.from_library?.should be(false)
     end
   end
+  
+  describe "authors" do
+    before do
+      document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
+      @doc = Summon::Document.new(@service, document_data)
+    end
+    it "should combine givenname, middlename, surname if fullname is missing" do
+      @doc.authors[2].name.should == "Shi Wang"
+      @doc.authors[3].name.should == "Hai C Chu"
+    end
+    it "should preserve order" do
+      @doc.authors.map(&:name).should == ["Liang, Yong X", "Gu, Miao N", "Shi Wang", "Hai C Chu"]
+    end
+  end
     
   EXAMPLE_DOCUMENT_JSON = <<-JSON
 {
@@ -69,6 +83,31 @@ describe Summon::Document do
   "Author": [
     "Hunter, Lisa"
   ],
+  "Author_xml": [
+    {
+      "sequence": 1,
+      "fullname": "Liang, Yong X",
+      "surname": "Liang",
+      "givenname": "Yong X"
+    },
+    {
+      "sequence": 2,
+      "fullname": "Gu, Miao N",
+      "surname": "Gu",
+      "givenname": "Miao N"
+    },
+    {
+      "sequence": 3,
+      "surname": "Wang",
+      "givenname": "Shi"
+    },
+    {
+      "sequence": 4,
+      "surname": "Chu",
+      "middlename": "C",
+      "givenname": "Hai"
+    }   
+  ],
   "CorporateAuthor": [
     "Hunter, Rick",
     "Crusher, Beverly"
@@ -112,13 +151,6 @@ describe Summon::Document do
     "http://disney.com"
   ],
   "openUrl": "ctx_ver=Z39.88-2004&rfr_id=info:sid\/summon.serialssolutions.com&rft_val_fmt=info:ofi\/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323",
-  "Author_xml": [
-    {
-      "fullname": "Hunter, Lisa",
-      "surname": "Hunter",
-      "givenname": "Lisa"
-    }
-  ],
   "Library": [
     "Women's Center Library"
   ],

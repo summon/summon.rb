@@ -37,6 +37,32 @@
       "Author": [
         "Hunter, Lisa"
       ],
+      "Author_xml": [
+        {
+          "sequence": 1,
+          "fullname": "Liang, Yong X",
+          "surname": "Liang",
+          "givenname": "Yong X"
+        },
+        {
+          "sequence": 2,
+          "fullname": "Gu, Miao N",
+          "surname": "Gu",
+          "givenname": "Miao N"
+        },
+        {
+          "sequence": 3,
+          "fullname": "Wang, Shi D",
+          "surname": "Wang",
+          "givenname": "Shi D"
+        },
+        {
+          "sequence": 4,
+          "fullname": "Chu, Hai C",
+          "surname": "Chu",
+          "givenname": "Hai C"
+        }   
+      ],
       "Genre": [
         "Obituary",
         "Obituary"
