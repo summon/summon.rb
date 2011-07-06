@@ -1,3 +1,7 @@
+### 1.2.4
+* 1 major enhancement
+  * added print field to document schema
+
 ### 1.2.3
 * 1 major enhancement
   * authors are now ordered
