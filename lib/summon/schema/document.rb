@@ -59,6 +59,7 @@ class Summon::Document < Summon::Schema
   attr :thumbnail_medium, :json_name => "thumbnail_m"
   attr :thumbnail_large, :json_name =>  "thumbnail_l"
   attr :availability_id
+  attr :eric, :json_name => "ERIC"
   attr :dbid, :json_name => "DBID", :single => false
   
   attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
