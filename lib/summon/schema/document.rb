@@ -5,7 +5,7 @@ class Summon::Document < Summon::Schema
   attr :subtitle
   attr :publication_title
   attr :publication_series_title
-  attr :content_type
+  attr :content_types, :json_name => "ContentType", :single => false
 
   attr :authors, :json_name => "Author_xml"
   attr :corporate_authors, :json_name => "CorporateAuthor"
@@ -65,6 +65,10 @@ class Summon::Document < Summon::Schema
   attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
   
   attr :spotlight_children, :single => false, :transform => :Document
+
+  def content_type
+    @content_types.first
+  end
 
   def isbn
     @isbns.first

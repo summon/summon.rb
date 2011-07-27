@@ -1,3 +1,7 @@
+### 1.2.6
+* 1 major enhancement
+  * added content_types method (multi-value content types)
+
 ### 1.2.5
 * 1 major enhancement
   * added ERIC field to document schema
