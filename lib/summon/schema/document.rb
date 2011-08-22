@@ -65,6 +65,8 @@ class Summon::Document < Summon::Schema
   attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
   
   attr :spotlight_children, :single => false, :transform => :Document
+  attr :fulltext_hit, :json_name => "isFullTextHit"
+  attr :peer_documents, :single => false, :json_name => "peerDocuments", :transform => :Document
 
   def content_type
     @content_types.first

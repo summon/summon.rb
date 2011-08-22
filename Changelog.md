@@ -1,3 +1,8 @@
+### 1.2.7
+* 2 major enhancements
+  * added fulltext_hit field to document schema
+  * added peer_documents field to document schema
+
 ### 1.2.6
 * 1 major enhancement
   * added content_types method (multi-value content types)
