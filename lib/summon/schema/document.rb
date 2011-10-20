@@ -51,6 +51,7 @@ class Summon::Document < Summon::Schema
   attr :fulltext, :boolean => true, :json_name => "hasFullText"
   attr :print, :boolean => true, :json_name => "isPrint"
   attr :uri, :json_name => "URI"
+  attr :link
   attr :url
   attr :open_url
   attr :subject_terms

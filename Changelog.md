@@ -1,3 +1,8 @@
+### 2.0.0
+* 1 major enhancement
+  * added link field to document schema (this now supercedes the url and
+    uri fields)
+
 ### 1.2.7
 * 2 major enhancements
   * added fulltext_hit field to document schema
