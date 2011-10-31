@@ -7,7 +7,10 @@ class Summon::Facet < Summon::Schema
   attr :page_number
   attr :counts, :transform => :FacetCount
   attr :remove_command
-  attr :remove_value_filters_command    
+  attr :has_applied_value?, :json_name => :hasAppliedValue, :boolean => true
+  attr :has_limiting_value?, :json_name => :hasLimitingValue, :boolean => true
+  attr :list_values_command
+  attr :remove_value_filters_command
 
 
   def to_s
@@ -17,11 +20,11 @@ class Summon::Facet < Summon::Schema
   def range?
     false
   end
-  
+
   def empty?
     @counts.empty?
   end
-  
+
 end
 
 class Summon::FacetCount < Summon::Schema
@@ -37,15 +40,15 @@ class Summon::FacetCount < Summon::Schema
   def escaped_value
     Summon.escape(@value)
   end
-  
+
   def excluded?
     negated?
   end
-  
+
   def included?
     applied? && !excluded?
   end
- 
+
   def abs_value
     value.sub /^-/, ''
   end

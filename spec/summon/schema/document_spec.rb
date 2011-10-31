@@ -1,43 +1,37 @@
-require File.dirname(__FILE__) + '/../../spec_helper'
+require 'spec_helper'
 
 describe Summon::Document do
-  it "should map" do
-    pending "This is a really nasty test"
-    doc = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))
-    doc.remove_src
-    doc.publication_date.remove_src
-    doc.authors.each {|a| a.remove_src }
-    doc.to_yaml.should == EXPECTED_DOCUMENT_YAML
-  end
+  before {@document = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))}
+  subject {@document}
+  it {should be_from_library}
+  its(:abstract) {should eql "This is the most awesome document ever"}
+  its(:subject_terms) {should eql ["Women's music", "Popular music", "Rock music"]}
+  its(:issns) {should eql ["1063-7125", "0000-1111"]}
+  its(:isbns) {should eql [ "0849343763 (v. 1)","0849343771 (v. 2)"]}
+  its(:publication_title) {should eql "Batman Books"}
+  it {should be_in_holdings}
 
-  describe "from_library?" do
-    it "should return true if the document has an availability_id" do
-      doc = Summon::Document.new(@service, JSON.parse(EXAMPLE_DOCUMENT_JSON))
-      doc.from_library?.should be(true)
-    end
-
-    it "should return false if the document doesn't have an availability_id" do
-      document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
-      document_data.delete('availabilityId')
-      doc = Summon::Document.new(@service, document_data)
-      doc.from_library?.should be(false)
-    end
-  end
-  
   describe "authors" do
+    it "combines givenname, middlename, surname if fullname is missing" do
+      @document.authors[2].name.should == "Shi Wang"
+      @document.authors[3].name.should == "Hai C Chu"
+    end
+    it "preserves order" do
+      @document.authors.map(&:name).should == ["Liang, Yong X", "Gu, Miao N", "Shi Wang", "Hai C Chu"]
+    end
+  end
+
+  describe "without any availability ids" do
     before do
       document_data = JSON.parse(EXAMPLE_DOCUMENT_JSON)
-      @doc = Summon::Document.new(@service, document_data)
+      document_data.delete('availabilityId')
+      @document = Summon::Document.new(@service, document_data)
     end
-    it "should combine givenname, middlename, surname if fullname is missing" do
-      @doc.authors[2].name.should == "Shi Wang"
-      @doc.authors[3].name.should == "Hai C Chu"
-    end
-    it "should preserve order" do
-      @doc.authors.map(&:name).should == ["Liang, Yong X", "Gu, Miao N", "Shi Wang", "Hai C Chu"]
-    end
+    subject{@document}
+    it {should_not be_from_library}
   end
-    
+
+
   EXAMPLE_DOCUMENT_JSON = <<-JSON
 {
   "Publisher_xml": [
@@ -66,7 +60,7 @@ describe Summon::Document do
   "XQueryRevision": [
     "Rev: 6229"
   ],
-  "inHoldings": false,
+  "inHoldings": true,
   "DBID": [
     "GXQ"
   ],
@@ -106,7 +100,7 @@ describe Summon::Document do
       "surname": "Chu",
       "middlename": "C",
       "givenname": "Hai"
-    }   
+    }
   ],
   "CorporateAuthor": [
     "Hunter, Rick",
@@ -246,21 +240,21 @@ describe Summon::Document do
   ]
 }
   JSON
-  
+
   EXPECTED_DOCUMENT_YAML = <<-YAML
---- !ruby/object:Summon::Document 
+--- !ruby/object:Summon::Document
 abstract: This is the most awesome document ever
-authors: 
+authors:
 - Hunter, Lisa
 availability_id: b16644323
-call_numbers: 
+call_numbers:
 - M1630.18 .H95 2000
 - M1630.20 .H95 2000
 content_type: Audio Recording
-corporate_authors: 
+corporate_authors:
 - Hunter, Rick
 - Crusher, Beverly
-dbid: 
+dbid:
 - GXQ
 dissertation_advisor: Claudio Friedmann
 dissertation_category: Education
@@ -271,51 +265,51 @@ dissertation_degree_date_decade: "2000"
 dissertation_degree_date_year: "2001"
 dissertation_school: West Virginia University
 doi: 10.1109\/CBMS.2008.1
-edition: 
+edition:
 end_page: i
 fulltext: false
-genres: 
+genres:
 - Biography
 - Congress
-gov_doc_class_nums: 
+gov_doc_class_nums:
 - A 57.38/42:M 45
 - A 57.38/42:M 45
 id: gvsu_catalog_b16644323
-isbns: 
+isbns:
 - 0849343763 (v. 1)
 - 0849343771 (v. 2)
 isi_cited_references_count: 5
 isi_cited_references_uri: http://happy.com
-issns: 
+issns:
 - 1063-7125
 - 0000-1111
 issue: "7"
-languages: 
+languages:
 - English
 lib_guide_tab: []
 
 library: Women's Center Library
 open_url: ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kev:mtx:dc&rft.title=Lisa+Hunter+--+alive&rft.creator=Hunter%2C+Lisa&rft.date=c200-0.&rft.pub=Spirulina+Records&rft.externalDBID=n%2Fa&rft.externalDocID=b16644323
 page_count: xxviii, 140 p.
-patent_number: 
-publication_date: !ruby/object:Summon::Date 
+patent_number:
+publication_date: !ruby/object:Summon::Date
   day: "02"
   month: "01"
-  service: 
-  src: 
+  service:
+  src:
   text: c2000.
   year: "2000"
 publication_place: Indiana
 publication_series_title: A Bantam book
 publication_title: Batman Books
-publishers: 
+publishers:
 - Spirulina Records
 - Swingsistersound
-service: 
+service:
 snippet: This is the snippet
-src: 
+src:
 start_page: pp23
-subject_terms: 
+subject_terms:
 - Women's music
 - Popular music
 - Rock music
@@ -325,7 +319,7 @@ thumbnail_medium: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX
 thumbnail_small: http://api.test.summon.serialssolutions.com:8093/image/isbn/YX3FL6LB6P/9781864879094/small
 title: Lisa Hunter -- alive
 uri: http://disney.com
-url: 
-volume: 
+url:
+volume:
   YAML
 end

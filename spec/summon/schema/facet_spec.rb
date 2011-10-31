@@ -1,29 +1,41 @@
-require File.dirname(__FILE__) + '/../../spec_helper'
+require 'spec_helper'
 
 describe Summon::Facet do
-  it "should map" do
-    facet = Summon::Facet.new(@service, JSON.parse(EXAMPLE_FACET_JSON))
-    facet.remove_src
-    facet.counts.each {|f| f.remove_src }
-    facet.to_yaml.should == EXPECTED_FACET_YAML
+  before {@facet = Summon::Facet.new(@service, JSON.parse(EXAMPLE_FACET_JSON))}
+  subject {@facet}
 
-    first = facet.counts.first
-    first.apply_command.should == "addFacetValueFilter(ContentType_sfacet,Book,false)"
-    first.apply_negated_command.should == "addFacetValueFilter(ContentType_sfacet,Book,true)"
-    first.remove_command.should == "eatMyShorts()"
+  its(:page_size) {should eql 10}
+  its(:display_name) {should eql "ContentType"}
+  its(:combine_mode) {should eql "or"}
+  its(:list_values_command) {should eql "listFacetValues(ContentType_sfacet,or)"}
+  it {should_not have_applied_value}
+  its(:field_name) {should eql "ContentType_sfacet"}
+  it {should have_limiting_value}
+  its(:remove_command) {should eql "removeFacetField(ContentType_sfacet)"}
+
+  describe "Summon::FacetCount" do
+    subject {@facet.counts.first}
+    it {should be_further_limiting}
+    it {should be_negated}
+    its(:value) {should eql "Book"}
+    its(:count) {should eql 799602}
+    its(:apply_command) {should eql "addFacetValueFilter(ContentType_sfacet,Book,false)"}
+    its(:remove_command) {should eql "eatMyShorts()"}
+    its(:apply_negated_command) {should eql "addFacetValueFilter(ContentType_sfacet,Book,true)"}
+    it {should be_applied}
   end
-  
+
   it "should now how to escape values" do
     service = mock(:service)
-    
+
     count = Summon::FacetCount.new(service, :value => "the quick, brown, fox")
     count.value.should == "the quick, brown, fox"
     count.escaped_value.should == 'the quick\, brown\, fox'
-    
-    Summon::FacetCount.new(service, :value => ': everything (else) and $1 or {is} it\ ').escaped_value.should == 
+
+    Summon::FacetCount.new(service, :value => ': everything (else) and $1 or {is} it\ ').escaped_value.should ==
                                      '\: everything \(else\) and \$1 or \{is\} it\\ '
   end
-  
+
   EXAMPLE_FACET_JSON = <<-JSON
   {
     "pageSize": 10,
@@ -39,13 +51,13 @@ describe Summon::Facet do
     "counts": [
       {
         "isFurtherLimiting": true,
-        "isNegated": false,
+        "isNegated": true,
         "value": "Book",
         "count": 799602,
         "applyCommand": "addFacetValueFilter(ContentType_sfacet,Book,false)",
         "removeCommand": "eatMyShorts()",
         "applyNegatedCommand": "addFacetValueFilter(ContentType_sfacet,Book,true)",
-        "isApplied": false
+        "isApplied": true
       },
       {
         "isFurtherLimiting": true,
@@ -70,51 +82,5 @@ describe Summon::Facet do
     ]
   }
   JSON
-  
-  EXPECTED_FACET_YAML = <<-YAML
---- !ruby/object:Summon::Facet 
-combine_mode: or
-counts: 
-- !ruby/object:Summon::FacetCount 
-  applied: false
-  apply_command: addFacetValueFilter(ContentType_sfacet,Book,false)
-  apply_negated_command: addFacetValueFilter(ContentType_sfacet,Book,true)
-  count: 799602
-  further_limiting: true
-  negated: false
-  remove_command: eatMyShorts()
-  service: 
-  src: 
-  value: Book
-- !ruby/object:Summon::FacetCount 
-  applied: false
-  apply_command: addFacetValueFilter(ContentType_sfacet,JournalArticle,false)
-  apply_negated_command: addFacetValueFilter(ContentType_sfacet,JournalArticle,true)
-  count: 49765
-  further_limiting: true
-  negated: false
-  remove_command: eatMyShorts()
-  service: 
-  src: 
-  value: JournalArticle
-- !ruby/object:Summon::FacetCount 
-  applied: false
-  apply_command: addFacetValueFilter(ContentType_sfacet,Journal Article,false)
-  apply_negated_command: addFacetValueFilter(ContentType_sfacet,Journal Article,true)
-  count: 179002
-  further_limiting: true
-  negated: false
-  remove_command: eatMyShorts()
-  service: 
-  src: 
-  value: Journal Article
-display_name: ContentType
-field_name: ContentType_sfacet
-page_number: 1
-page_size: 10
-remove_command: removeFacetField(ContentType_sfacet)
-remove_value_filters_command: removeFacetValueFilters(ContentType)
-service: 
-src: 
-  YAML
+
 end
