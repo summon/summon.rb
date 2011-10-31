@@ -19,16 +19,17 @@ class Summon::Document < Summon::Schema
   attr :publication_date, :json_name => "PublicationDate_xml",  :transform => :Date
   attr :publication_place
   attr :meeting_name, :single => false
-  
+
   attr :isi_cited_references_count, :json_name => "ISICitedReferencesCount"
   attr :isi_cited_references_uri, :json_name => "ISICitedReferencesURI"
-  
+
   attr :dissertation_advisors, :json_name => "DissertationAdvisor"
   attr :dissertation_categories, :json_name => "DissertationCategory"
   attr :dissertation_degrees, :json_name => "DissertationDegree"
   attr :dissertation_degrees_dates, :json_name => "DissertationDegreeDate"
   attr :dissertation_schools, :json_name => "DissertationSchool"
-  
+
+  attr :in_holdings, :json_name => "inHoldings", :boolean => true
   attr :library
   attr :call_numbers, :json_name => "LCCallNum"
   attr :deweys, :json_name => "DEWEY"
@@ -39,13 +40,13 @@ class Summon::Document < Summon::Schema
   attr :eissns, :json_name => "EISSN"
   attr :patent_number
   attr :gov_doc_class_nums, :json_name => "GovDocClassNum"
-  
+
   attr :copyright, :single => false
-  
+
   attr :subject_terms
   attr :genres, :json_name => "Genre"
   attr :languages, :json_name => "Language"
-  
+
   attr :snippet #highlight
   attr :abstract
   attr :fulltext, :boolean => true, :json_name => "hasFullText"
@@ -62,9 +63,9 @@ class Summon::Document < Summon::Schema
   attr :availability_id
   attr :eric, :json_name => "ERIC"
   attr :dbid, :json_name => "DBID", :single => false
-  
+
   attr :lib_guide_tab, :json_name => "LibGuideTab_xml", :single => false
-  
+
   attr :spotlight_children, :single => false, :transform => :Document
   attr :fulltext_hit, :json_name => "isFullTextHit"
   attr :peer_documents, :single => false, :json_name => "peerDocuments", :transform => :Document
@@ -76,11 +77,11 @@ class Summon::Document < Summon::Schema
   def isbn
     @isbns.first
   end
-  
+
   def call_number
     @call_numbers.first
   end
-  
+
   def gov_doc_class_num
     @gov_doc_class_nums.first
   end
@@ -88,7 +89,7 @@ class Summon::Document < Summon::Schema
   def pages?
     @start_page || @page_count
   end
-  
+
   def publication_date
     @publication_date || Summon::Date.new({})
   end
@@ -96,15 +97,15 @@ class Summon::Document < Summon::Schema
   def publisher
     @publishers.first
   end
-  
+
   def authors
     @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
   end
-  
+
   def corporate_authors
     @corporate_authors.map {|n| Summon::Author.new(n)}
   end
-  
+
   def to_s(options = {})
     "Title: #{title}"
   end
@@ -116,7 +117,7 @@ class Summon::Document < Summon::Schema
   def from_library?
     @availability_id != nil
   end
-  
+
 end
 
 class Summon::Author < Struct.new(:fullname, :surname, :givenname, :middlename)
@@ -136,7 +137,7 @@ class Summon::Author < Struct.new(:fullname, :surname, :givenname, :middlename)
   def middlename(*args)
     super()
   end
-  
+
   alias_method :name, :fullname
 end
 
@@ -144,7 +145,7 @@ class Summon::LibGuideTab < Struct.new(:name, :uri)
   def name(*args)
     super()
   end
-  
+
   def uri(*args)
     super()
   end
