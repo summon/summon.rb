@@ -7,6 +7,7 @@ class Summon::Search < Summon::Schema
   attr :query_time
   attr :total_request_time
 
+  attr :availability_path
   attr :query, :transform => :Query
   attr :recommendations, :transform => :RecommendationList, :json_name => "recommendationLists"
   attr :suggestions, :transform => :Suggestion, :json_name => :didYouMeanSuggestions

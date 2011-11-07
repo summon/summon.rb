@@ -1,3 +1,7 @@
+### 2.0.1
+* 1 major enhancement
+  * added availability_path field
+
 ### 2.0.0
 * 1 major enhancement
   * added link field to document schema (this now supercedes the url and
