@@ -1490,7 +1490,10 @@
 
     ],
     "textQueries": [
-
+      {
+        "textQuery": "louis%2Crmstrong",
+        "removeCommand": "removeTextQuery(louis%2Crmstrong)"
+      }
     ],
     "sort": [
 
