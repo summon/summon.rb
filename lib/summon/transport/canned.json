@@ -1441,7 +1441,7 @@
     "facetValueFilters": [
 
     ],
-    "queryString": "s.ho=t&s.rff=PublicationDate%2C*%3A2000%2C2001%3A2001%2C2002%3A2002%2C2003%3A2003%2C2004%3A2004%2C2005%3A2005%2C2006%3A2006%2C2007%3A2007%2C2008%3A2008%2C2009%3A2009&s.ps=10&s.ff=IsScholarly%2Cor%2C1%2C2&s.ff=Language%2Cor%2C1%2C6&s.ff=ContentType%2Cor%2C1%2C6&s.ff=IsFullText%2Cor%2C1%2C2&s.ff=Library%2Cor%2C1%2C6&s.ff=SubjectTerms%2Cand%2C1%2C6",
+    "queryString": "s.ho=t&s.rff=PublicationDate%2C*%3A2000%2C2001%3A2001%2C2002%3A2002%2C2003%3A2003%2C2004%3A2004%2C2005%3A2005%2C2006%3A2006%2C2007%3A2007%2C2008%3A2008%2C2009%3A2009&s.ps=10&s.ff=IsScholarly%2Cor%2C1%2C2&s.ff=Language%2Cor%2C1%2C6&s.ff=ContentType%2Cor%2C1%2C6&s.ff=IsFullText%2Cor%2C1%2C2&s.ff=Library%2Cor%2C1%2C6&s.ff=SubjectTerms%2Cand%2C1%2C6&s.q=louis%2Crmstrong&s.pn=1&s.ps=10",
     "facetFields": [
       {
         "pageSize": 2,
