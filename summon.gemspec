@@ -26,7 +26,8 @@ http://api.summon.serialssolutions.com
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "json", ">= 1.2.0"
-  s.add_development_dependency "rspec", ">= 2.0.0"
+  s.add_runtime_dependency "json"
+
+  s.add_development_dependency "rspec", "~> 2.0"
   s.add_development_dependency "rake"
 end
