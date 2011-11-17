@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require File.dirname(__FILE__) + '/../../spec_helper'
 
 describe Summon::Transport::Qstring do
@@ -24,11 +25,11 @@ describe Summon::Transport::Qstring do
 
   it "encodes strings properly" do
     to_query_string("foo" => "bar").should == "foo=bar"
-    to_query_string("foo" => "*").should == "foo=%2a"
+    to_query_string("foo" => "/").downcase.should == "foo=%2f"
   end
 
-  it "encodes UTF-8 strings on 1.9" do
-
-  end if RUBY_VERSION >= '1.9'
+  it "encodes UTF-8 strings" do
+    to_query_string("s.q"=> "らしさ」を失わな").downcase.should eql "s.q=%e3%82%89%e3%81%97%e3%81%95%e3%80%8d%e3%82%92%e5%a4%b1%e3%82%8f%e3%81%aa"
+  end
 
 end

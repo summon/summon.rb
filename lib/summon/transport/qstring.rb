@@ -1,9 +1,10 @@
 
 require 'cgi'
+require 'uri'
 
 module Summon::Transport
   module Qstring
-  
+
     def to_query_string(hash, urlencode = true)
       hash.reject {|k,v| v.nil? || v == ''}.inject([]) do |qs,pair|
         qs.tap do
@@ -16,21 +17,25 @@ module Summon::Transport
             qs << encode_param(k, v, urlencode)
           end
         end
-      end.reject{|o| o.nil? || o.empty?}.sort.join('&')        
+      end.reject{|o| o.nil? || o.empty?}.sort.join('&')
     end
 
     def urlencode(str)
-      str.gsub(/[^a-zA-Z0-9_\.\-]/n) {|s| sprintf('%%%02x', s[0].ord) }
+      if URI.respond_to?(:encode_www_form_component)
+        URI.encode_www_form_component str
+      else
+        str.gsub(/[^a-zA-Z0-9_\.\-]/n) {|s| sprintf('%%%02x', s[0].ord) }
+      end
     end
 
     def urldecode(str)
       CGI.unescape(str)
     end
-  
+
     def encode_param(k, v, do_urlencode)
       "#{k.to_s}=#{do_urlencode ? urlencode(v.to_s) : v.to_s}"
     end
-    
+
     def from_query_string(qstr)
       qstr ||= ""
       {}.tap do |result|
@@ -42,8 +47,8 @@ module Summon::Transport
           else
             result[k] = urldecode(v)
           end
-        end        
+        end
       end
     end
-  end 
+  end
 end
