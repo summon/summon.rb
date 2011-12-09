@@ -49,13 +49,13 @@ Ruby language bindings for Serials Solutions Summon Unified Discovery Service
 
 ## INSTALL:
 
-    sudo gem install summon
+    gem install summon
 
 ## LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009-2010 Serials Solutions LLC
+Copyright (c) 2009-2012 Serials Solutions LLC
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
