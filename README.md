@@ -1,6 +1,6 @@
 # summon
 
-* http://summon.rubyforge.org
+* http://github.com/summon/summon.rb
 * http://www.serialssolutions.com/summon
 * http://api.summon.serialssolutions.com
 
@@ -18,10 +18,10 @@ Ruby language bindings for Serials Solutions Summon Unified Discovery Service
 
     #help
     summon --help
-    
+
     #simple text query
     summon "Will Shakespeare"
-    
+
     #books only please!
     summon "Will Shakespeare" --s.cmd="addFacetValueFilters(ContentType, Book)"
 
