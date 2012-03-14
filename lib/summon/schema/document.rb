@@ -69,6 +69,7 @@ class Summon::Document < Summon::Schema
   attr :spotlight_children, :single => false, :transform => :Document
   attr :fulltext_hit, :json_name => "isFullTextHit"
   attr :peer_documents, :single => false, :json_name => "peerDocuments", :transform => :Document
+  attr :related_records, :json_name => "relatedRecords"
 
   def content_type
     @content_types.first
