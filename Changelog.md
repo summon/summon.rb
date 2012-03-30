@@ -1,3 +1,9 @@
+### 2.0.5
+* 1 minor enhancement
+  * made document database_title field multi-value
+* 1 major enhancement
+  * added source field to document
+
 ### 2.0.1
 * 1 major enhancement
   * added availability_path field
