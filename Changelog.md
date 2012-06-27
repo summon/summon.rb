@@ -1,3 +1,8 @@
+### master
+* 2 minor enhancements
+  * updated document.from_library? - now uses source_type
+  * added document.is_a_i?
+
 ### 2.0.5
 * 1 minor enhancement
   * made document database_title field multi-value

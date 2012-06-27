@@ -119,7 +119,11 @@ class Summon::Document < Summon::Schema
   end
 
   def from_library?
-    @availability_id != nil
+    source_types.include?("Library Catalog")
+  end
+
+  def is_a_i?
+    !fulltext? && source_types.include?("Index Database") && !from_library?
   end
 
 end
