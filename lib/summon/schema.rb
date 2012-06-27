@@ -92,7 +92,7 @@ module Summon
       end
       
       def camelize(str)
-        str.gsub /(\w)_(\w)/ do
+        str.gsub(/(\w)_(\w)/) do
           "#{$1}#{$2.upcase}"
         end
       end
