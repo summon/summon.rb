@@ -38,8 +38,14 @@ module Summon
         end
         symbol = name.to_sym
         @attrs << ::Summon::Schema::Attr.new(symbol, options)
-        define_method(name) do |*args|
-          self.instance_variable_get("@#{name}")  
+        if options[:boolean]
+          define_method(name) do |*args|
+            self.instance_variable_get("@#{name}").to_bool
+          end
+        else
+          define_method(name) do |*args|
+            self.instance_variable_get("@#{name}")
+          end
         end
         if options[:boolean]
           define_method("#{name}?") do
@@ -128,4 +134,4 @@ module Summon
       end
     end
   end
- end
+end

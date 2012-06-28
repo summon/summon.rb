@@ -5,6 +5,7 @@ module Summon
 
   require 'summon/version'
   require 'summon/log'
+  require 'summon/core_ext'
   require 'summon/service'
   require 'summon/transport'
   require 'summon/schema'
