@@ -74,6 +74,8 @@ class Summon::Document < Summon::Schema
   attr :peer_documents, :single => false, :json_name => "peerDocuments", :transform => :Document
   attr :related_records, :json_name => "relatedRecords"
 
+  attr :source_types, :json_name => "SourceType"
+
   def content_type
     @content_types.first
   end

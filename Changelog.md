@@ -2,6 +2,7 @@
 * 2 minor enhancements
   * updated document.from_library? - now uses source_type
   * added document.is_a_i?
+  * added document.source_types
 * 1 major enhancement
   * attributes defined as boolean will always return boolean values
 
