@@ -56,15 +56,15 @@
       "givenname": "Miao N"
     },
     {
-      "sequence": 3,
-      "surname": "Wang",
-      "givenname": "Shi"
-    },
-    {
       "sequence": 4,
       "surname": "Chu",
       "middlename": "C",
       "givenname": "Hai"
+    },
+    {
+      "sequence": 3,
+      "surname": "Wang",
+      "givenname": "Shi"
     }
   ],
   "CorporateAuthor": [

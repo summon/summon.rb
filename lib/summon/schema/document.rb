@@ -105,7 +105,7 @@ class Summon::Document < Summon::Schema
   end
 
   def authors
-    @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
+    @authors.sort { |a, b| a['sequence'] <=> b['sequence'] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
   end
 
   def corporate_authors
