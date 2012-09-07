@@ -23,6 +23,17 @@ describe Summon::Document do
     it "preserves order" do
       @document.authors.map(&:name).should == ["Liang, Yong X", "Gu, Miao N", "Shi Wang", "Hai C Chu"]
     end
+    context "when 'sequence' doesn't exist in hash" do
+      before do
+        JSON.parse(EXAMPLE_DOCUMENT_JSON).tap do |data|
+          data["Author_xml"] = [{ "fullname" => "Liang, Yong X" }, { "fullname" => "Shi Wang", "sequence" => 1 }]
+          @document = Summon::Document.new(@service, data)
+        end
+      end
+      it "handles ArgumentError" do
+        @document.authors.map(&:name).should == ["Liang, Yong X", "Shi Wang"]
+      end
+    end
   end
 
   describe "from_library" do
