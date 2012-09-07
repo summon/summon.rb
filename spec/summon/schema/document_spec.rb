@@ -30,7 +30,7 @@ describe Summon::Document do
           @document = Summon::Document.new(@service, data)
         end
       end
-      it "handles ArgumentError" do
+      it "handles error" do
         @document.authors.map(&:name).should == ["Liang, Yong X", "Shi Wang"]
       end
     end
