@@ -105,12 +105,8 @@ class Summon::Document < Summon::Schema
   end
 
   def authors
-    # SUM-20484: Author_xml hashes don't always have a 'sequence' field so we ignore sorting in this situation (is this hackish?)- DCA
-    begin
-      @authors.sort { |a, b| a["sequence"] <=> b["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
-    rescue ArgumentError, NoMethodError
-      @authors.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
-    end
+    # SUM-20484: Author_xml hashes don't always have a 'sequence' field so we ignore authors that are missing 'sequence' in this situation - DCA
+    @authors.find_all{|author| author["sequence"]}.sort_by { |k| k["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
   end
 
   def corporate_authors

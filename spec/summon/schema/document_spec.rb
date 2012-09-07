@@ -26,12 +26,12 @@ describe Summon::Document do
     context "when 'sequence' doesn't exist in hash" do
       before do
         JSON.parse(EXAMPLE_DOCUMENT_JSON).tap do |data|
-          data["Author_xml"] = [{ "fullname" => "Liang, Yong X" }, { "fullname" => "Shi Wang", "sequence" => 1 }]
+          data["Author_xml"] = [{ "fullname" => "Liang, Yong X" }, { "fullname" => "Shi Wang", "sequence" => 2 }, { "fullname" => "Gu, Miao", "sequence" => 1 }]
           @document = Summon::Document.new(@service, data)
         end
       end
       it "handles ArgumentError/NoMethodError" do
-        @document.authors.map(&:name).should == ["Liang, Yong X", "Shi Wang"]
+        @document.authors.map(&:name).should == ["Gu, Miao", "Shi Wang"]
       end
     end
   end
