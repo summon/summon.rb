@@ -105,8 +105,10 @@ class Summon::Document < Summon::Schema
   end
 
   def authors
-    # SUM-20484: Author_xml hashes don't always have a 'sequence' field so we ignore authors that are missing 'sequence' in this situation - DCA
-    @authors.find_all{|author| author["sequence"]}.sort_by { |k| k["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
+    # SUM-20484: Author_xml hashes don't always have a 'sequence' field so we ignore authors that are missing 'sequence'
+    #   except for when it is the only author in the list - DCA
+    authors = @authors.count > 1 ? @authors.find_all { |author| author["sequence"] } : @authors
+    authors.sort_by { |k| k["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
   end
 
   def corporate_authors

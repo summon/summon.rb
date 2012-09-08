@@ -30,8 +30,19 @@ describe Summon::Document do
           @document = Summon::Document.new(@service, data)
         end
       end
-      it "handles ArgumentError/NoMethodError" do
+      it "removes authors that are missing sequence" do
         @document.authors.map(&:name).should == ["Gu, Miao", "Shi Wang"]
+      end
+    end
+    context "when 'sequence' doesn't exist in hash and there is only one author" do
+      before do
+        JSON.parse(EXAMPLE_DOCUMENT_JSON).tap do |data|
+          data["Author_xml"] = [{ "fullname" => "Liang, Yong X" }]
+          @document = Summon::Document.new(@service, data)
+        end
+      end
+      it "the lone author isn't removed" do
+        @document.authors.map(&:name).should == ["Liang, Yong X"]
       end
     end
   end
