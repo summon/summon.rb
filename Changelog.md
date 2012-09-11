@@ -1,4 +1,10 @@
 ### master
+
+### 2.0.7
+* 1 major enhancement
+  * reject authors without a sequence number, except when it's the only author
+
+### 2.0.6
 * 2 minor enhancements
   * updated document.from_library? - now uses source_type
   * added document.is_a_i?
