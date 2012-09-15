@@ -1,4 +1,6 @@
 ### master
+
+### 2.0.8
 * 1 major enhancement
   * adding query suggestions to recommendations_list
 
