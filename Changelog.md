@@ -1,5 +1,9 @@
 ### master
 
+### 2.0.10
+* 1 major enhancement
+  * adding best bets to recommendations_list
+
 ### 2.0.9
 * 1 major enhancement
   * new spotlighting schema
