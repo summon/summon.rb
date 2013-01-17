@@ -5,6 +5,7 @@ class Summon::Query < Summon::Schema
   attr :search_terms
   attr :query_string
   attr :facet_value_filters, :transform => :FacetValueFilter
+  attr :inclusive_facet_value_filters, :transform => :FacetValueFilter
   attr :facet_value_group_filters, :transform => :FacetValueGroupFilter
   attr :text_queries
   attr :text_filters
