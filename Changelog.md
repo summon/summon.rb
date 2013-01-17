@@ -1,5 +1,9 @@
 ### master
 
+### 2.0.11
+* 1 major enhancement
+  * adding attribute for inclusive_facet_value_filters
+
 ### 2.0.10
 * 1 major enhancement
   * adding best bets to recommendations_list
