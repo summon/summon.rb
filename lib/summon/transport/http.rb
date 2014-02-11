@@ -22,12 +22,13 @@ module Summon::Transport
       session_id = params["s.session.id"]
       params.delete "s.session.id"
       urlget "#{@url}#{path}?#{to_query_string(params, true)}", params, session_id
-    end    
+    end
 
     def urlget(url, params = nil, session_id = nil)
       @benchmark.report("total:") do
         uri = URI.parse url
-        params ||= from_query_string(uri.query)      
+        params ||= from_query_string(uri.query)
+        request_id = params["__request_id"] || ""
         session_id ||= @session_id
         headers = @benchmark.report("calculate headers") do
           Headers.new(
@@ -37,6 +38,7 @@ module Summon::Transport
             :secret_key => @secret_key,
             :client_key => @client_key,
             :session_id => session_id,
+            :request_id => request_id,
             :log => @log
           )
         end
@@ -66,7 +68,7 @@ module Summon::Transport
                 raise UnknownResponseError, "Unknown response: #{response}"
             end
           end
-    
+
         ###
         result
       end
@@ -78,17 +80,17 @@ module Summon::Transport
         JSON.parse(response.body).tap do |json|
           @log.debug("ruby-summon::transport") { "JSON RESPONSE: #{json.inspect}" }
         end
-      
+
       when "text/plain"
         response.body.tap do |text|
           @log.debug("ruby-summon::transport") { "TEXT RESPONSE: #{text.inspect}" }
         end
-        
+
       else
         raise ServiceError, "service returned unexpected #{response.content_type} : #{response.body}"
       end
     end
-    
+
     def error(response)
       case response.content_type
       when "application/json"
@@ -101,18 +103,18 @@ module Summon::Transport
     def status(response)
       "#{response.code}: #{response.message}"
     end
-    
+
     private
-    
+
     @sessions = 0
-    
+
     def sidalloc
       self.class.instance_eval do
         @sessions += 1
       end
-    end    
-    
-  end  
+    end
+
+  end
 end
 
 
