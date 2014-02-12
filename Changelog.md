@@ -1,5 +1,9 @@
 ### master
 
+### 2.0.12
+* 1 minor enhancement
+  * adding a new 'x-summon-request-id' header to API request
+
 ### 2.0.11
 * 1 major enhancement
   * adding attribute for inclusive_facet_value_filters
