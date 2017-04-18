@@ -43,7 +43,7 @@ module Summon::Transport
     end
 
     def qstr
-      to_query_string(@params, false)
+      to_query_string(@params, false, lambda {|k,v| v.nil? })
     end
 
     private

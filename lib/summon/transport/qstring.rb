@@ -5,8 +5,9 @@ require 'uri'
 module Summon::Transport
   module Qstring
 
-    def to_query_string(hash, urlencode = true)
-      hash.reject {|k,v| v.nil? || v == ''}.inject([]) do |qs,pair|
+    def to_query_string(hash, urlencode = true,
+			reject = lambda {|k,v| v.nil? || v == ''})
+      hash.reject(&reject).inject([]) do |qs,pair|
         qs.tap do
           k,v = pair
           if v.is_a?(Array)
