@@ -29,5 +29,5 @@ http://api.summon.serialssolutions.com
   s.add_runtime_dependency "json", "~> 1.8"
 
   s.add_development_dependency "rspec", "~> 2.0"
-  s.add_development_dependency "rake"
+  s.add_development_dependency "rake", "10.4.2"
 end
