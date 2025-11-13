@@ -12,7 +12,7 @@ describe Summon::Service do
   end
   
   it "has a default url which is the public production summon url" do
-    Summon::Service.new.url.should == "http://api.summon.serialssolutions.com/2.0.0"
+    Summon::Service.new.url.should == "https://api.summon.serialssolutions.com/2.0.0"
   end
 
   it "allows cloning a service with overridden settings" do

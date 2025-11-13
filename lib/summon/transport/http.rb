@@ -5,7 +5,7 @@ module Summon::Transport
   class Http
     include Qstring
 
-    DEFAULTS = {:url => "http://api.summon.serialssolutions.com"}
+    DEFAULTS = {:url => "https://api.summon.serialssolutions.com"}
 
     def initialize(options = {:url => nil, :access_id => nil, :secret_key => nil, :client_key => nil, :session_id => nil, :log => nil})
       @options    = DEFAULTS.merge options
@@ -47,6 +47,7 @@ module Summon::Transport
         }
         result = nil
           http = Net::HTTP.new(uri.host, uri.port)
+          http.use_ssl = uri.scheme == "https"
           http.start do
             get = Net::HTTP::Get.new("#{uri.path}#{'?' + uri.query if uri.query && uri.query != ''}")
             get.merge! headers
