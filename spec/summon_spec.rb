@@ -14,7 +14,7 @@ describe "Summon Gem Integration Test" do
     dym = search.suggestions.first
     dym.original_query.should == "louis rmstrong"
     dym.suggested_query.should == "louis armstrong"
-    
+
     documents = search.documents
     documents.should_not be_nil
     documents.length.should == 10
@@ -22,10 +22,11 @@ describe "Summon Gem Integration Test" do
     d.id.should == 'proquest_dll_1839009301'
     d.content_type.should == 'Newspaper Article'
     d.authors.map{|a| a.name}.should == ["Liang, Yong X", "Gu, Miao N", "Wang, Shi D", "Chu, Hai C"]
+    d.editors.map{|a| a.name}.should == ["Thiede, Barbara"]
     d.open_url.should == "ctx_ver=Z39.88-2004&rfr_id=info:sid/summon.serialssolutions.com&rft_val_fmt=info:ofi/fmt:kevLmtx:journal&rft.genre=article&rft.atitle=OBITUARIES&rft.jtitle=Arizona+Republic&rft.date=2002-03-16&rft.issn=0892-8711&rft.spage=B.5&rft.externalDBID=AREP&rft.externalDocID=1839009301"
     d.fulltext?.should be(false)
-    
-    
+
+
     facets = search.facets
     facets.should_not be_nil
     facets.length.should >= 5
@@ -33,17 +34,17 @@ describe "Summon Gem Integration Test" do
     ctype.display_name.should == "Language"
     ctype.combine_mode.should == 'or'
   end
-  
+
   it "should now how to escape values" do
     check_escape("the quick, brown, fox", 'the quick\, brown\, fox')
     Summon.escape(': everything (else) and $1 or {is} it\ ').should == '\: everything \(else\) and \$1 or \{is\} it\\ '
   end
-  
+
   def check_escape(unescaped, escaped)
     Summon.escape(unescaped).should == escaped
     Summon.unescape(escaped).should == unescaped
     Summon.unescape(Summon.escape(unescaped)).should == unescaped
     Summon.escape(Summon.unescape(escaped)).should == escaped
   end
-  
+
 end

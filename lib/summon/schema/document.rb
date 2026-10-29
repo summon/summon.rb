@@ -8,6 +8,7 @@ class Summon::Document < Summon::Schema
   attr :content_types, :json_name => "ContentType", :single => false
 
   attr :authors, :json_name => "Author_xml"
+  attr :editors, :json_name => "Editor_xml"
   attr :corporate_authors, :json_name => "CorporateAuthor"
   attr :publishers, :json_name => "Publisher"
   attr :volume
@@ -108,6 +109,13 @@ class Summon::Document < Summon::Schema
     #   except for when it is the only author in the list - DCA
     authors = @authors.count > 1 ? @authors.find_all { |author| author["sequence"] } : @authors
     authors.sort_by { |k| k["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
+  end
+
+  def editors
+    # SUM-20484: Editor_xml hashes don't always have a 'sequence' field so we ignore editors that are missing 'sequence'
+    #   except for when it is the only author in the list - DCA
+    editors = @editors.count > 1 ? @editors.find_all { |author| author["sequence"] } : @editors
+    editors.sort_by { |k| k["sequence"] }.map {|n| Summon::Author.new(n["fullname"], n["surname"], n["givenname"], n["middlename"])}
   end
 
   def corporate_authors
